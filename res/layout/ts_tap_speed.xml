@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp" >
+
+    <ImageView
+        android:id="@+id/btn_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_tap_button"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/icon_double_tap"
+        android:tint="#FF999999" />
+
+</FrameLayout>

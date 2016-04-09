@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.painless.pc.view.CenterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff263238"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/qs_cfg_icons"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff263238"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:id="@id/btn_1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onPreviewButtonClicked"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_toggle_wifi" />
+
+        <ImageView
+            android:id="@id/btn_2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onPreviewButtonClicked"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_toggle_wifi" />
+
+        <ImageView
+            android:id="@id/btn_3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onPreviewButtonClicked"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_toggle_wifi" />
+
+        <ImageView
+            android:id="@id/btn_4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="8dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="onPreviewButtonClicked"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_toggle_wifi" />
+    </LinearLayout>
+
+    <include layout="@layout/cm_divider" />
+
+    <LinearLayout
+        android:id="@+id/btn_click_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:onClick="onClickActionClicked"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qs_cfg_click"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/primary_text_dark_nodisable" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/cm_divider" />
+
+    <LinearLayout
+        android:id="@+id/btn_long_click_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:onClick="onLongClickActionClicked"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qs_cfg_long_click"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/primary_text_dark_nodisable" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/cm_divider" />
+
+    <CheckBox
+        android:id="@+id/chk_custom_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/qs_cfg_custom_label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+</com.painless.pc.view.CenterLayout>

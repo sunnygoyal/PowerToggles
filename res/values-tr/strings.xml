@@ -1,0 +1,391 @@
+<resources>
+<string name="act_done">Tamam</string>
+<string name="act_yes">Evet</string>
+<string name="act_add">Ekle</string>
+<string name="act_no">Hayır</string>
+<string name="act_cancel">İptal</string>
+<string name="act_delete"></string>
+<string name="act_rename">Yeniden adlandır</string>
+<string name="act_ok">TAMAM</string>
+<string name="lbl_color">Renk</string>
+<string name="lbl_brightness">Parlaklık</string>
+<string name="lbl_size">Boyut</string>
+<string name="lbl_default">Varsayılan</string>
+<string name="lbl_image">Resim</string>
+<string name="lbl_customize">Özelleştir</string>
+<string name="msg_unknown_error">Beklenmedik hata meydana geldi</string>
+<string name="err_no_activity">Uygulama bulunamadı</string>
+<string name="err_security">İzin reddedildi</string>
+<string name="msg_e_account_synced">Etkin hesapları eşitle</string>
+<string name="admin_explain">Ekran kilidi için ilk çalıştırmada widget\u0027a yönetici izinleri verildi</string>
+<string name="admin_label"></string>
+<string name="admin_desc">Ekran kilit düğmesi indirildi</string>
+<string name="stat_battery">Elnur</string>
+<string name="stat_admin">Cihaz yöneticisi</string>
+<string name="stat_trackers_summary">Anahtarlar widget silindikten sonra bir süre boyunca önbellekte kalabilir. Bu şekildeki anahtarları silmek ve kilitlenmiş bir anahtarı sıfırlamak için önbelleği sıfırlayın.</string>
+<string name="stat_trackers_action">Önbelleği Sıfırla</string>
+<string name="stat_root">Root Erişimi</string>
+<string name="stat_u_never">Asla</string>
+<string name="stat_u_now">Şimdilik</string>
+<string name="stat_u_mins">%d dakika önce</string>
+<string name="stat_u_hours">%d saat önce</string>
+<string name="stat_u_days">%d gün önce</string>
+<string name="stat_info">Bilgi</string>
+<string name="wc_add_toggle">Geçiş Ekle</string>
+<string name="wc_add_toggle_max_err">Widgeta en fazla 8 öğe ekleyebilirsiniz</string>
+<string name="wc_change_icon">Simgeyi Değiştir</string>
+<string name="wc_button_colors">Düğme Renkleri</string>
+<string name="wc_colors_default">Varsayılan renk</string>
+<string name="wc_colors_working">Kullanımda/Bilinmeyen renk</string>
+<string name="wc_colors_active">Geçerli renk</string>
+<string name="wc_full_height">Tam boy</string>
+<string name="wc_huge_icons">Büyük ikonlar</string>
+<string name="wc_style_indicator">Gösterge</string>
+<string name="wc_ind_same_color">Tuş renkleriyle aynı rengi kullan</string>
+<string name="wc_style_labels">Etiketler</string>
+<string name="wc_label_color">Etiket rengi</string>
+<string name="wc_transparency">Saydamlık</string>
+<string name="wc_tint">Ton</string>
+<string name="wc_hidden">Gizli</string>
+<string name="cb_alpha">Alfa</string>
+<string name="cb_set_color">Rengi Ayarla</string>
+<string name="tp_loading">Liste Yükleniyor</string>
+<string name="tp_toggles">Anahtarlar</string>
+<string name="tp_apps">Uygulamalar</string>
+<string name="tp_apps_short">Uygulamalar</string>
+<string name="tp_custom">Özel</string>
+<string name="tp_plugin">Eklentiler</string>
+<string name="tp_tasker">Görev geçişi</string>
+<string name="tp_shrts">Kısayollar</string>
+<string name="tp_search_hint">Anahtar ara</string>
+<string name="tp_tasker_disabled_title">Dış erişim devredışı</string>
+<string name="tp_tasker_disabled">"Tasker" anahtarı ekleyebilmek için "Tasker" özellikleri menüsünde dış erişimi açmanız gerekli</string>
+<string name="tp_tasker_empty">Görev bulunamadı</string>
+<string name="ip_title">Simge seçin</string>
+<string name="ip_app_icons">Uygulama simgeleri</string>
+<string name="ip_image_pick">Resim seçin</string>
+<string name="ip_image_crop">Resim seçin ve kırpın</string>
+<string name="ip_icon_pack">Simge Paketleri</string>
+<string name="ite_info">Simge haritası</string>
+<string name="ite_custom">Özel</string>
+<string name="ite_import">Cihaza resim grubu  yükle</string>
+<string name="ite_export">Cihazdan resim grubu gönder</string>
+<string name="bid_preview">Önizleme</string>
+<string name="bid_background">Arkaplanı değiştir</string>
+<string name="bid_digit_position">Ekran pozisyon hanesi</string>
+<string name="bid_import">İçe pil resmi aktarın</string>
+<string name="bid_export">Dışa pil resmi gönderin</string>
+<string name="cg_click_toggle_1">Bir anahtara tıklayın</string>
+<string name="cg_click_toggle_2">özelleştirmek, taşımak ya da silmek için</string>
+<string name="cg_click_add_1">Buraya dokunun</string>
+<string name="cg_click_add_2">daha fazla anahtar eklemek için</string>
+<string name="cg_customize_1">Widgeti özelleştir</string>
+<string name="cg_customize_2">çeşitli tema seçenekleri kullanılıyor</string>
+<string name="cg_menu">Kılavuzu Göster</string>
+<string name="notify_position">Pozisyon</string>
+<string name="notify_position_title">Bildirim Pozisyonu</string>
+<string name="notify_collapse">Durum Çubuğunu Otob matik Büyüt</string>
+<string name="notify_collapse_summary">Her bildirim widgeti ile beraber durum çubuğunu büyüt</string>
+<string name="notify_row_2">İkinci Bildirim Satırı</string>
+<string name="notify_customize_2">2. satırı özelleştir</string>
+<string name="notify_other_settings">Diğer ayarlar</string>
+<string name="notify_icon">İkon</string>
+<string name="notify_icon_sec_date">Günün Tarihi</string>
+<string name="notify_icon_sec_battery">Pil</string>
+<string name="notify_icon_loading">Bildirim ikonları oluşturuluyor.</string>
+<string name="wp_last_edited">Son düzenleme:</string>
+<string name="wp_share">Paylaş</string>
+<string name="wp_backup">Yedek Al</string>
+<string name="wp_restore">Yedeği Geri Yükle</string>
+<string name="wp_delete">Widgeti Sil</string>
+<string name="wp_delete_msg">Bir widgeti silmek o widgetla ilişkili tüm ayarları \u003Cb\u003Ekalıcı\u003C/b\u003E olarak siler.\u003Cbr/\u003E\u003Cbr/\u003EBunu sadece hayalet widgetları silmek için kullanın.\u003Cbr/\u003E</string>
+<string name="wp_add_help">Widget eklemek için, uygulama çiziciyi açın ve widgetlar sekmesinde Power Toggles\u0027ı bulun. Widget önizlemesine uzun basın ve ana ekrana sürükleyin.</string>
+<string name="fp_hint">Dosya adı</string>
+<string name="fp_overwrite">Üstüne yazılsın mı?</string>
+<string name="fp_invalid">Geçersiz dosya adı</string>
+<string name="ts_title">Anahtar ayarları</string>
+<string name="ts_exit_on_lock">Ekran kilitlendiğinde kapat</string>
+<string name="ts_us_as_shortcut">Kısayol olarak kullan</string>
+<string name="ts_time_intervals">Zaman aşımı süresi</string>
+<string name="ts_mute_slider">Örnek oynatmayı sustur</string>
+<string name="ts_slider_controls">Kontrolleri görünür kıl</string>
+<string name="ts_volume_modes">Modları etkinleştir</string>
+<string name="ts_allow_zero_bright">Sıfır parlaklığa izin ver</string>
+<string name="ts_show_quick_buttons">Hızlı düğmeleri göster</string>
+<string name="ts_instant_bright_toggle">Anında Anahtar (beta)</string>
+<string name="ts_hide_notify">Bildirim gizle</string>
+<string name="ts_media_player">Medya oynatıcı</string>
+<string name="ts_not_all_sync">Engellenen sağlayıcıları yoksay</string>
+<string name="ts_msg_min_two_levels">Anahtar oluşturmak için en az 2 seviye gerekli</string>
+<string name="ts_levels">Seviyeler</string>
+<string name="ts_auto">Otomatik</string>
+<string name="ts_bright_summary">Parlaklık seviyesini seçin</string>
+<string name="ts_battery_custom_colors">Özel pil renkleri kullanın</string>
+<string name="ts_battery_low">Yuksek pil</string>
+<string name="ts_battery_moderate">Ortalama pil</string>
+<string name="ts_battery_high">Yüksek Pil</string>
+<string name="ts_screen_lock_fix">Ekran dönüşü düzeltme</string>
+<string name="ts_font_delta">Yazı tipi büyüklüğü değiştirme miktarı</string>
+<string name="as_general">Genel ayarlar</string>
+<string name="as_haptic">Dokunsal geri bildirim</string>
+<string name="as_optimize">Performans optimizasyonu</string>
+<string name="as_battery_service">Pil hizmeti</string>
+<string name="as_motorola_hack">Motorola %1 hack</string>
+<string name="as_poll_interval">Yenileme sıklığı</string>
+<string name="as_double_tap">Çift dokunma</string>
+<string name="ps_prem_label">Power Toggles pluginlerini kullan</string>
+<string name="ps_prem_desc">Power Toggles pluginleri açıp kapatmak suretiyle kontrol edebilsin mi?</string>
+<string name="ps_tasker_disabled">Görevler devre dışı</string>
+<string name="ps_tasker_no_access">Görevler erişimi devre dışı</string>
+<string name="ps_set_state">Duruma ayarlanmalıdır</string>
+<string name="ps_toggle_to_update">Geçişi güncelleyin</string>
+<string name="ps_current_toggle">Geçerli görev (otomatik)</string>
+<string name="ps_tasker_pick_title">Görev seçin</string>
+<string name="ps_tasker_type">Tür</string>
+<string name="ps_set_count">Sayaç ayarla (İsteğe bağlı)</string>
+<string name="bt_restart">Yeniden Başlat</string>
+<string name="bt_poweroff">Kapat</string>
+<string name="bt_recovery">Kurtarma (Recovery) Modu</string>
+<string name="bt_bootloader">Önyükleme</string>
+<string name="bt_restart_summary">Telefonunuz yeniden başlatılacak.</string>
+<string name="bt_restart_working">Telefonunuz yeniden başlatılıyor</string>
+<string name="bt_poweroff_summary">Telefonunuz kapatılacak.</string>
+<string name="bt_poweroff_working">Telefonunuz kapatılıyor</string>
+<string name="bt_error_title">Hata</string>
+<string name="bt_error_summary">Komut başarısız oldu. Bu, cihazın rootlanmamış olmasından veya bu uygulamaya root izinlerini vermemiş olmanızdan kaynaklanıyor olabilir.</string>
+<string name="bt_menu_title">Kapatma Seçenekleri</string>
+<string name="rt_title">Ekran Döndürme Kilidi</string>
+<string name="rt_auto">Ekranı Otomatik Döndür</string>
+<string name="rt_land">Yatay %s</string>
+<string name="rt_port">Dik %s</string>
+<string name="rt_default">(cihaz varsayılanı)</string>
+<string name="rt_forced">(zorla)</string>
+<string name="sip_all">Tüm çağrılar için SIP kullanılıyor</string>
+<string name="sip_some">Sadece SIP numaraları için SIP kullanılıyor</string>
+<string name="sip_ask">Tüm çağrılarda, SIP kullanılması ya da kullanılmaması için soruluyor</string>
+<string name="sl_color">Ekran Rengi</string>
+<string name="sl_no_camera">Kamera bulunamadı</string>
+<string name="sl_no_torch">Fener desteklenmiyor</string>
+<string name="sl_camera_error">Kamera kullanılamaz</string>
+<string name="no_lock_action">Ekran kilidi devre dışı</string>
+<string name="click_to_reenable">Yeniden etkinleştirmek için tıklayın</string>
+<string name="flash_active">Flaş ışığı aktif</string>
+<string name="wake_lock_active">Uyandırma kilidi aktif</string>
+<string name="click_to_deactive">Devre dışı bırakmak için tıklayın</string>
+<string name="rotation_locked">Ekran döndürme kilitli</string>
+<string name="click_to_unlock">Açmak için tıklayın</string>
+<string name="lbl_settings">Ayarlar</string>
+<string name="lbl_stats">İstatistikler ve Bilgi</string>
+<string name="lbl_review">Market incelemesi</string>
+<string name="folder_name">İsimsiz Klasör</string>
+<string name="folder_new">Yeni</string>
+<string name="folder_title">Geçiş klasörü</string>
+<string name="folder_delete_prompt">Silinen %d klasör(s)?</string>
+<string name="folder_restore_msg">%d klasör(s) geri yüklendi</string>
+<string name="folder_restore_error">Klasörleri geri yükleme hatası</string>
+<string name="folder_help_2">Bir klasör oluşturmak için, uygulama çekmecesini açın,ve Widget\u0027lar sekmesinde Toggle Klasörünü bulun. Simgesine uzun basın ve ana ekrana sürükleyin.</string>
+<string name="pp_description">1</string>
+<string name="pp_ignore">1</string>
+<string-array name="tracker_names">
+  <item>Hotspot (Wifi)</item>
+  <item>GPRS (Mobil Veri)</item>
+  <item>Veri Senkronizasyonu</item>
+  <item>Wifi</item>
+  <item>Flash Işığı</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Parlaklık</item>
+  <item>Uçak Modu</item>
+  <item>Otomatik Ekran Döndürme</item>
+  <item>Ses Anahtarı</item>
+  <item>Data Network Toggle</item>
+  <item>USB Bağlantısı</item>
+  <item>Ekran Daima Açık (Uyku Kilidi)</item>
+  <item>WiMax (4G)</item>
+  <item>Pil Bilgisi</item>
+  <item>Ekran Zaman Aşımı</item>
+  <item>Otomatik Parlaklık</item>
+  <item>Müziği Oynat/Durdur</item>
+  <item>Sonraki Parça</item>
+  <item>Önceki Parça</item>
+  <item>Müzik sesi seviyesi yuksek</item>
+  <item>Bluetooth Keşfi</item>
+  <item>Parlaklık Ayar Çubuğu</item>
+  <item>NFC</item>
+  <item>Ekran Kilidi</item>
+  <item>Bluetooth Bağlantısı</item>
+  <item>Ses Ayar Çubuğu</item>
+  <item>Şimdi Senkronize Et</item>
+  <item>Kapat</item>
+  <item>Yeniden Başlat</item>
+  <item>Ekran Işığı</item>
+  <item>Bildirim Widgetları</item>
+  <item>Widget Ayarları</item>
+  <item>İkinci Bildirim Satırı</item>
+  <item>Kapatma Menüsü</item>
+  <item>Sistem Yazı Tipini Büyüt</item>
+  <item>Sistem Yazı Tipini Küçült</item>
+  <item>Ekran Döndürme Kilidi</item>
+  <item>adbWireless</item>
+  <item>Bildirim ışığını yakıp söndür</item>
+  <item>İnternet çağrıları (SIP) al</item>
+  <item>İnternet çağrısı (SIP) yap</item>
+  <item>Ana Ekran Kısayolu</item>
+  <item>Son Uygulamalar</item>
+  <item>Ekran Kilidi Yok</item>
+  <item>Wifi İyileştir</item>
+  <item>Immersive mode</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Mobil Veri</item>
+  <item>Ağ</item>
+  <item>Multimedya</item>
+  <item>Ekran</item>
+  <item>Donanım</item>
+  <item>Uygulama Komutları</item>
+  <item>Root</item>
+  <item>Diğer</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Hotspot (Wifi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Oynat/Duraklat</item>
+  <item>Sonraki</item>
+  <item>Önceki</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Kilitle</item>
+  <item></item>
+  <item>Ses</item>
+  <item>Şimdi Senkronize Et</item>
+  <item>Kapat</item>
+  <item>Yeniden Başlat</item>
+  <item>Ekran Işığı</item>
+  <item></item>
+  <item>Ayarlar</item>
+  <item></item>
+  <item>Kapat</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Ana Ekran</item>
+  <item>Son Uygulamalar</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>kapalı</item>
+  <item>kullanımda</item>
+  <item>açık</item>
+  <item>düşük</item>
+  <item>otomatik</item>
+  <item>orta</item>
+  <item>yüksek</item>
+  <item>dikey</item>
+  <item>yatay</item>
+  <item>otomatik</item>
+  <item>sustur</item>
+  <item>titreştir</item>
+  <item>çal</item>
+  <item>titreştir-çal</item>
+  <item>sor</item>
+  <item>otomatik</item>
+  <item>hepsi</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Resim Grubu Alınıyor</item>
+  <item>Resim yükleme hatası</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Simge Grubu Gönderiliyor</item>
+  <item>Resim %s konumuna kaydedildi</item>
+  <item>Resim grubu kaydı başarısız oldu</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Pil resmi alınıyor</item>
+  <item>Resim yükleme hatası</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Pil resmi gönderiliyor</item>
+  <item>Resim %s konumuna kaydedildi</item>
+  <item>Pil resmini kaydetme başarısız oldug</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>Varsayılan</item>
+  <item>Saydam</item>
+  <item>Veri ağı tipi</item>
+  <item>Android Sürümü</item>
+  <item>Pil 1</item>
+  <item>Pil 2</item>
+  <item>Pil 3</item>
+  <item>Pil Mavi 1</item>
+  <item>Pil Mavi 2</item>
+  <item>Tarih 1</item>
+  <item>Tarih 2</item>
+  <item>Tarih 3</item>
+  <item>Tarih Mavi 1</item>
+  <item>Tarih Mavi 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Zil sesi seviyesi yuksek</item>
+  <item>Müzik sesi seviyesi yuksek</item>
+  <item>Alarm sesi seviyesi</item>
+  <item>Bildirim sesi seviyesi</item>
+  <item>Gelen çağrı Ses Seviyesi</item>
+  <item>Sistem sesi seviyesi</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Sustur</item>
+  <item>Titret</item>
+  <item>Çal</item>
+  <item>Ring \u0026 Vibrate</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS \u0026 network</item>
+  <item>GPS</item>
+  <item>Ağ</item>
+  <item>Kapalı</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>No polling (service)</item>
+  <item>1 dakika</item>
+  <item>2 dakika</item>
+  <item>3 dakika</item>
+  <item>5 dakika</item>
+  <item>10 dakika</item>
+  <item>30 dakika</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Yeni durum (otomatik)</item>
+  <item>Açık</item>
+  <item>Kapalı</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Tek ikon</item>
+  <item>Çoklu ikon</item>
+  <item>Sayaç</item>
+</string-array>
+</resources>

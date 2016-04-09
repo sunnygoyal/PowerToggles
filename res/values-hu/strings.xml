@@ -1,0 +1,483 @@
+<resources>
+<string name="act_done">Kész</string>
+<string name="act_yes">Igen</string>
+<string name="act_add">Hozzáad</string>
+<string name="act_no">Nem</string>
+<string name="act_cancel">Mégse</string>
+<string name="act_delete">Törlés</string>
+<string name="act_remove">Eltávolítás</string>
+<string name="act_rename">Átnevezés</string>
+<string name="lbl_color">Szín</string>
+<string name="lbl_brightness">Fényerő</string>
+<string name="lbl_size">Méret</string>
+<string name="lbl_default">Alapértelmezett</string>
+<string name="lbl_image">Kép</string>
+<string name="lbl_customize">Testreszabás</string>
+<string name="msg_unknown_error">Váratlan hiba történt</string>
+<string name="err_no_activity">Program nem található</string>
+<string name="err_security">Hozzáférés megtagadva</string>
+<string name="msg_account_synced">Minden fiók szinkronizálva</string>
+<string name="msg_e_account_synced">Fiók szinkronizálás bekapcsolva</string>
+<string name="admin_explain">Az első futtatáskor engedélyezze a widget számára a superuser jogosultságokat.</string>
+<string name="admin_label">Vezérlők a képernyőzáron</string>
+<string name="admin_desc">Szükséges a záróképernyő gombhoz</string>
+<string name="stat_help">Segítség</string>
+<string name="stat_help_desc">Gyakran ismételt kérdések</string>
+<string name="stat_battery">Akku állapot frissitese</string>
+<string name="stat_admin">Eszköz adminisztrátor</string>
+<string name="stat_admin_msg_on">Zárd be, hogy az alkalmazás eltávolítható legyen</string>
+<string name="stat_admin_msg_off">Szükséges a képernyőzár kapcsoló</string>
+<string name="stat_trackers_summary">A kapcsolók átmenetileg beragadhatnak azután is, hogy törlöd azokat. Nullázd az átmeneti tárat a beragadt kapcsolók törléséhez.</string>
+<string name="stat_trackers_action">Átmeneti tár törlése</string>
+<string name="stat_root">Root hozzáférés</string>
+<string name="stat_u_never">Soha</string>
+<string name="stat_u_now">Csak most</string>
+<string name="stat_u_mins">%d perccel ezelőtt</string>
+<string name="stat_u_hours">%d órával ezelőtt</string>
+<string name="stat_u_days">%d nappal ezelőtt</string>
+<string name="stat_info">Infó</string>
+<string name="stat_active_toggle">Aktív kapcsolók</string>
+<string name="stat_active_toggle_none">Inaktív kapcsolók</string>
+<string name="stat_active_toggle_n">%d aktív kapcsolók</string>
+<string name="stat_last_used">Utolsó használat %s</string>
+<string name="wc_add_toggle">Kapcsoló hozzáadása</string>
+<string name="wc_add_toggle_max_err">Maximum 8 elemet adhatsz a widgethez.</string>
+<string name="wc_change_icon">Ikon cseréje</string>
+<string name="wc_button_colors">Gomb színe</string>
+<string name="wc_colors_default">Alapértelmezett szín</string>
+<string name="wc_colors_working">Foglalt/ismeretlen szín</string>
+<string name="wc_colors_active">Aktív szín</string>
+<string name="wc_style">Stílus</string>
+<string name="wc_full_height">Teljes magasság</string>
+<string name="wc_huge_icons">Nagy Ikonok</string>
+<string name="wc_style_indicator">Kapcsoló állapota</string>
+<string name="wc_ind_same_color">Azonos színű gombok használata</string>
+<string name="wc_style_labels">Felirat</string>
+<string name="wc_label_color">Címke színe</string>
+<string name="wc_back">Háttér</string>
+<string name="wc_adjust_position">Pozíció beállítása</string>
+<string name="wc_transparency">Átlátszóság</string>
+<string name="wc_tint">Árnyalat</string>
+<string name="wc_dividers">Elválasztók</string>
+<string name="wc_hidden">Rejtett</string>
+<string name="wc_click_feed">Aktiválás jelzése</string>
+<string name="wc_round_corners">Lekerekített sarkak</string>
+<string name="wc_ex_theme">Téma exportálása</string>
+<string name="wc_ex_theme_failed">Hiba a téma exportálásánál</string>
+<string name="wc_ex_theme_success">Téma exportálva</string>
+<string name="wc_ex_theme_image">A témához szükséges egy háttérkép</string>
+<string name="cb_hex_hint">Hex kód</string>
+<string name="cb_set_color">Szín beállítása</string>
+<string name="tp_loading">Betöltési lista</string>
+<string name="tp_toggles">Kapcsolók</string>
+<string name="tp_apps">Alkalmazások</string>
+<string name="tp_apps_short">Alkalmazások</string>
+<string name="tp_custom">Egyéni</string>
+<string name="tp_plugin">Pluginok</string>
+<string name="tp_tasker">Feladatok kapcsoló</string>
+<string name="tp_shrts">Parancsikon</string>
+<string name="tp_search_hint">Kapcsolók keresése</string>
+<string name="tp_tasker_disabled_title">Külső hozzáférés letiltva</string>
+<string name="tp_tasker_disabled">Hozzáférést kell adnod a Feladatok beállításához, mielőtt hozzáadnád a feladatok kapcsolót</string>
+<string name="tp_tasker_empty">Nem található feladat</string>
+<string name="ip_title">Ikon kiválasztása</string>
+<string name="ip_theme_icons">Téma ikonok</string>
+<string name="ip_app_icons">Program ikonjai</string>
+<string name="ip_counter">Számláló ikon</string>
+<string name="ip_image_pick">Kép kiválasztása</string>
+<string name="ip_image_crop">Kép kiválasztása és levágása</string>
+<string name="ip_icon_pack">Ikon csomagok</string>
+<string name="ip_loading_img">Kép betöltése</string>
+<string name="ip_loading_img_failed">Nem sikerült betölteni a képet</string>
+<string name="ite_info">Ikon könyvtár</string>
+<string name="ite_custom">Egyéni</string>
+<string name="ite_import">Szalagkép importálása</string>
+<string name="ite_export">Szalagkép exportálása</string>
+<string name="npe_title">Háttér pozíciója</string>
+<string name="npe_stretch">Nyújtás</string>
+<string name="bid_preview">Előnézet</string>
+<string name="bid_background">Háttér cseréje</string>
+<string name="bid_digit_position">Digitális kijelző helyzete</string>
+<string name="bid_import">Akkumulátor kép importálása</string>
+<string name="bid_export">Akkumulátor kép exportálása</string>
+<string name="cg_click_toggle_1">Kattints egy kapcsolóra</string>
+<string name="cg_click_toggle_2">áthelyezés vagy letiltás testreszabása</string>
+<string name="cg_click_add_1">Kattints ide</string>
+<string name="cg_click_add_2">további kapcsolók hozzáadásához</string>
+<string name="cg_customize_1">Widget testreszabása</string>
+<string name="cg_customize_2">különféle témák kezelése</string>
+<string name="cg_menu">Használati útmutató</string>
+<string name="qs_title">Gyors beállítás</string>
+<string name="qs_manual_title">Hozzáadott csempe beállítások</string>
+<string name="qs_manual_1">Irány Rendszer UI \u003E Gyors beállítások</string>
+<string name="qs_manual_2">Kattints a hozzáadott csempére; válaszd ki a Broadcast csempét</string>
+<string name="qs_manual_3">Válasz egyszerű nevet szóköz nélkül</string>
+<string name="qs_manual_4">Átrendezheti a csempe méretét és helyét</string>
+<string name="qs_manual_5">Gyere vissza, ha kész</string>
+<string name="qs_button_tuner">Rendszer UI Tuner</string>
+<string name="qs_pick_tile">Válassz egy csempét</string>
+<string name="qs_cfg_click">Kattintás</string>
+<string name="qs_cfg_long_click">Hosszú kattintás célja</string>
+<string name="qs_cfg_custom_label">Egyéni cimke</string>
+<string name="qs_cfg_icons">Ikonok</string>
+<string name="qs_empty_help_1">Nem gyors beállítású csempe</string>
+<string name="qs_empty_help_2">Ceempe hozzáadásához, kattintson a \u0027Hozzáadás" aktívsávban \u0026 kövesse a lépéseket</string>
+<string name="qs_delete">Csempe törélése</string>
+<string name="qs_delete_msg">Csempe törlésénél, minden beállítás is törlődik</string>
+<string name="qs_activate_tuner">Engedélyezze a Rendszer UI Tuner</string>
+<string name="qs_activate_help_1">Húzza le a értesítősávot \u0026 elindul a gyors beállítások</string>
+<string name="qs_activate_help_2">Nyomni \u0026 tartsa nyomva a beállítások ikon, míg az forog</string>
+<string name="qs_activate_help_3">Engedje el az ikont \u0026 nyissa meg újra az alkalmazást</string>
+<string name="notify_position">Ikon pozíciója</string>
+<string name="notify_position_title">Értesítősáv pozíciója</string>
+<string name="notify_collapse">Értesítősáv automatikus összecsukása</string>
+<string name="notify_collapse_summary">Értesítősáv összecsukása minden widget-el</string>
+<string name="notify_show_on_lock">Megjelenítés záróképernyőn</string>
+<string name="notify_show_on_lock_summary">Biztonsági zár alatt \u0026amp értesítések bekapcsolva vannak</string>
+<string name="notify_row_2">Második értesítősáv</string>
+<string name="notify_customize_2">2. sor testreszabása</string>
+<string name="notify_other_settings">Egyéb beállítások</string>
+<string name="notify_icon">Ikon</string>
+<string name="notify_icon_sec_date">Mai dátum</string>
+<string name="notify_icon_sec_battery">Akkumulátor</string>
+<string name="notify_icon_loading">Értesítősáv ikonok generálása</string>
+<string name="wp_last_edited">Utolsó szerkesztés</string>
+<string name="wp_share">Megosztás</string>
+<string name="wp_backup">Biztonsági mentés készítése</string>
+<string name="wp_restore">Biztonsági mentés visszaállítása</string>
+<string name="wp_delete">Widget törlése</string>
+<string name="wp_delete_msg">Widget törlése \u003Cb\u003Evéglegesen\u003C/b\u003E widget beállításainak törlése.\u003Cbr/\u003E\u003Cbr/\u003E Csak a láthatatlan widget törlést használd.\u003Cbr/\u003E</string>
+<string name="wp_no_widget">Nincs Kezdőképernyő widget</string>
+<string name="wp_add_help">Widget hozzáadásához nyisd meg az alkalmazásokat, ahol van a Power Toogle. Tartsd hosszan nyomva a widget, majd húzd a kezdőképernyőre.</string>
+<string name="tm_title">Témák</string>
+<string name="tm_local">Saját téma</string>
+<string name="tm_remote">Más témája</string>
+<string name="tm_system">Rendszer háttér</string>
+<string name="fp_hint">Fájl neve</string>
+<string name="fp_sdcard">SD kártya</string>
+<string name="fp_overwrite">Felülírod?</string>
+<string name="fp_invalid">Érvénytelen fájlnév</string>
+<string name="ts_title">Kapcsolók beállításai</string>
+<string name="ts_exit_on_lock">Kilépés a képernyőzárból</string>
+<string name="ts_us_as_shortcut">Parancsikon használata</string>
+<string name="ts_time_intervals">Lehetőségek</string>
+<string name="ts_mute_slider">Néma minta lejátszása</string>
+<string name="ts_slider_controls">Látható irányítás</string>
+<string name="ts_volume_modes">Hangerő sémák engedélyezése</string>
+<string name="ts_allow_zero_bright">Nulla fényerő engedélyezése</string>
+<string name="ts_show_quick_buttons">Gyors gombok mutatása</string>
+<string name="ts_instant_bright_toggle">Azonnali kapcsolók (béta)</string>
+<string name="ts_hide_notify">Értesítősáv elrejtése</string>
+<string name="ts_soft_boot">Gyors bootolás</string>
+<string name="ts_media_player">Lejátszó kiválasztása</string>
+<string name="ts_not_all_sync">Szolgáltató figyelmen kívül hagyása</string>
+<string name="ts_msg_min_two_levels">Legalább 2 szintű értesítősáv szükséges</string>
+<string name="ts_levels">Fényerő</string>
+<string name="ts_auto">Automatikus</string>
+<string name="ts_bright_summary">Válaszd ki a fényerő szintjét</string>
+<string name="ts_battery_custom_colors">Egyéni akkumulátor színek használata</string>
+<string name="ts_battery_low">Alacsony akkumulátor szint</string>
+<string name="ts_battery_moderate">Akkumulátor használat</string>
+<string name="ts_battery_high">Magas akkumulátor szint</string>
+<string name="ts_screen_lock_fix">Fix képernyő bekapcsolása</string>
+<string name="ts_font_delta">Betű mérete</string>
+<string name="ts_show_ssid">SSID mutatása</string>
+<string name="ts_tap_speed">Koppintás típusa</string>
+<string name="ts_msec">Ezredmásodperc</string>
+<string name="ts_show_prompt">Jelölő mutatása</string>
+<string name="ts_gps_sources">További lehetőségek</string>
+<string name="as_general">Általános beállítások</string>
+<string name="as_haptic">Érintés visszajelzése</string>
+<string name="as_optimize">Teljesítmény-optimalizálás</string>
+<string name="as_battery_service">Akkumulátor szerviz</string>
+<string name="as_poll_interval">Frissítési időköz</string>
+<string name="as_double_tap">Dupla klikk</string>
+<string name="ps_prem_label">Használja a bekapcsoló gombot</string>
+<string name="ps_prem_desc">A Power Toggles-ben lehetséges a pluginok be- és kikapcsolása</string>
+<string name="ps_tasker_disabled">Feladatok letiltva</string>
+<string name="ps_tasker_no_access">Feladatok belépés letiltva</string>
+<string name="ps_set_state">Állam beállítása</string>
+<string name="ps_refresh">Power Toggles Frissíté
+se</string>
+<string name="ps_toggle_to_update">Kapcsolók frissítése</string>
+<string name="ps_current_toggle">Aktuális feladat (automatikus)</string>
+<string name="ps_tasker_pick_title">Feladat kiválasztása</string>
+<string name="ps_tasker_type">Típus</string>
+<string name="ps_set_count">Szám beállítás (Opcionális)</string>
+<string name="bt_restart">Újraindítás</string>
+<string name="bt_poweroff">Kikapcsolás</string>
+<string name="bt_recovery">Recovery mód</string>
+<string name="bt_restart_summary">A telefon újraindul.</string>
+<string name="bt_restart_working">Telefon újraindítása</string>
+<string name="bt_poweroff_summary">A telefon ki fog kapcsolni.</string>
+<string name="bt_poweroff_working">Telefon kikapcsolása</string>
+<string name="bt_error_title">Sikertelen</string>
+<string name="bt_error_summary">A parancs sikertelen. Mert a készüléked nincs root-olva, vagy nem kapott az alkalmazás root jogot.</string>
+<string name="bt_menu_title">Kikapcsolási Beállítások</string>
+<string name="rt_title">Forgatás tiltva</string>
+<string name="rt_auto">Képernyő automatikus forgatása</string>
+<string name="rt_land">Fekvő %s</string>
+<string name="rt_port">Álló %s</string>
+<string name="rt_default">(eszköz-alapértelmezett)</string>
+<string name="rt_forced">(erőltetett)</string>
+<string name="sip_all">SIP használata minden hívásnál</string>
+<string name="sip_some">SIP használata, csak SIP hívásoknál</string>
+<string name="sip_ask">Minden hívásnál megkérdezi, hogy használja-e a SIP-et</string>
+<string name="sl_color">Kijelző színe</string>
+<string name="sl_no_camera">Kamera nem található</string>
+<string name="sl_no_torch">Zseblámpa nem támogatott</string>
+<string name="sl_camera_error">Nem lehet használni a kamerát</string>
+<string name="no_lock_action">Záróképernyő tiltva</string>
+<string name="click_to_reenable">Kattints az újraengedélyezéshez</string>
+<string name="flash_active">Zseblámpa bekapcsolva</string>
+<string name="wake_lock_active">Ébresztő zár aktív</string>
+<string name="click_to_deactive">Kattints a kikapcsoláshoz</string>
+<string name="rotation_locked">Képernyő elforgatás kikapcsolva</string>
+<string name="click_to_unlock">Kattintson a feloldáshoz</string>
+<string name="lbl_unknown_allcap">ISMERETLEN</string>
+<string name="lbl_widgets">Widgetek</string>
+<string name="lbl_homescreen">Kezdőképernyő</string>
+<string name="lbl_notification">Értesítés</string>
+<string name="lbl_folders">Mappák</string>
+<string name="lbl_options">Beállítások</string>
+<string name="lbl_settings">Beállítások</string>
+<string name="lbl_stats">Statisztika és infó</string>
+<string name="lbl_review">Market értékelés</string>
+<string name="folder_name">Névtelen mappa</string>
+<string name="folder_new">Új</string>
+<string name="folder_existing">Kilépés</string>
+<string name="folder_title">Kapcsoló mappa</string>
+<string name="folder_delete_prompt">Törölje a(z) %d mappá(ka)t?</string>
+<string name="folder_restore_msg">%d mappa(ák) visszaállítása</string>
+<string name="folder_restore_error">Hiba a helyreállított mappában</string>
+<string name="folder_help_1">Nincs kapcsoló könyvtár</string>
+<string name="folder_help_2">Mappa létrehozásához, nyisd meg a app fiókot, és keresd a Toggle mappát a Widgets fülön. Tartsd hosszan nyomva a kívánt ikont, és húzd át a kezdőképernyre.</string>
+<string name="pp_ignore">Most nem</string>
+<string-array name="tracker_names">
+  <item>Hotspot (Wifi)</item>
+  <item>GPRS (Mobil adatforgalom)</item>
+  <item>Szinkronizálás</item>
+  <item>Wifi</item>
+  <item>Zseblámpa</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Fényerő</item>
+  <item>Repülőgép üzemmód</item>
+  <item>Képernyő autó. elforgatás</item>
+  <item>Hangerő kapcsoló</item>
+  <item>Mobilnet kapcsoló</item>
+  <item>USB megosztás</item>
+  <item>Képernyő mindig bekapcsolva</item>
+  <item>WiMax (4G)</item>
+  <item>Akkumulátor információ</item>
+  <item>Képernyő kikapcsolás</item>
+  <item>Automatikus fényerő</item>
+  <item>Zene lejátszás/szünet</item>
+  <item>Következő szám</item>
+  <item>Előző szám</item>
+  <item>Zene hangerő</item>
+  <item>Bluetooth pásztázás</item>
+  <item>Fényerő csúszka</item>
+  <item>NFC</item>
+  <item>Képernyőzár</item>
+  <item>Bluetooth megosztás</item>
+  <item>Hangerő csúszka</item>
+  <item>Szinkronizálás most</item>
+  <item>Kikapcsolás</item>
+  <item>Újraindítás</item>
+  <item>Képernyő világítás</item>
+  <item>Értesítősáv</item>
+  <item>Widget Beállításai</item>
+  <item>Második értesítősáv</item>
+  <item>Kikapcsolás Menü</item>
+  <item>Rendszer betűméret növelése</item>
+  <item>Rendszer betűméret csökkentése</item>
+  <item>Forgatás tiltva</item>
+  <item>Vezeték nélküli ADB</item>
+  <item>Figyelmeztető fény villogtatása</item>
+  <item>Internetes hívás fogadása (SIP)</item>
+  <item>Internetes hívás (SIP)</item>
+  <item>Home parancsikon</item>
+  <item>Legújabb alkalmazások</item>
+  <item>Nincs záróképernyő</item>
+  <item>Wifi optimalizálása</item>
+  <item>Ati</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Mobilnet</item>
+  <item>Hálózat</item>
+  <item>Multimédia</item>
+  <item>Képernyő</item>
+  <item>Hardver</item>
+  <item>Alkalmazás Parancs</item>
+  <item>Root</item>
+  <item>Egyebek</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Hotspot (Wifi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Lejátszás/Szünet</item>
+  <item>Következő</item>
+  <item>Előző</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Lezár</item>
+  <item></item>
+  <item>Hangerő</item>
+  <item>Szinkronizálás most</item>
+  <item>Kikapcsolás</item>
+  <item>Újraindítás</item>
+  <item>Képernyővilágítás</item>
+  <item></item>
+  <item>Beállítások</item>
+  <item></item>
+  <item>Kikapcsolás</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Kezdőkép</item>
+  <item>Legújabb alkalmazások</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>Kikapcsolva</item>
+  <item>elfoglalt</item>
+  <item>be</item>
+  <item>alacsony</item>
+  <item>automatikus</item>
+  <item>közepes</item>
+  <item>magas</item>
+  <item>álló</item>
+  <item>fekvő</item>
+  <item>automatikus</item>
+  <item>néma</item>
+  <item>rezgés</item>
+  <item>csengés</item>
+  <item>csengés és rezgés</item>
+  <item>kérdezzen</item>
+  <item>automatikus</item>
+  <item>összes</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>Kitkat szürke</item>
+  <item>Holo kék</item>
+  <item>Átlátszó</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>Fodrozódás</item>
+  <item>Kitkat szürke</item>
+  <item>Holo kék</item>
+  <item>Átlátszó</item>
+</string-array>
+<string-array name="wc_import_msg">
+  <item>Visszaállítás...</item>
+  <item>Hiba a visszaállítás során</item>
+</string-array>
+<string-array name="wc_export_msg">
+  <item>Biztonsági mentés készítése...</item>
+  <item>Biztonsági mentés %s</item>
+  <item>Nem sikerült a biztonsági mentést létrehozni</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Képsáv importálása</item>
+  <item>Hiba a kép betöltésekor</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Ikonsáv exportálása</item>
+  <item>Kép mentése %s</item>
+  <item>Hiba az ikonsáv mentésénél</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Akku kép importálása</item>
+  <item>Hiba a kép betöltésekor</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Akku kép exportálása</item>
+  <item>Kép mentése %s</item>
+  <item>Nem sikerült menteni az akkumulátor képet</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>Ikon mutatása az értesítősávban, \u0026 rögzítve</item>
+  <item>Ikon mutatása az értesítősávban, de nincs rögzítve</item>
+  <item>Nincs rögzítve \u0026 nincs ikon</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>Alapértelmezett</item>
+  <item>Átlátszó</item>
+  <item>Mobilnet típusa</item>
+  <item>Android verziója</item>
+  <item>Akku 1</item>
+  <item>Akku 2</item>
+  <item>Akku 3</item>
+  <item>Akku kék 1</item>
+  <item>Akku kék 2</item>
+  <item>Naptár 1</item>
+  <item>Naptár 2</item>
+  <item>Naptár 3</item>
+  <item>Naptár kék 1</item>
+  <item>Naptár kék 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Csengés hangereje</item>
+  <item>Zene hangerő</item>
+  <item>Ébresztés hangereje</item>
+  <item>Figyelmeztetés hangereje</item>
+  <item>Bejövő hívás hangereje</item>
+  <item>Rendszer hangereje</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Néma</item>
+  <item>Rezgés</item>
+  <item>Csengés</item>
+  <item>Csörgés @amp; Rezgés</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS \u0026 hálózat</item>
+  <item>GPS</item>
+  <item>Hálózat</item>
+  <item>ki</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>Nincs lekérdezés (szolgáltatás)</item>
+  <item>1 perc</item>
+  <item>2 perc</item>
+  <item>3 perc</item>
+  <item>5 perc</item>
+  <item>10 perc</item>
+  <item>30 perc</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Új állam (automatikus)</item>
+  <item>Be</item>
+  <item>ki</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Egy ikon</item>
+  <item>Multi-ikon</item>
+  <item>Számláló</item>
+</string-array>
+</resources>

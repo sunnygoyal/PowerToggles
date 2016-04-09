@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgImage"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.painless.pc.view.ColorButton
+        android:id="@+id/button_color_1"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bg_image_btn"
+        android:contentDescription="@string/sl_color" />
+
+    <ImageButton
+        android:id="@+id/btn_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="onLedClicked"
+        android:padding="10dp"
+        android:src="@drawable/led_off" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="1dip"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

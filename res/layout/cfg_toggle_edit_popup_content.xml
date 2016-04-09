@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <EditText
+            android:id="@+id/cp_toggleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:enabled="false"
+            android:visibility="invisible"
+            android:imeOptions="actionDone"
+            android:inputType="none"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/cp_edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".8"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="false"
+            android:padding="8dp"
+            android:src="@drawable/icon_pencil" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/cp_mover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="840"
+        android:progressDrawable="@drawable/config_mover_bg"
+        android:thumb="@drawable/config_mover_thumb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/cp_change_icon"
+            style="@style/clickablePadded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_config_picture"
+            android:text="@string/wc_change_icon" />
+
+        <TextView
+            android:id="@+id/cp_remove"
+            style="@style/clickablePadded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_config_delete"
+            android:text="@string/act_remove" />
+    </LinearLayout>
+
+</merge>

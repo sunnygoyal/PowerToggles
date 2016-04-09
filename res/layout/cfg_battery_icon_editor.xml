@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bid_preview"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <SeekBar
+                    android:id="@+id/seek_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="99" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:padding="10dp"
+                android:src="@drawable/icon_toggle_battery" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/clickablePadded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:drawableLeft="@drawable/icon_pack"
+            android:onClick="onChangeBackClicked"
+            android:text="@string/bid_background" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/bid_digit_position" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="5dp" >
+
+            <com.painless.pc.view.RectView
+                android:id="@+id/img_digit_pos"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:padding="8dp" >
+
+    <com.painless.pc.view.NinePatchView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/btn_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/icon_toggle_wifi" />
+
+        <ImageView
+            android:id="@+id/btn_1_div"
+            style="@style/widgetMainDiv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/icon_toggle_flash" />
+
+        <ImageView
+            android:id="@+id/btn_2_div"
+            style="@style/widgetMainDiv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/icon_toggle_gps_2" />
+
+        <ImageView
+            android:id="@+id/btn_3_div"
+            style="@style/widgetMainDiv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btn_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/icon_toggle_bluetooth" />
+
+        <ImageView
+            android:id="@+id/btn_4_div"
+            style="@style/widgetMainDiv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btn_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/icon_toggle_bright_auto" />
+    </LinearLayout>
+
+    </com.painless.pc.view.NinePatchView>
+</FrameLayout>

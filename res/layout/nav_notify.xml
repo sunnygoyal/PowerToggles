@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/btn_customize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_config_header"
+            android:drawableLeft="@drawable/icon_prefs"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/icon_nav_next"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:tag="22"
+            android:text="@string/lbl_customize"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/notify_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/icon_expand"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:text="@string/notify_icon"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <include layout="@layout/cm_divider" />
+
+        <LinearLayout
+            android:id="@+id/btn_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/notify_position"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/primary_text_dark_nodisable" />
+
+            <ImageView
+                android:id="@+id/notify_status_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/status_icon" />
+
+            <ImageView
+                android:id="@+id/notify_status_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/status_pin" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/icon_expand" />
+        </LinearLayout>
+
+        <include layout="@layout/cm_divider" />
+
+        <Switch
+            android:id="@+id/notify_two_row"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/notify_row_2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/btn_customize2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_config_header"
+            android:drawableLeft="@drawable/icon_prefs"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/icon_nav_next"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:tag="23"
+            android:text="@string/notify_customize_2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/notify_other_settings"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/btn_auto_collapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:padding="8dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notify_collapse"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/primary_text_dark_nodisable" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notify_collapse_summary" />
+            </LinearLayout>
+
+            <CheckedTextView
+                android:id="@+id/chk_auto_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <include layout="@layout/cm_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/btn_show_on_lock_screen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="8dp" >
+
+                <CheckedTextView
+                    android:id="@+id/chk_show_on_lock_screen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:id="@+id/btn_show_on_lock_screen_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/chk_show_on_lock_screen"
+                    android:text="@string/notify_show_on_lock"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/primary_text_dark_nodisable" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/btn_show_on_lock_screen_text"
+                    android:layout_toLeftOf="@id/chk_show_on_lock_screen"
+                    android:text="@string/notify_show_on_lock_summary" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/btn_show_on_lock_screen_help"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/icon_info" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

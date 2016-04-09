@@ -1,0 +1,491 @@
+<resources>
+<string name="act_done">Готово</string>
+<string name="act_yes">Да</string>
+<string name="act_add">Добавить</string>
+<string name="act_no">Нет</string>
+<string name="act_cancel">Отмена</string>
+<string name="act_delete">Удалить</string>
+<string name="act_remove">Убрать</string>
+<string name="act_rename">Переименовать</string>
+<string name="lbl_color">Цвет</string>
+<string name="lbl_brightness">Яркость</string>
+<string name="lbl_size">Размер</string>
+<string name="lbl_default">По умолчанию</string>
+<string name="lbl_image">Картинка</string>
+<string name="lbl_customize">Настройка</string>
+<string name="msg_unknown_error">Произошла неожиданная ошибка</string>
+<string name="err_no_activity">Приложение не найдено</string>
+<string name="err_security">Отказано в доступе</string>
+<string name="msg_account_synced">Все аккаунты синхронизированы</string>
+<string name="msg_e_account_synced">Активные аккаунты обновлены</string>
+<string name="admin_explain">При первом запуске предоставьте виджету права администратора устройства для включения блокировки экрана.</string>
+<string name="admin_label">Экран блокировки Power Toggles</string>
+<string name="admin_desc">Требуется для кнопки блокировки экрана</string>
+<string name="stat_help">Справка</string>
+<string name="stat_help_desc">Поиск в часто задаваемых вопросах</string>
+<string name="stat_battery">Опрос батареи</string>
+<string name="stat_admin">Админ. устроства</string>
+<string name="stat_admin_msg_on">Отключите для удаления приложения</string>
+<string name="stat_admin_msg_off">Необходим для блокировки экрана</string>
+<string name="stat_trackers_summary">Переключатели могут оставаться в кэше некоторое время после удаления виджета. Очистите кэш для удаления таких переключателей.</string>
+<string name="stat_trackers_action">Очистить кэш</string>
+<string name="stat_root">Root-доступ</string>
+<string name="stat_u_never">Никогда</string>
+<string name="stat_u_now">Только что</string>
+<string name="stat_u_mins">%d мин. назад</string>
+<string name="stat_u_hours">%d час. назад</string>
+<string name="stat_u_days">%d дн. назад</string>
+<string name="stat_info">Сведения</string>
+<string name="stat_active_toggle">Активные переключатели</string>
+<string name="stat_active_toggle_none">Нет активных переключателей</string>
+<string name="stat_active_toggle_n">%d активных переключателей</string>
+<string name="stat_last_used">Использовался: %s</string>
+<string name="wc_add_toggle">Добавить</string>
+<string name="wc_add_toggle_max_err">Вы можете добавить только 8 элементов на виджет.</string>
+<string name="wc_change_icon">Изменить значок</string>
+<string name="wc_button_colors">Цвет кнопок</string>
+<string name="wc_colors_default">Цвет по умолчанию</string>
+<string name="wc_colors_working">Занятый/неизвестный цвет</string>
+<string name="wc_colors_active">Активный цвет</string>
+<string name="wc_style">Стиль</string>
+<string name="wc_full_height">Полная высота</string>
+<string name="wc_huge_icons">Крупные значки</string>
+<string name="wc_style_indicator">Индикатор</string>
+<string name="wc_ind_same_color">Использовать цвета кнопок</string>
+<string name="wc_style_labels">Надписи</string>
+<string name="wc_label_color">Цвет надписи</string>
+<string name="wc_back">Фон</string>
+<string name="wc_adjust_position">Позиция фона</string>
+<string name="wc_transparency">Прозрачность</string>
+<string name="wc_tint">Оттенок</string>
+<string name="wc_dividers">Разделители</string>
+<string name="wc_hidden">Скрыто</string>
+<string name="wc_click_feed">Отклик при нажатии</string>
+<string name="wc_round_corners">Скруглённые углы</string>
+<string name="wc_ex_theme">Экспорт темы</string>
+<string name="wc_ex_theme_failed">Ошибка экспорта темы</string>
+<string name="wc_ex_theme_success">Тема экспортирована</string>
+<string name="wc_ex_theme_image">Тема должна иметь фоновое изображение</string>
+<string name="cb_alpha">Прозрачность</string>
+<string name="cb_hex_hint">Hex-код</string>
+<string name="cb_set_color">Задать цвет</string>
+<string name="tp_loading">Загрузка списка</string>
+<string name="tp_toggles">Переключатели</string>
+<string name="tp_apps">Приложения</string>
+<string name="tp_apps_short">Приложения</string>
+<string name="tp_custom">Пользовательский</string>
+<string name="tp_plugin">Плагины</string>
+<string name="tp_tasker">Управляющий переключатель</string>
+<string name="tp_shrts">Ярлыки</string>
+<string name="tp_search_hint">Поиск переключателей</string>
+<string name="tp_tasker_disabled_title">Внешний доступ отключен</string>
+<string name="tp_tasker_disabled">Необходимо включить внешний доступ в настройках Tasker, прежде чем вы сможете добавлять управляющие переключатели</string>
+<string name="tp_tasker_empty">Задачи не найдены</string>
+<string name="ip_title">Выбрать значок</string>
+<string name="ip_theme_icons">Значки темы</string>
+<string name="ip_app_icons">Значки приложения</string>
+<string name="ip_counter">Иконка счётчика</string>
+<string name="ip_image_pick">Выбрать изображение</string>
+<string name="ip_image_crop">Выбрать и обрезать изображение</string>
+<string name="ip_icon_pack">Наборы значков</string>
+<string name="ip_loading_img">Загрузка изображения</string>
+<string name="ip_loading_img_failed">Не удалось загрузить изображение</string>
+<string name="ite_info">Карта значков</string>
+<string name="ite_custom">Пользовательский</string>
+<string name="ite_import">Импорт ленты изображений</string>
+<string name="ite_export">Экспорт ленты изображений</string>
+<string name="npe_title">Позиция фона</string>
+<string name="npe_stretch">Растягивать</string>
+<string name="npe_stretch_help">Выберите область изображения для растягивания, чтобы подогнать к размеру виджета</string>
+<string name="npe_padding">Заполнение</string>
+<string name="npe_padding_help">Выберите расположение кнопок виджета. Убедитесь, что эта область больше, чем растягиваемая, иначе виджет может выглядеть некрасиво.</string>
+<string name="bid_preview">Предпросмотр</string>
+<string name="bid_background">Изменить фон</string>
+<string name="bid_digit_position">Позиция цифр</string>
+<string name="bid_import">Импорт изображения батареи</string>
+<string name="bid_export">Экспорт изображения батареи</string>
+<string name="cg_click_toggle_1">Нажмите на переключатель</string>
+<string name="cg_click_toggle_2">для его изменения, перемещения или удаления</string>
+<string name="cg_click_add_1">Нажмите здесь</string>
+<string name="cg_click_add_2">для добавления дополнительных переключателей</string>
+<string name="cg_customize_1">Настроить виджет</string>
+<string name="cg_customize_2">используя различные параметры оформления</string>
+<string name="cg_menu">Показать руководство</string>
+<string name="qs_title">Быстрые настройки</string>
+<string name="qs_manual_title">Добавить кнопку в настройках</string>
+<string name="qs_manual_1">Перейдите в System UI Tuner \u003E Быстрые настройки</string>
+<string name="qs_manual_2">Нажмите \u0027Добавить кнопку\u0027 и выберите \u0027Кнопка трансляции\u0027</string>
+<string name="qs_manual_3">Дайте ей простое название, без пробелов</string>
+<string name="qs_manual_4">При желании переставьте кнопки долгим нажатием и перетащите</string>
+<string name="qs_manual_5">Вернитесь сюда по завершении</string>
+<string name="qs_pick_tile">Выберите кнопку</string>
+<string name="qs_cfg_click">Нажмите действие</string>
+<string name="qs_cfg_long_click">Цель долгого нажатия</string>
+<string name="qs_cfg_custom_label">Пользовательская надпись</string>
+<string name="qs_cfg_icons">Значки</string>
+<string name="qs_empty_help_1">Нет кнопок Быстрых настроек</string>
+<string name="qs_empty_help_2">Чтобы добавить кнопку, нажмите \u0027Добавить\u0027 в панели действий и выполните следующие шаги</string>
+<string name="qs_delete">Удалить кнопку</string>
+<string name="qs_delete_msg">При удалении кнопки также будут удалены связанные с ней конфигурации</string>
+<string name="qs_activate_tuner">Включить System UI Tuner</string>
+<string name="qs_activate_help_1">Опустите шторку уведомлений и откройте Быстрые настройки</string>
+<string name="qs_activate_help_2">Нажмите и удерживайте значок настройки, пока он не начнёт вращаться</string>
+<string name="qs_activate_help_3">Отпустите значок и откройте это приложение снова</string>
+<string name="notify_position">Позиция</string>
+<string name="notify_position_title">Позиция уведомления</string>
+<string name="notify_collapse">Автосворачивание строки состояния</string>
+<string name="notify_collapse_summary">Сворачивать строку состояния при каждом переключении в виджете уведомлений</string>
+<string name="notify_show_on_lock">Показывать на экране блокировки</string>
+<string name="notify_show_on_lock_summary">когда включены уведомления и безопасная блокировка</string>
+<string name="notify_row_2">2-я строка виджета уведом.</string>
+<string name="notify_customize_2">Настройка 2-й строки</string>
+<string name="notify_other_settings">Другие настройки</string>
+<string name="notify_icon">Значок</string>
+<string name="notify_icon_sec_date">Текущая дата</string>
+<string name="notify_icon_sec_battery">Батарея</string>
+<string name="notify_icon_loading">Генерация значков уведомления</string>
+<string name="wp_last_edited">Последнее изменение</string>
+<string name="wp_share">Поделиться</string>
+<string name="wp_backup">Создать рез. копию</string>
+<string name="wp_restore">Восстановить рез. копию</string>
+<string name="wp_delete">Удалить виджет</string>
+<string name="wp_delete_msg">Удаление виджета \u003Cb\u003Eнавсегда\u003C/b\u003E удаляет все связанные с ним настройки.\u003Cbr/\u003E\u003Cbr/\u003EИспользуйте это только для удаления скрытых виджетов.\u003Cbr/\u003E</string>
+<string name="wp_no_widget">Нет виджетов главного экрана</string>
+<string name="wp_add_help">Для добавления виджета откройте меню приложений и найдите виджет Power Toggles на вкладке Виджетов. Долго нажмите на изображении виджета и перетащите его на Главный экран.</string>
+<string name="tm_title">Темы</string>
+<string name="tm_local">Мои темы</string>
+<string name="tm_remote">Сторонние темы</string>
+<string name="tm_system">Системные темы</string>
+<string name="fp_hint">Имя файла</string>
+<string name="fp_sdcard">Карта SD</string>
+<string name="fp_overwrite">Перезаписать?</string>
+<string name="fp_invalid">Неверное имя файла</string>
+<string name="ts_title">Настройки переключателей</string>
+<string name="ts_exit_on_lock">Выход при блокировке экрана</string>
+<string name="ts_us_as_shortcut">Использовать как ярлык</string>
+<string name="ts_time_intervals">Интервалы таймаута</string>
+<string name="ts_mute_slider">Не играть образец</string>
+<string name="ts_slider_controls">Отображаемые элементы</string>
+<string name="ts_volume_modes">Используемые режимы</string>
+<string name="ts_allow_zero_bright">Разрешить нулевую яркость</string>
+<string name="ts_show_quick_buttons">Показывать быстрые кнопки</string>
+<string name="ts_instant_bright_toggle">Мгновенное переключение (бета)</string>
+<string name="ts_hide_notify">Скрыть уведомление</string>
+<string name="ts_soft_boot">Мягкая перезагрузка</string>
+<string name="ts_media_player">Медиаплеер</string>
+<string name="ts_not_all_sync">Пропуск отключенных пунктов</string>
+<string name="ts_msg_min_two_levels">Необходимо как минимум 2 уровня для переключения</string>
+<string name="ts_levels">Уровни</string>
+<string name="ts_auto">Авто</string>
+<string name="ts_bright_summary">Выбрать уровень яркости</string>
+<string name="ts_battery_custom_colors">Пользовательские цвета батареи</string>
+<string name="ts_battery_low">Батарея разряжена</string>
+<string name="ts_battery_moderate">Изменить батарею</string>
+<string name="ts_battery_high">Батарея заряжена</string>
+<string name="ts_screen_lock_fix">Исправление включения экрана</string>
+<string name="ts_font_delta">Велич. изменения</string>
+<string name="ts_show_ssid">Показывать SSID</string>
+<string name="ts_tap_speed">Скорость касания</string>
+<string name="ts_msec">мсек.</string>
+<string name="ts_show_prompt">Показать подсказку</string>
+<string name="ts_gps_sources">Источники</string>
+<string name="as_general">Основные настройки</string>
+<string name="as_haptic">Виброотклик</string>
+<string name="as_optimize">Оптимизация работы</string>
+<string name="as_battery_service">Служба батареи</string>
+<string name="as_motorola_hack">Хак 1% для Motorola</string>
+<string name="as_poll_interval">Интервал опроса</string>
+<string name="as_double_tap">Двойное нажатие</string>
+<string name="ps_prem_label">Использовать плагины Power Toggles</string>
+<string name="ps_prem_desc">Можно управлять плагинами Power Toggles, включая или отключая их</string>
+<string name="ps_tasker_disabled">Tasker отключен</string>
+<string name="ps_tasker_no_access">Доступ к Tasker запрещён</string>
+<string name="ps_set_state">Установить статус в</string>
+<string name="ps_refresh">Обновить PowerToggles</string>
+<string name="ps_toggle_to_update">Переключить для обновления</string>
+<string name="ps_current_toggle">Текущая задача (авто)</string>
+<string name="ps_tasker_pick_title">Выбрать задачу</string>
+<string name="ps_tasker_type">Тип</string>
+<string name="ps_set_count">Установить счётчик (необяз.)</string>
+<string name="bt_restart">Перезагрузка</string>
+<string name="bt_poweroff">Выключение</string>
+<string name="bt_recovery">Режим рекавери</string>
+<string name="bt_bootloader">Загрузчик</string>
+<string name="bt_restart_summary">Ваше устройство будет перезагружено.</string>
+<string name="bt_restart_working">Перезагрузка устройства</string>
+<string name="bt_poweroff_summary">Ваше устройство будет выключено.</string>
+<string name="bt_poweroff_working">Выключение устройства</string>
+<string name="bt_error_title">Ошибка</string>
+<string name="bt_error_summary">Ошибка команды. Возможно, отсутствуют права root или приложению не предоставлен root-доступ.</string>
+<string name="bt_menu_title">Опции выключения</string>
+<string name="rt_title">Блокировка поворота экрана</string>
+<string name="rt_auto">Автоповорот экрана</string>
+<string name="rt_land">Ландшафтный %s</string>
+<string name="rt_port">Портретный %s</string>
+<string name="rt_default">(по умолчанию)</string>
+<string name="rt_forced">(ускоренный)</string>
+<string name="sip_all">Использовать SIP для всех звонков</string>
+<string name="sip_some">Использовать SIP только для звонков на SIP-номера</string>
+<string name="sip_ask">Спрашивать при каждом звонке об использовании SIP</string>
+<string name="sl_color">Цвет экрана</string>
+<string name="sl_no_camera">Камера не найдена</string>
+<string name="sl_no_torch">Фонарик не поддерживается</string>
+<string name="sl_camera_error">Невозможно использовать камеру</string>
+<string name="no_lock_action">Блокировка экрана отключена</string>
+<string name="click_to_reenable">Нажать для включения</string>
+<string name="flash_active">Вспышка активна</string>
+<string name="wake_lock_active">Блокировка сна активна</string>
+<string name="click_to_deactive">Нажмите для отключения</string>
+<string name="rotation_locked">Поворот экрана заблокирован</string>
+<string name="click_to_unlock">Нажмите для разблокировки</string>
+<string name="immersive_active">Иммерсивный режим вкл.</string>
+<string name="lbl_unknown_allcap">неизвестно</string>
+<string name="lbl_widgets">Виджеты</string>
+<string name="lbl_homescreen">Главный экран</string>
+<string name="lbl_notification">Уведомление</string>
+<string name="lbl_folders">Папки</string>
+<string name="lbl_options">Опции</string>
+<string name="lbl_settings">Настройки</string>
+<string name="lbl_stats">Статистика и сведения</string>
+<string name="lbl_review">Обзор на Play Маркет</string>
+<string name="folder_name">Безымянная папка</string>
+<string name="folder_new">Новая</string>
+<string name="folder_existing">Существ.</string>
+<string name="folder_title">Папка с переключателями</string>
+<string name="folder_delete_prompt">Удалить %d папок?</string>
+<string name="folder_restore_msg">%d папок восстановлено</string>
+<string name="folder_restore_error">Ошибка при восстановлении папки</string>
+<string name="folder_help_1">Нет папок с переключателями</string>
+<string name="folder_help_2">Для создания папки перетащите на рабочий стол виджет \u0027Папка с переключателями\u0027 и добавьте необходимые вам переключатели.</string>
+<string name="pp_pref">Не запрашивать отсутствующие разрешения</string>
+<string name="pp_title">Требуется системное разрешение</string>
+<string name="pp_description">Операции требуется разрешение на изменение свойств системы. Разрешите это разрешение в настройках.</string>
+<string name="pp_ignore">Не сейчас</string>
+<string-array name="tracker_names">
+  <item>Точка доступа (Wi-Fi)</item>
+  <item>GPRS (мобильный трафик)</item>
+  <item>Синхронизация данных</item>
+  <item>Wi-Fi</item>
+  <item>Вспышка</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Яркость</item>
+  <item>Режим полёта</item>
+  <item>Автоповорот экрана</item>
+  <item>Переключатель громкости</item>
+  <item>2G-3G переключатель</item>
+  <item>USB-модем</item>
+  <item>Экран всегда включен (WakeLock)</item>
+  <item>WiMax (4G)</item>
+  <item>Сведения о батарее</item>
+  <item>Таймаут экрана</item>
+  <item>Автояркость</item>
+  <item>Воспр./Пауза музыки</item>
+  <item>Следующий трек</item>
+  <item>Предыдущий трек</item>
+  <item>Громкость медиа</item>
+  <item>Поиск устройств Bluetooth</item>
+  <item>Слайдер яркости</item>
+  <item>NFC</item>
+  <item>Блокировка экрана</item>
+  <item>Bluetooth-модем</item>
+  <item>Слайдер громкости</item>
+  <item>Синхронизировать</item>
+  <item>Выключение</item>
+  <item>Перезагрузка</item>
+  <item>Подсветка экрана (фонарик)</item>
+  <item>Виджет уведомлений</item>
+  <item>Настройки виджета</item>
+  <item>2-я строка виджета уведом.</item>
+  <item>Меню выключения</item>
+  <item>Увеличение сист. шрифта</item>
+  <item>Уменьшение сист. шрифта</item>
+  <item>Блокировка поворота экрана</item>
+  <item>Беспроводной ADB</item>
+  <item>LED-индикатор уведомлений</item>
+  <item>Приём интернет-вызова (SIP)</item>
+  <item>Интернет-вызов (SIP)</item>
+  <item>Ярлык главного экрана</item>
+  <item>Недавние приложения</item>
+  <item>Без блокировки экрана</item>
+  <item>Оптимизация Wi-Fi</item>
+  <item>Иммерсивный режим</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Мобильный трафик</item>
+  <item>Сеть</item>
+  <item>Мультимедиа</item>
+  <item>Дисплей</item>
+  <item>Устройство</item>
+  <item>Команды приложений</item>
+  <item>Корень (Рут)</item>
+  <item>Другие</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Точка доступа (Wi-Fi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Воспр./Пауза</item>
+  <item>Следующий</item>
+  <item>Предыдущий</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Блокировка</item>
+  <item></item>
+  <item>Громкость</item>
+  <item>Синхронизировать</item>
+  <item>Выключение</item>
+  <item>Перезагрузка</item>
+  <item>Подсветка экрана</item>
+  <item></item>
+  <item>Настройки</item>
+  <item></item>
+  <item>Выключение</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Домой</item>
+  <item>Недавние приложения</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>откл</item>
+  <item>занят</item>
+  <item>вкл</item>
+  <item>низк.</item>
+  <item>авто</item>
+  <item>сред.</item>
+  <item>выс.</item>
+  <item>портрет</item>
+  <item>ландшафт</item>
+  <item>авто</item>
+  <item>тихо</item>
+  <item>вибр.</item>
+  <item>звон.</item>
+  <item>зв+виб.</item>
+  <item>запрос</item>
+  <item>авто</item>
+  <item>все</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>KitKat серый</item>
+  <item>Holo голубой</item>
+  <item>Прозрачный</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>Леденец</item>
+  <item>KitKat серый</item>
+  <item>Holo голубой</item>
+  <item>Прозрачный</item>
+</string-array>
+<string-array name="wc_import_msg">
+  <item>Восстановление…</item>
+  <item>Не удалось восстановить</item>
+</string-array>
+<string-array name="wc_export_msg">
+  <item>Создание резервной копии…</item>
+  <item>Резервная копия сохранена в %s</item>
+  <item>Не удалось создать резервную копию</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Импорт изображений</item>
+  <item>Ошибка импорта изображений</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Экспорт значков</item>
+  <item>Изображение сохранено в %s</item>
+  <item>Ошибка сохранения</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Импорт изображения батареи</item>
+  <item>Ошибка импорта изображений</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Экспорт изображения батареи</item>
+  <item>Изображение сохранено в %s</item>
+  <item>Ошибка сохранения изображения батареи</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>Закреплено наверху и показан значок</item>
+  <item>Не закреплено, но значок показан</item>
+  <item>Не закреплено и без значка</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>По умолчанию</item>
+  <item>Прозрачный</item>
+  <item>Тип мобильной сети</item>
+  <item>Версия Android</item>
+  <item>Батарея 1</item>
+  <item>Батарея 2</item>
+  <item>Батарея 3</item>
+  <item>Батарея голубая 1</item>
+  <item>Батарея голубая 2</item>
+  <item>Дата 1</item>
+  <item>Дата 2</item>
+  <item>Дата 3</item>
+  <item>Дата голубая 1</item>
+  <item>Дата голубая 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Громкость звонка</item>
+  <item>Громкость медиа</item>
+  <item>Громкость будильника</item>
+  <item>Громкость уведомлений</item>
+  <item>Громкость при разговоре</item>
+  <item>Громкость системы</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Без звука</item>
+  <item>Вибрация</item>
+  <item>Мелодия</item>
+  <item>Мелодия и вибрация</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS и сеть</item>
+  <item>GPS</item>
+  <item>Сеть</item>
+  <item>Выкл.</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>Нет опроса (службы)</item>
+  <item>1 минута</item>
+  <item>2 минуты</item>
+  <item>3 минуты</item>
+  <item>5 минут</item>
+  <item>10 минут</item>
+  <item>30 минут</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Новое состояние (авто)</item>
+  <item>Вкл.</item>
+  <item>Выкл.</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Один значок</item>
+  <item>Мультизначок</item>
+  <item>Счётчик</item>
+</string-array>
+</resources>

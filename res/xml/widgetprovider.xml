@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.painless.pc.cfg.WidgetConfigActivity"
+    android:initialLayout="@layout/aw_default_60"
+    android:minHeight="30dip"
+    android:minResizeWidth="52dip"
+    android:minWidth="272dip"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal"
+    android:updatePeriodMillis="14400000" />

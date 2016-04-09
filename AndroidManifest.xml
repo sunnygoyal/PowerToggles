@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.painless.pc"
+    android:versionCode="160604"
+    android:versionName="6.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <permission
+        android:name="com.painless.pc.permission.CONTROL_PLUGIN"
+        android:description="@string/ps_prem_desc"
+        android:icon="@drawable/icon_toggle_plugin"
+        android:label="@string/ps_prem_label"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+    <uses-permission android:name="com.painless.pc.permission.CONTROL_PLUGIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <!-- System permissions -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REBOOT" />
+
+    <!-- Flash light permission -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:maxSdkVersion="22" />
+
+    <!-- Platform dependent -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- Special permission -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/widget_icon"
+        android:label="@string/app_name" >
+        <receiver
+            android:name=".PCWidgetActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+                <!-- Buzz homepack support -->
+                <action android:name="com.buzzpia.aqua.appwidget.GET_VERSION" />
+                <action android:name="com.buzzpia.aqua.appwidget.GET_CONFIG_DATA" />
+                <action android:name="com.buzzpia.aqua.appwidget.SET_CONFIG_DATA" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widgetprovider" />
+        </receiver>
+        <receiver
+            android:name=".CommandReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+                <action android:name="android.net.conn.TETHER_STATE_CHANGED" />
+                <action android:name="com.android.sync.SYNC_CONN_STATUS_CHANGED" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.bluetooth.adapter.action.SCAN_MODE_CHANGED" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.net.wimax.WIMAX_STATE_CHANGE" />
+                <action android:name="android.media.RINGER_MODE_CHANGED" />
+                <action android:name="android.nfc.action.ADAPTER_STATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.painless.pc.CUSTOM_ACTION" />
+                <action android:name="com.painless.pc.BATTERY_POLL" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- Provider for back images and shared files -->
+        <provider
+            android:name="FileProvider"
+            android:authorities="com.painless.pc.file"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:multiprocess="true" />
+
+        <!-- Receiver for Device Admin/Lock Screen -->
+        <receiver
+            android:name="LockAdmin"
+            android:description="@string/admin_desc"
+            android:label="@string/admin_label"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/lock_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Various activities related to app navigation -->
+        <activity
+            android:name=".settings.LaunchActivity"
+            android:icon="@drawable/widget_icon"
+            android:label="@string/app_name"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".NotificationSettings"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:targetActivity=".settings.LaunchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- Various activities related to common pickers -->
+        <activity
+            android:name=".picker.IconPackPicker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/ip_app_icons"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/icon_search" />
+        </activity>
+        <activity
+            android:name=".picker.FilePicker"
+            android:theme="@style/activityTheme" />
+        <activity
+            android:name=".picker.ThemePicker"
+            android:label="@string/tm_title"
+            android:theme="@style/configTheme" />
+
+        <!-- Various activities related to widget configuration -->
+        <activity
+            android:name=".cfg.WidgetConfigActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/configTheme" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/toggle_search" />
+        </activity>
+        <activity
+            android:name=".cfg.IconThemeEditor"
+            android:theme="@style/activityTheme" />
+        <activity
+            android:name=".cfg.BatteryIconEditor"
+            android:theme="@style/activityTheme" />
+        <activity
+            android:name=".cfg.NinePatchEditor"
+            android:label="@string/npe_title"
+            android:theme="@style/activityTheme" />
+        <activity
+            android:name=".cfg.ConfigGuide"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".qs.TileConfigActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/qs_title"
+            android:launchMode="singleTop"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/toggle_search" />
+        </activity>
+        <!-- Activities related to various toggle functions -->
+        <activity
+            android:name=".acts.BrightnessActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/panelTheme" />
+        <activity
+            android:name="FlashActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/flashTheme" />
+        <activity
+            android:name="BootDialog"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity
+            android:name="RLPicker"
+            android:label="@string/rt_title"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog" />
+        <activity
+            android:name=".acts.BrightnessSlider"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/panelTheme" />
+        <activity
+            android:name=".acts.VolumeSlider"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/panelTheme" />
+        <activity
+            android:name="ProxyActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/panelTheme" />
+        <activity
+            android:name="PermissionDialog"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+
+        <service android:name="FlashService" />
+        <service android:name="FlashServiceM" />
+        <service android:name="ImmersiveService" />
+        <service android:name="NoLockService" />
+        <service android:name="ScreenOnService" />
+        <service android:name="RLService" />
+        <service android:name="BatteryService" />
+
+        <!-- Folders -->
+        <activity
+            android:name=".folder.FolderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/panelTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/toggle_search" />
+        </activity>
+        <activity
+            android:name=".folder.FolderPick"
+            android:icon="@drawable/folder_icon"
+            android:label="@string/folder_title"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Plugins related stuff -->
+        <receiver
+            android:name=".PluginUpdateReceiver"
+            android:exported="true" >
+
+            <!-- this Intent filter to receive task completion -->
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_TASK_COMPLETE" />
+
+                <data android:scheme="task" />
+            </intent-filter>
+            <intent-filter>
+
+                <!-- this Intent filter allows the plug-in to discovered by Locale -->
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+
+                <!-- Action to receive plugin updates -->
+                <action android:name="com.painless.pc.ACTION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".settings.TaskerToggleSetup"
+            android:exported="true"
+            android:icon="@drawable/widget_icon"
+            android:label="@string/ps_tasker_setup"
+            android:theme="@style/activityTheme" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".settings.TaskerRefresh"
+            android:exported="true"
+            android:icon="@drawable/widget_icon"
+            android:label="@string/ps_refresh"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.painless.pc"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 160604
+        versionName "6.0.4"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), 'proguard-rules.txt'
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs = ['res']
+            java.srcDirs = ['src']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+        disable 'ManifestResource'
+    }
+}
+
+dependencies {
+    provided files('libs/hidden-apis.jar')
+    provided files('libs/hidden-apis_2.jar')
+}

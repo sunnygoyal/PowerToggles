@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.painless.pc.view.CenterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <!-- ********** Design area ************ -->
+
+    <ScrollView
+        android:id="@+id/cfg_content_scroll"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:background="@color/main_background" >
+
+        <include layout="@layout/widget_config_activity_common" />
+    </ScrollView>
+
+    <!-- ********** Widget Preview ************ -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_config_add"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_theme"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:onClick="onThemesClicked"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:text="@string/tm_title"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/btn_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_config_add"
+                android:clickable="true"
+                android:drawableLeft="@drawable/icon_add"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:onClick="onAddToggleClicked"
+                android:paddingBottom="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:text="@string/wc_add_toggle"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/prewiewHolder"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" />
+
+        <View
+            android:id="@+id/config_popup_top"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/main_background"
+            android:rotation="45"
+            android:translationY="24dp" />
+
+        <LinearLayout
+            android:id="@+id/wc_toggle_info"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/main_background"
+            android:orientation="vertical" >
+
+            <include layout="@layout/cfg_toggle_edit_popup_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.painless.pc.view.CenterLayout>

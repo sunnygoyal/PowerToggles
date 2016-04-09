@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/btn_1_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layerType="software"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/btn_1_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:text="@string/cg_click_toggle_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/state_button_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_1_div"
+            android:padding="10dp"
+            android:text="@string/cg_click_toggle_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_2_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_2_div"
+            android:padding="10dp"
+            android:text="@string/cg_click_add_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/state_button_light" />
+
+        <TextView
+            android:id="@+id/btn_2_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:padding="10dp"
+            android:text="@string/cg_click_add_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_3_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/btn_3_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/cg_customize_1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/state_button_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_3_div"
+            android:padding="10dp"
+            android:text="@string/cg_customize_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_cling"
+        android:gravity="center_vertical"
+        android:onClick="onOkClicked"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/act_ok"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

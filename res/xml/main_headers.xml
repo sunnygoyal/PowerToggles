@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Widgets -->
+    <header android:title="@string/lbl_widgets" />
+    <header
+        android:fragment="com.painless.pc.nav.HomeFrag"
+        android:icon="@drawable/icon_toggle_home"
+        android:title="@string/lbl_homescreen" />
+    <header
+        android:fragment="com.painless.pc.nav.NotifyFrag"
+        android:icon="@drawable/icon_toggle_two_row"
+        android:title="@string/lbl_notification" />
+    <header
+        android:fragment="com.painless.pc.nav.FolderFrag"
+        android:icon="@drawable/icon_folder_closed"
+        android:title="@string/lbl_folders" />
+
+    <!-- Options -->
+    <header android:title="@string/lbl_options" />
+    <header
+        android:fragment="com.painless.pc.nav.SettingsFrag"
+        android:icon="@drawable/icon_prefs"
+        android:title="@string/lbl_settings" />
+    <header
+        android:fragment="com.painless.pc.nav.InfoFrag"
+        android:icon="@drawable/icon_stats"
+        android:title="@string/lbl_stats" />
+    <header
+        android:icon="@drawable/icon_rating"
+        android:title="@string/lbl_review" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=com.painless.pc" />
+    </header>
+
+</preference-headers>

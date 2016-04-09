@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="st_vslider_icons">
+        <item>@drawable/icon_ring</item>
+        <item>@drawable/icon_music</item>
+        <item>@drawable/icon_alarm</item>
+        <item>@drawable/icon_notify</item>
+        <item>@drawable/icon_handset</item>
+        <item>@drawable/icon_application</item>
+    </string-array>
+    <string-array name="st_volume_icons">
+        <item>@drawable/icon_toggle_volume_off</item>
+        <item>@drawable/icon_toggle_volume_vib</item>
+        <item>@drawable/icon_toggle_volume_on</item>
+        <item>@drawable/icon_toggle_volume_on_vib</item>
+    </string-array>
+
+    <string name="app_name">Power Toggles</string>
+    <string name="ps_tasker_setup">Modify PowerToggle state</string>
+
+</resources>

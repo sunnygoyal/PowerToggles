@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="?android:attr/actionBarSize" >
+
+    <com.painless.pc.view.ColorButton
+        android:id="@+id/btn_tint"
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_image_btn"
+        android:contentDescription="@string/wc_tint" />
+
+</FrameLayout>

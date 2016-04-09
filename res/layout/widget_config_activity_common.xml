@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical" >
+
+        <!-- Styles -->
+
+        <TextView
+            android:id="@+id/hdr_back_style"
+            style="@style/configSectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wc_style" />
+
+        <LinearLayout
+            android:id="@+id/cnt_back_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/btn_1"
+                    style="@style/configButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/lbl_default" />
+
+                <TextView
+                    android:id="@+id/btn_2"
+                    style="@style/configButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wc_style_indicator" />
+
+                <TextView
+                    android:id="@+id/btn_3"
+                    style="@style/configButtonBar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/wc_style_labels" />
+            </LinearLayout>
+
+            <ViewFlipper
+                android:id="@+id/cfg_bs_flipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp" >
+
+                <!-- Default layout -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/chk_bs_wide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wc_full_height" />
+
+                    <CheckBox
+                        android:id="@+id/chk_bs_hugeicon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/wc_huge_icons" />
+                </LinearLayout>
+
+                <!-- Indicator layout -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/chk_bs_same_colors"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wc_ind_same_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <com.painless.pc.view.ColorButton
+                            android:id="@+id/btn_4"
+                            android:layout_width="0dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_image_btn"
+                            android:contentDescription="@string/wc_colors_default" />
+
+                        <com.painless.pc.view.ColorButton
+                            android:id="@+id/btn_5"
+                            android:layout_width="0dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_image_btn"
+                            android:contentDescription="@string/wc_colors_working" />
+
+                        <com.painless.pc.view.ColorButton
+                            android:id="@+id/btn_6"
+                            android:layout_width="0dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_image_btn"
+                            android:contentDescription="@string/wc_colors_active" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Labels layout -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/lbl_color"
+                            android:textColor="@android:color/white" />
+
+                        <com.painless.pc.view.ColorButton
+                            android:id="@+id/cfg_lbl_color"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/bg_image_btn"
+                            android:contentDescription="@string/wc_label_color" />
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="@color/config_bbar_normal"
+                            android:padding="10dp"
+                            android:text="@string/lbl_size"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/config_bbar_normal"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="2dp" >
+
+                        <SeekBar
+                            android:id="@+id/cfg_lbl_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:max="15" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ViewFlipper>
+        </LinearLayout>
+
+        <!-- End Styles -->
+        <!-- Button Colors -->
+
+        <TextView
+            android:id="@+id/hdr_button_colors"
+            style="@style/configSectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wc_button_colors" />
+
+        <LinearLayout
+            android:id="@+id/cnt_button_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <com.painless.pc.view.ColorButton
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_image_btn"
+                android:contentDescription="@string/wc_colors_default" />
+
+            <com.painless.pc.view.ColorButton
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_image_btn"
+                android:contentDescription="@string/wc_colors_working" />
+
+            <com.painless.pc.view.ColorButton
+                android:id="@+id/btn_3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_image_btn"
+                android:contentDescription="@string/wc_colors_active" />
+        </LinearLayout>
+
+        <!-- End Button Colors -->
+        <!-- Background -->
+
+        <TextView
+            android:id="@+id/hdr_back_fill"
+            style="@style/configSectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wc_back" />
+
+        <com.painless.pc.view.ThreeView
+            android:id="@+id/cnt_back_fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" >
+
+            <TextView
+                android:id="@+id/btn_1"
+                style="@style/configButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lbl_default" />
+
+            <TextView
+                android:id="@+id/btn_2"
+                style="@style/configButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btn_1"
+                android:text="@string/lbl_image" />
+
+            <LinearLayout
+                android:id="@+id/btn_3"
+                style="@style/configButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/btn_2"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/wc_tint"
+                    android:textColor="@android:color/white" />
+
+                <com.painless.pc.view.ColorButton
+                    android:id="@+id/cfg_back_tint"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:contentDescription="@string/wc_tint" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cfg_trans_sec_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/btn_1"
+                android:layout_marginTop="10dp"
+                android:background="@color/config_bbar_normal"
+                android:padding="10dp"
+                android:text="@string/wc_transparency"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/cfg_back_stretch"
+                style="@style/configButtonBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/btn_1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/cfg_trans_sec_1"
+                android:text="@string/wc_adjust_position"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/cfg_trans_sec_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cfg_trans_sec_1"
+                android:background="@color/config_bbar_normal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp" >
+
+                <SeekBar
+                    android:id="@+id/cfg_back_trans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="255" />
+            </FrameLayout>
+        </com.painless.pc.view.ThreeView>
+        <!-- End Background -->
+        <!-- Vertical divider -->
+
+        <TextView
+            android:id="@+id/hdr_button_divs"
+            style="@style/configSectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wc_dividers" />
+
+        <LinearLayout
+            android:id="@+id/cnt_button_divs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/btn_1"
+                style="@style/configButtonBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wc_hidden" />
+
+            <LinearLayout
+                android:id="@+id/btn_2"
+                style="@style/configButtonBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/wc_tint"
+                    android:textColor="@android:color/white" />
+
+                <com.painless.pc.view.ColorButton
+                    android:id="@+id/cfg_div_tint"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:contentDescription="@string/wc_tint" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- End Vertical divider -->
+        <!-- Click Feedback -->
+
+        <TextView
+            android:id="@+id/hdr_click_feedback"
+            style="@style/configSectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/wc_click_feed" />
+
+        <LinearLayout
+            android:id="@+id/cnt_click_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <Spinner
+                android:id="@+id/spinner_type"
+                style="@style/clickfeedbackSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/chk_cf_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="@string/wc_round_corners" />
+        </LinearLayout>
+
+        <!-- End Vertical divider -->
+    </LinearLayout>
+
+</merge>

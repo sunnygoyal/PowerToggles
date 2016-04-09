@@ -1,0 +1,490 @@
+<resources>
+<string name="act_done">Hotovo</string>
+<string name="act_yes">Áno</string>
+<string name="act_add">Pridať</string>
+<string name="act_no">Nie</string>
+<string name="act_cancel">Zrušiť</string>
+<string name="act_delete">Zmazať</string>
+<string name="act_remove">Odstrániť</string>
+<string name="act_rename">Premenovať</string>
+<string name="lbl_color">Farba</string>
+<string name="lbl_brightness">Jas</string>
+<string name="lbl_size">Veľkosť</string>
+<string name="lbl_default">Východzia</string>
+<string name="lbl_image">Obrázok</string>
+<string name="lbl_customize">Upraviť</string>
+<string name="msg_unknown_error">Došlo k neočakávanej chybe</string>
+<string name="err_no_activity">Aplikácia nenájdená</string>
+<string name="err_security">Prístup zakázaný</string>
+<string name="msg_account_synced">Všetky účty synchronizované</string>
+<string name="msg_e_account_synced">Povolená synchronizácia účtov</string>
+<string name="admin_explain">Pri prvom použití je potreba miniaplikácii udeliť oprávnenie k aktivácii zámku obrazovky.</string>
+<string name="admin_label">Zámka obrazovky Power Toggles</string>
+<string name="admin_desc">Potrebné pre prepínač zámku obrazovky</string>
+<string name="stat_help">Pomoc</string>
+<string name="stat_help_desc">Hľadať cez Najčastejšie otázky</string>
+<string name="stat_battery">Stav batérie</string>
+<string name="stat_admin">Správca zariadenia</string>
+<string name="stat_admin_msg_on">Vypnúť pre odinštalovanie apl.</string>
+<string name="stat_admin_msg_off">Potrebné pre prepnutie Uzamknutia obrazovky</string>
+<string name="stat_trackers_summary">Prepínače môžu zostať v pamäti cache na nejakú dobu po odstránení miniaplikácie. Obnovením pamäte cache ich odstránite a zrušíte prípadné zmrznuté prepínače.</string>
+<string name="stat_trackers_action">Obnoviť cache</string>
+<string name="stat_root">Root prístup</string>
+<string name="stat_u_never">Nikdy</string>
+<string name="stat_u_now">Práve teraz</string>
+<string name="stat_u_mins">Pred %d min.</string>
+<string name="stat_u_hours">Pred %d hod.</string>
+<string name="stat_u_days">Pred %d d.</string>
+<string name="stat_info">Info.</string>
+<string name="stat_active_toggle">Aktívne prepínače</string>
+<string name="stat_active_toggle_none">Nie sú žiadne aktívne prepínače</string>
+<string name="stat_active_toggle_n">%d aktívnych prepínačov</string>
+<string name="stat_last_used">Naposledy použité: %s</string>
+<string name="wc_add_toggle">Pridať prepínač</string>
+<string name="wc_add_toggle_max_err">Môžete pridať maximálne 8 prepínačov na miniaplikáciu</string>
+<string name="wc_change_icon">Zmeniť ikonu</string>
+<string name="wc_button_colors">Farba tlačítok</string>
+<string name="wc_colors_default">Štandardné tlačítko</string>
+<string name="wc_colors_working">Tlačítko zaneprázdnený/neznámy stav</string>
+<string name="wc_colors_active">Aktívne tlačítko</string>
+<string name="wc_style">Štýl</string>
+<string name="wc_full_height">Plná výška</string>
+<string name="wc_huge_icons">Veľké ikony</string>
+<string name="wc_style_indicator">Indikátor</string>
+<string name="wc_ind_same_color">Rovnako ako farba tlačítka</string>
+<string name="wc_style_labels">Popisky</string>
+<string name="wc_label_color">Farba popisiek</string>
+<string name="wc_back">Pozadie</string>
+<string name="wc_adjust_position">Upraviť pozíciu</string>
+<string name="wc_transparency">Priehľadnosť</string>
+<string name="wc_tint">Farba</string>
+<string name="wc_dividers">Oddeľovače</string>
+<string name="wc_hidden">Skryté</string>
+<string name="wc_click_feed">Odozva na kliknutie</string>
+<string name="wc_round_corners">Okrúhle rohy</string>
+<string name="wc_ex_theme">Exportovať tému</string>
+<string name="wc_ex_theme_failed">Chyba pri exportovaní témy</string>
+<string name="wc_ex_theme_success">Téma vyexportovaná</string>
+<string name="wc_ex_theme_image">Téma musí mať obrázok ako pozadie</string>
+<string name="cb_alpha">Priehľadnosť</string>
+<string name="cb_hex_hint">Hex kód</string>
+<string name="cb_set_color">Nastaviť farbu</string>
+<string name="tp_loading">Načítanie zoznamu</string>
+<string name="tp_toggles">Prepínače</string>
+<string name="tp_apps">Aplikácie</string>
+<string name="tp_apps_short">Aplikácie</string>
+<string name="tp_custom">Iné</string>
+<string name="tp_plugin">Zásuvné moduly</string>
+<string name="tp_tasker">Tasker prepínače</string>
+<string name="tp_shrts">Zástupcovia</string>
+<string name="tp_search_hint">Hľadať prepínače</string>
+<string name="tp_tasker_disabled_title">Externý prístup zakázaný</string>
+<string name="tp_tasker_disabled">Musíte povoliť externý prístup v nastaveniach Taskera aby ste mohli vložiť Tasker prepínač</string>
+<string name="tp_tasker_empty">Žiadna úloha nenájdená</string>
+<string name="ip_title">Vybrať ikonu</string>
+<string name="ip_theme_icons">Ikony témy</string>
+<string name="ip_app_icons">Ikony aplikácií</string>
+<string name="ip_counter">Ikona počítadla</string>
+<string name="ip_image_pick">Vybrať obrázok</string>
+<string name="ip_image_crop">Vybrať obrázok a orezať</string>
+<string name="ip_icon_pack">Balík ikôn</string>
+<string name="ip_loading_img">Načítavanie obrázka</string>
+<string name="ip_loading_img_failed">Obrázok nebolo možné načítať</string>
+<string name="ite_info">Mapa ikôn</string>
+<string name="ite_custom">Iné</string>
+<string name="ite_import">Import pruhu obrázka</string>
+<string name="ite_export">Export pruhu obrázka</string>
+<string name="npe_title">Pozícia pozadia</string>
+<string name="npe_stretch">Natiahnuť</string>
+<string name="npe_stretch_help">Zvoľte oblasť obrázku, ktorá bude natiahnutá na veľkosť miniaplikácie</string>
+<string name="npe_padding">Vyplniť</string>
+<string name="npe_padding_help">Zvoľte oblasť, kde by mali byť tlačidlá na miniaplikácii. Uistite sa, že táto oblasť je väčšia než oblasť natiahnutia, inak miniaplikácia nemusí vyzerať dobre.</string>
+<string name="bid_preview">Náhľad</string>
+<string name="bid_background">Zmeniť pozadie</string>
+<string name="bid_digit_position">Pozícia čísla</string>
+<string name="bid_import">Import obrázka batérie</string>
+<string name="bid_export">Export obrázka batérie</string>
+<string name="cg_click_toggle_1">Kliknutím na prepínač</string>
+<string name="cg_click_toggle_2">ho upravte, presuňte, alebo odstráňte</string>
+<string name="cg_click_add_1">Kliknite sem</string>
+<string name="cg_click_add_2">pre pridanie viacerých prepínačov</string>
+<string name="cg_customize_1">Upravte miniaplikáciu</string>
+<string name="cg_customize_2">pomocou rôznych možností</string>
+<string name="cg_menu">Zobraziť sprievodcu</string>
+<string name="qs_title">Rýchle nastavenia</string>
+<string name="qs_manual_title">Pridajte dlaždicu v nastaveniach</string>
+<string name="qs_manual_1">Prejdite do Tuner používateľského rozhrania \u003E Rýchle nastavenia</string>
+<string name="qs_manual_2">Kliknite na Pridať dlaždicu a zvoľte Dlaždica Vysielanie</string>
+<string name="qs_manual_3">Dajte jej jednoduchý názov, bez medzier</string>
+<string name="qs_manual_4">Môžete aj presunúť dlaždice dlhým podržaním a potiahnutím</string>
+<string name="qs_manual_5">Vráťte sa späť keď skončíte</string>
+<string name="qs_button_tuner">Tuner používateľského rozhrania</string>
+<string name="qs_pick_tile">Vyberte dlaždicu</string>
+<string name="qs_cfg_click">Akcia kliknutia</string>
+<string name="qs_cfg_long_click">Cieľ dlhého kliknutia</string>
+<string name="qs_cfg_custom_label">Vlastný popisok</string>
+<string name="qs_cfg_icons">Ikony</string>
+<string name="qs_empty_help_1">Žiadna dlaždica rýchleho nastavenia</string>
+<string name="qs_empty_help_2">Pre pridanie dlaždice, kliknite na tlačidlo \u0027Pridať\u0027 v hornej lište a postupujte podľa pokynov</string>
+<string name="qs_delete">Vymazať dlaždicu</string>
+<string name="qs_delete_msg">Vymazaním dlaždice trvalo odstránite nastavenie priradené k dlaždici</string>
+<string name="qs_activate_tuner">Povoľte Tuner používateľského rozhrania</string>
+<string name="qs_activate_help_1">Potiahnite lištu s upozorneniami a otvorte rýchle nastavenia</string>
+<string name="qs_activate_help_2">Kliknite a držte ikonu nastavení pokiaľ sa nezatočí</string>
+<string name="qs_activate_help_3">Pustite ikonu a otvorte znovu Power Toggles</string>
+<string name="notify_position">Pozícia</string>
+<string name="notify_position_title">Pozícia oznámenia</string>
+<string name="notify_collapse">Automaticky skryť oznamovaciu oblasť</string>
+<string name="notify_collapse_summary">Skryť oznamovaciu oblasť pri každom prepnutí prepínača</string>
+<string name="notify_show_on_lock">Zobraziť na uzamknutej obrazovke</string>
+<string name="notify_show_on_lock_summary">ak je povolené zabezpečenie obrazovky</string>
+<string name="notify_row_2">Druhý riadok oznámení</string>
+<string name="notify_customize_2">Upraviť druhý riadok</string>
+<string name="notify_other_settings">Iné nastavenia</string>
+<string name="notify_icon">Ikona</string>
+<string name="notify_icon_sec_date">Dnešný dátum</string>
+<string name="notify_icon_sec_battery">Batéria</string>
+<string name="notify_icon_loading">Generujem ikony oznámenia</string>
+<string name="wp_last_edited">Naposledy upravené</string>
+<string name="wp_share">Zdieľať</string>
+<string name="wp_backup">Vytvoriť zálohu</string>
+<string name="wp_restore">Obnoviť zo zálohy</string>
+<string name="wp_delete">Vymazať miniaplikáciu</string>
+<string name="wp_delete_msg">Vymazaním miniaplikácie \u003Cb\u003Etrvalo\u003C/b\u003E vymažete všetky jej nastavenia.\u003Cbr/\u003E\u003Cbr/\u003EPoužite len na nepoužité miniaplikácie.\u003Cbr/\u003E</string>
+<string name="wp_no_widget">Žiadny miniaplikácia na domovskej obrazovke</string>
+<string name="wp_add_help">Ak chcete pridať miniaplikáciu, otvorte zoznam aplikácií a vyhľadajte Power Toggles v zozname miniaplikácií. Dlhým stlačením miniaplikácie zobrazíte náhľad a pretiahnite ho na domovskú obrazovku.</string>
+<string name="tm_title">Témy</string>
+<string name="tm_local">Moje témy</string>
+<string name="tm_remote">Iné témy</string>
+<string name="tm_system">Systémové témy</string>
+<string name="fp_hint">Názov súboru</string>
+<string name="fp_sdcard"></string>
+<string name="fp_overwrite">Prepísať?</string>
+<string name="fp_invalid">Neplatný názov súboru</string>
+<string name="ts_title">Nastavenia prepínačov</string>
+<string name="ts_exit_on_lock">Vypnúť pri zamknutí obrazovky</string>
+<string name="ts_us_as_shortcut">Použiť ako zástupcu</string>
+<string name="ts_time_intervals">Intervaly vypnutia</string>
+<string name="ts_mute_slider">Neprehrať ukážku</string>
+<string name="ts_slider_controls">Viditeľné nastavenia</string>
+<string name="ts_volume_modes">Povolené režimy</string>
+<string name="ts_allow_zero_bright">Povoliť nulový jas</string>
+<string name="ts_show_quick_buttons">Zobraziť rýchle nastavenia</string>
+<string name="ts_instant_bright_toggle">Okamžité prepnutie (beta)</string>
+<string name="ts_hide_notify">Skryť oznámenia</string>
+<string name="ts_soft_boot">Ľahký štart</string>
+<string name="ts_media_player">Prehrávač médií</string>
+<string name="ts_not_all_sync">Ignorovať zakázaných poskytovateľov</string>
+<string name="ts_msg_min_two_levels">Potrebujete minimálne 2 úrovne</string>
+<string name="ts_levels">Úrovne</string>
+<string name="ts_bright_summary">Nastavte úroveň jasu</string>
+<string name="ts_battery_custom_colors">Použiť vlastné farby batérie</string>
+<string name="ts_battery_low">Vybitá batéria</string>
+<string name="ts_battery_moderate">Priemerná batéria</string>
+<string name="ts_battery_high">Nabitá batéria</string>
+<string name="ts_screen_lock_fix">Oprava rozsvietenia displeja</string>
+<string name="ts_font_delta">Veľkosť písma</string>
+<string name="ts_show_ssid">Zobraziť SSID</string>
+<string name="ts_tap_speed">Rýchlosť kliknutia</string>
+<string name="ts_msec">Milisekúnd</string>
+<string name="ts_show_prompt">Zobraziť výzvu</string>
+<string name="ts_gps_sources">Zdroje</string>
+<string name="as_general">Všeobecné nastavenia</string>
+<string name="as_haptic">Dotyková odozva</string>
+<string name="as_optimize">Optimalizácia výkonu</string>
+<string name="as_battery_service">Batéria</string>
+<string name="as_motorola_hack">Oprava 1% pre Motorolu</string>
+<string name="as_poll_interval">Interval kontroly</string>
+<string name="as_double_tap">Dvojklik</string>
+<string name="ps_prem_label">Použiť zásuvné moduly Power Toggles</string>
+<string name="ps_prem_desc">Môžete kontrolovať zásuvné moduly Power Toggles ich zapnutím. alebo vypnutím</string>
+<string name="ps_tasker_disabled">Tasker zakázaný</string>
+<string name="ps_tasker_no_access">Prístup Tasker zakázaný</string>
+<string name="ps_set_state">Nastaviť stav na</string>
+<string name="ps_refresh">Obnoviť PowerToggles</string>
+<string name="ps_toggle_to_update">Prepnúť na aktualizáciu</string>
+<string name="ps_current_toggle">Aktuálna úloha (auto)</string>
+<string name="ps_tasker_pick_title">Vybrať úlohu</string>
+<string name="ps_tasker_type">Typ</string>
+<string name="ps_set_count">Nastaviť počítadlo (voliteľné)</string>
+<string name="bt_restart">Reštart</string>
+<string name="bt_poweroff">Vypnúť</string>
+<string name="bt_recovery">Núdzový režim</string>
+<string name="bt_restart_summary">Zariadenie sa reštartuje.</string>
+<string name="bt_restart_working">Reštartovanie...</string>
+<string name="bt_poweroff_summary">Zariadenie sa vypne.</string>
+<string name="bt_poweroff_working">Vypínanie...</string>
+<string name="bt_error_title">Neúspech</string>
+<string name="bt_error_summary">Príkaz bol neúspešný. Buď nemáte zariadenie rootnuté alebo ste aplikácií nepovolili root prístup.</string>
+<string name="bt_menu_title">Možnosti vypnutia</string>
+<string name="rt_title">Zámka rotácie</string>
+<string name="rt_auto">Automatická rotácia obrazovky</string>
+<string name="rt_land">Na šírku %s</string>
+<string name="rt_port">Na výšku %s</string>
+<string name="rt_default">(východzie zariadenia)</string>
+<string name="rt_forced">(vynútiť)</string>
+<string name="sip_all">Použiť SIP pre všetky hovory</string>
+<string name="sip_some">Použiť SIP iba pre SIP čísla</string>
+<string name="sip_ask">Opýtať sa na použitie SIP pri každom hovore</string>
+<string name="sl_color">Farba displeja</string>
+<string name="sl_no_camera">Kamera nenájdená</string>
+<string name="sl_no_torch">Svietidlo nie je podporované</string>
+<string name="sl_camera_error">Kamera sa nedá použiť</string>
+<string name="no_lock_action">Zámka obrazovky je zakázaná</string>
+<string name="click_to_reenable">Klini pre povolenie</string>
+<string name="flash_active">Svietidlo aktívne</string>
+<string name="wake_lock_active">WakeLock aktívne</string>
+<string name="click_to_deactive">Kliknite pre deaktiváciu</string>
+<string name="rotation_locked">Rotácia displeja zamknutá</string>
+<string name="click_to_unlock">Kliknite pre odomknutie</string>
+<string name="immersive_active">Režim na celú obrazovku aktívny</string>
+<string name="lbl_unknown_allcap">NEZNÁME</string>
+<string name="lbl_widgets">Miniaplikácie</string>
+<string name="lbl_homescreen">Domovská obrazovka</string>
+<string name="lbl_notification">Oznámenie</string>
+<string name="lbl_folders">Adresáre</string>
+<string name="lbl_options">Možnosti</string>
+<string name="lbl_settings">Nastavenia</string>
+<string name="lbl_stats">Štatistiky a informácie</string>
+<string name="lbl_review">Hodnotiť na Google Play</string>
+<string name="folder_name">Zložka bez mena</string>
+<string name="folder_new">Nová</string>
+<string name="folder_existing">Existujúce</string>
+<string name="folder_title">Zložka Power Toggles</string>
+<string name="folder_delete_prompt">Vymazať %d zložku(y)?</string>
+<string name="folder_restore_msg">%d zložka(y) obnovená(é)</string>
+<string name="folder_restore_error">Chyba pri obnovovaní zložky</string>
+<string name="folder_help_1">Žiadny adresár s prepínačmi</string>
+<string name="folder_help_2">Ak chcete vytvoriť zložku, otvorte menu, a nájdite miniaplikáciu Zložka Power Toggles medzi miniaplikáciami. Podržte ju dlhšie a pretiahnite ju na domovskú obrazovku.</string>
+<string name="pp_pref">Nezobrazovať výzvu na chýbajúce povolenia</string>
+<string name="pp_title">Vyžaduje sa systémové povolenie</string>
+<string name="pp_description">Operácia vyžaduje povolenie pre úpravu systémových nastavení. Povoľte ho cez nastavenia.</string>
+<string name="pp_ignore">Teraz nie</string>
+<string-array name="tracker_names">
+  <item>Prístupový bod (Wi-Fi)</item>
+  <item>GPRS (mobilné dáta)</item>
+  <item>Synchronizácia dát</item>
+  <item>Wi-Fi</item>
+  <item>Svietidlo</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Jas</item>
+  <item>Režim V lietadle</item>
+  <item>Automatická rotácia obrazovky</item>
+  <item>Prepínač hlasitosti</item>
+  <item>Prepínač dátovej siete</item>
+  <item>USB zdieľanie</item>
+  <item>Stále podsvietenie (WakeLock)</item>
+  <item>WiMax (4G)</item>
+  <item>Informácie o batérii</item>
+  <item>Vypnutie obrazovky</item>
+  <item>Automatický jas</item>
+  <item>Prehrať/Pozastaviť hudbu</item>
+  <item>Ďalšia skladba</item>
+  <item>Predošlá skladba</item>
+  <item>Hlasitosť hudby</item>
+  <item>Bluetooth viditeľnosť</item>
+  <item>Posuvník jasu</item>
+  <item>NFC</item>
+  <item>Zámka obrazovky</item>
+  <item>Bluetooth zdieľanie</item>
+  <item>Posuvník hlasitosti</item>
+  <item>Synchronizovať teraz</item>
+  <item>Vypnúť</item>
+  <item>Reštart</item>
+  <item>Podsvietenie displeja</item>
+  <item>Miniaplikácia v oblasti oznámenia</item>
+  <item>Nastavenie miniaplikácie</item>
+  <item>Druhý riadok oznámení</item>
+  <item>Ponuka vypnutia</item>
+  <item>Zväčšiť systémové písmo</item>
+  <item>Zmenšiť systémové písmo</item>
+  <item>Zámka rotácie</item>
+  <item>adbWireless</item>
+  <item>Oznamovacia dióda</item>
+  <item>Prijať internetové hovory (SIP)</item>
+  <item>Internetové hovory (SIP)</item>
+  <item>Domovská obrazovka</item>
+  <item>Naposledy použité aplikácie</item>
+  <item>Žiadna zámka obrazovky</item>
+  <item>Optimalizácia WiFi</item>
+  <item>Režim na celú obrazovku</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Mobilné dáta</item>
+  <item>Sieť</item>
+  <item>Multimédiá</item>
+  <item>Displej</item>
+  <item>Hardvér</item>
+  <item>Príkazy aplikácie</item>
+  <item>Root</item>
+  <item>Ďalšie</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Prístupový bod (Wi-Fi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Prehrať/Pozastaviť</item>
+  <item>Ďalší</item>
+  <item>Predchádzajúci</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Zamknúť</item>
+  <item></item>
+  <item>Hlasitosť</item>
+  <item>Synchronizovať teraz</item>
+  <item>Vypnúť</item>
+  <item>Reštart</item>
+  <item>Displej ako svietidlo</item>
+  <item></item>
+  <item>Nastavenia</item>
+  <item></item>
+  <item>Vypnúť</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Domov</item>
+  <item>Naposledy použité aplikácie</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>vyp.</item>
+  <item>prac.</item>
+  <item>zap.</item>
+  <item>nízka</item>
+  <item>auto</item>
+  <item>stredná</item>
+  <item>vysoká</item>
+  <item>na výšku</item>
+  <item>na šírku</item>
+  <item>auto</item>
+  <item>ticho</item>
+  <item>vibr.</item>
+  <item>zvo.</item>
+  <item>zvo.-vibr.</item>
+  <item>opýtať sa</item>
+  <item>auto</item>
+  <item>všetky</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>KitKat šedá</item>
+  <item>Holo modrá</item>
+  <item>Priehľadná</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>Tvar</item>
+  <item>KitKat šedá</item>
+  <item>Holo modrá</item>
+  <item>Priehľadná</item>
+</string-array>
+<string-array name="wc_import_msg">
+  <item>Obnovovanie…</item>
+  <item>Obnova zlyhala</item>
+</string-array>
+<string-array name="wc_export_msg">
+  <item>Vytváranie zálohy…</item>
+  <item>Záloha uložená v %s</item>
+  <item>Chyba pri vytváraní zložky</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Import obrázka</item>
+  <item>Chyba importu obrázka</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Export pruhu ikôn</item>
+  <item>Obrázok uložený v %s</item>
+  <item>Nepodarilo sa uložiť pruh ikôn</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Import obrázka batérie</item>
+  <item>Chyba importu obrázka</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Export obrázka batérie</item>
+  <item>Obrázok uložený v %s</item>
+  <item>Nepodarilo sa uložiť obrázok batérie</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>Pripnuté na vrchu aj ikona</item>
+  <item>Nie je pripnuté na vrchu, ale je ikona</item>
+  <item>Nie je pripnuté na vrchu a nie je ikona</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>Východzia</item>
+  <item>Priehľadná</item>
+  <item>Typ dátovej siete</item>
+  <item>Verzia systému Android</item>
+  <item>Batéria 1</item>
+  <item>Batéria 2</item>
+  <item>Batéria 3</item>
+  <item>Batéria - modrá 1</item>
+  <item>Batéria - modrá 2</item>
+  <item>Dátum 1</item>
+  <item>Dátum 2</item>
+  <item>Dátum 3</item>
+  <item>Dátum - modrý 1</item>
+  <item>Dátum - modrý 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Hlasitosť zvonenia</item>
+  <item>Hlasitosť hudby</item>
+  <item>Hlasitosť budíka</item>
+  <item>Hlasitosť oznámenia</item>
+  <item>Hlasitosť hovoru</item>
+  <item>Hlasitosť systému</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Stíšiť</item>
+  <item>Vibrovať</item>
+  <item>Zvoniť</item>
+  <item>Zvoniť a vibrovať</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS a siete</item>
+  <item>GPS</item>
+  <item>Sieť</item>
+  <item>Vyp.</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>Nedopytuje sa (služba)</item>
+  <item>1 minúta</item>
+  <item>2 minúty</item>
+  <item>3 minúty</item>
+  <item>5 minút</item>
+  <item>10 minút</item>
+  <item>30 minút</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Nový stav (auto)</item>
+  <item>Zap.</item>
+  <item>Vyp.</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Jedna ikona</item>
+  <item>Viac ikôn</item>
+  <item>Počítadlo</item>
+</string-array>
+</resources>

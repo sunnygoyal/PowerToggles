@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.painless.pc.view.CenterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- ********** Widget Preview ************ -->
+
+    <LinearLayout
+        android:id="@+id/prewiewHolder"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_config_add"
+            android:clickable="true"
+            android:drawableLeft="@drawable/icon_theme"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:onClick="onThemesClicked"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="@string/tm_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_config_add"
+            android:clickable="true"
+            android:drawableLeft="@drawable/icon_add"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:onClick="onAddToggleClicked"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="@string/wc_add_toggle"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/cfg_content_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/main_background"
+        android:fillViewport="true" >
+
+        <include layout="@layout/widget_config_activity_common" />
+    </ScrollView>
+
+</com.painless.pc.view.CenterLayout>

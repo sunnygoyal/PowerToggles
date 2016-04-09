@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/grid"
+        style="@style/folderGrid"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/folder_item_width"
+        android:numColumns="auto_fit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true" >
+
+        <TextView
+            android:id="@+id/txt_toggle_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.6"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="@string/folder_name"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:alpha="0.4"
+            android:background="@drawable/wbg_holo_center"
+            android:onClick="onAddClicked"
+            android:padding="4dp"
+            android:src="@drawable/icon_add" />
+    </LinearLayout>
+
+</LinearLayout>

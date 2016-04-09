@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Colors -->
+    <color name="main_background">#FF333333</color>
+    <color name="list_item_color">@android:color/primary_text_dark_nodisable</color>
+    <color name="background_hilit_1">#AA33b5e5</color>
+    <color name="background_hilit_2">#FF33b5e5</color>
+    <color name="config_bbar_normal">#FF444444</color>
+    <color name="config_bbar_selected">#FF777777</color>
+    <color name="config_bbar_pressed">#FF999999</color>
+    <color name="ripple">#99999999</color>
+
+    <!-- UI buttons -->
+    <color name="state_button_light">#FF33B5E5</color>
+    <color name="state_button_light_alpha">#8833B5E5</color>
+    <color name="state_button_dark">#FF0099CC</color>
+    <color name="state_button_dark_alpha">#880099CC</color>
+
+    <!-- Dimentions -->
+    <dimen name="folder_item_width">70dp</dimen>
+    <dimen name="notification_height">64dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="qs_tile_icon_size">24dp</dimen>
+
+    <!-- Animations -->
+    <style name="SlideAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/right_slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_slide_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_slide_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/right_slide_out</item>
+    </style>
+
+    <style name="MenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/menu_open</item>
+        <item name="android:windowExitAnimation">@anim/menu_close</item>
+    </style>
+
+    <!-- Widget Layout Themes -->
+    <style name="widgetMainBtn">
+        <item name="android:background">@drawable/wbg_holo_center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="WidgetHugeIconBtn">
+        <item name="android:background">@drawable/wbg_holo_center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="widgetMainDiv">
+        <item name="android:background">#4D000000</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="widgetLblBtn" parent="@style/widgetMainBtn">
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="widgetLblText">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="widgetIndicator">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/appwidget_ind_c</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!-- App Themes -->
+    <style name="activityTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/main_background</item>
+        <item name="android:actionBarStyle">@style/activityTheme.ActionBar</item>
+        <item name="android:windowAnimationStyle">@style/SlideAnimation</item>
+        <item name="android:cacheColorHint">@color/main_background</item>
+    </style>
+
+    <style name="activityTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/activityTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="activityTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="configTheme" parent="@android:style/Theme.Holo.Wallpaper">
+        <item name="android:actionBarStyle">@style/activityTheme.ActionBar</item>
+        <item name="android:windowAnimationStyle">@style/SlideAnimation</item>
+    </style>
+
+    <style name="clickablePadded">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="list_dialog_item">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:textColor">?android:attr/textColorAlertDialogListItem</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:drawablePadding">?android:attr/listPreferredItemPaddingLeft</item>
+    </style>
+
+    <style name="configSectionHeader">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:background">@drawable/bg_config_header</item>
+        <item name="android:drawableRight">@drawable/icon_expand</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="configButtonBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/bg_config_bbar</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="panelTheme" parent="@android:style/Theme.DeviceDefault.Panel" />
+
+    <style name="flashTheme" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+
+    <style name="widgetPickerCard" />
+
+    <style name="folderGrid" />
+
+    <style name="clickfeedbackSpinner">
+        <item name="android:entries">@array/wc_click_colors</item>
+    </style>
+</resources>

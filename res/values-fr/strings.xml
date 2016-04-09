@@ -1,0 +1,437 @@
+<resources>
+<string name="act_done">Effectué Français</string>
+<string name="act_yes">Oui</string>
+<string name="act_add">Ajouter</string>
+<string name="act_no">Non</string>
+<string name="act_cancel">Francais</string>
+<string name="act_remove">Supprimer</string>
+<string name="act_rename">Renommer</string>
+<string name="lbl_color">Couleur</string>
+<string name="lbl_brightness">Luminosité</string>
+<string name="lbl_size">Taille</string>
+<string name="lbl_default">Par défaut</string>
+<string name="lbl_image">Photos</string>
+<string name="lbl_customize">Personnaliser</string>
+<string name="msg_unknown_error">Une erreur inattendue s\u0027est produite</string>
+<string name="err_no_activity">Application introuvable</string>
+<string name="err_security">Permission refusée</string>
+<string name="msg_account_synced">Tous les comptes sont synchronisés</string>
+<string name="msg_e_account_synced">Activer la synchronisation des comptes</string>
+<string name="admin_explain">Autoriser le widget avec les autorisations administrateur pour activer le verrouillage de l\u0027écran au premier lancement.</string>
+<string name="admin_label">Power Toggles verrouillage de l\u0027écraser</string>
+<string name="admin_desc">Requis pour le bouton de verrouillage de l\u0027écran</string>
+<string name="stat_help">Aide</string>
+<string name="stat_help_desc">Rechercher dans la FAQ</string>
+<string name="stat_battery">Sonde batterie</string>
+<string name="stat_admin">Administration de l\u0027appareil</string>
+<string name="stat_admin_msg_on">Eteindre pour désinstaller l\u0027application</string>
+<string name="stat_admin_msg_off">Requis pour la bascule (toggle) du verrouillage d\u0027écran</string>
+<string name="stat_trackers_summary">Les Toggles pourraient être maintenus en mémoire cache un certain temps après que vous les ayez effacés. Videz le cache pour supprimer un tel Toggle ou redémarrer un Toggle bloqué.</string>
+<string name="stat_trackers_action">Vider le cache</string>
+<string name="stat_root">Accès source</string>
+<string name="stat_u_never">Jamais</string>
+<string name="stat_u_now">A l\u0027instant</string>
+<string name="stat_u_mins">il y a %d min</string>
+<string name="stat_u_hours">il y a %d heures</string>
+<string name="stat_u_days">il y a %d jours</string>
+<string name="stat_active_toggle">Bascules actives</string>
+<string name="stat_active_toggle_none">Pas de bascules (toggles) actives</string>
+<string name="stat_active_toggle_n">%d bascules (toggles) actives</string>
+<string name="stat_last_used">Dernière utilisation: %s</string>
+<string name="wc_add_toggle">Ajouter Toggle</string>
+<string name="wc_add_toggle_max_err">Vous ne pouvez ajouter qu\u0027un maximum de 8 éléments au widget.</string>
+<string name="wc_change_icon">Changer l\u0027icône</string>
+<string name="wc_button_colors">Couleurs des boutons</string>
+<string name="wc_colors_default">Couleur par défaut</string>
+<string name="wc_colors_working">Couleur inconnue</string>
+<string name="wc_colors_active">Couleur active</string>
+<string name="wc_full_height">Epaisseur maxi</string>
+<string name="wc_huge_icons">Grandes icônes</string>
+<string name="wc_style_indicator">Indicateur</string>
+<string name="wc_ind_same_color">Utiliser couleur identique à celle des boutons</string>
+<string name="wc_style_labels">Étiquettes</string>
+<string name="wc_label_color">Couleur du texte</string>
+<string name="wc_back">Fond d\u0027écran</string>
+<string name="wc_adjust_position">Ajuster la position</string>
+<string name="wc_transparency">Transparence</string>
+<string name="wc_tint">Blanc</string>
+<string name="wc_dividers">Séparateurs</string>
+<string name="wc_hidden">Caché</string>
+<string name="wc_click_feed">Rétroaction au clic</string>
+<string name="wc_round_corners">Coins arrondis</string>
+<string name="wc_ex_theme">Exporter un thème</string>
+<string name="wc_ex_theme_failed">L\u0027exportation du thème a échouée</string>
+<string name="wc_ex_theme_success">Thème exporté</string>
+<string name="wc_ex_theme_image">Le thème doit avoir une image de fond d\u0027écran</string>
+<string name="cb_set_color">Appliquer la cos 
+uleur</string>
+<string name="tp_loading">Chargement de la liste</string>
+<string name="tp_apps_short">Applications</string>
+<string name="tp_custom">Personnaliser</string>
+<string name="tp_shrts">Raccourcis</string>
+<string name="tp_search_hint">Rechercher des Toggles</string>
+<string name="tp_tasker_disabled_title">Accès extérieur interdit</string>
+<string name="tp_tasker_disabled">Vous devez autoriser l\u0027accès extérieur dans les préférences Tasker avant d\u0027ajouter une bascule Tasker</string>
+<string name="tp_tasker_empty">Aucune tâche trouvée</string>
+<string name="ip_title">Sélectionnez une icône</string>
+<string name="ip_app_icons">Icônes d\u0027application</string>
+<string name="ip_counter">Icône compteur</string>
+<string name="ip_image_pick">Sélectionnez une image</string>
+<string name="ip_image_crop">Sélectionnez une image et recadrer</string>
+<string name="ip_icon_pack">Packs d\u0027icônes</string>
+<string name="ip_loading_img">Chargement de l\u0027image</string>
+<string name="ip_loading_img_failed">Impossible de charger l\u0027image</string>
+<string name="ite_info">Icone de carte</string>
+<string name="ite_custom">Personnaliser</string>
+<string name="ite_import">Importer l\u0027image de la bande</string>
+<string name="ite_export">Exporter l\u0027image de la bande</string>
+<string name="npe_title">Position du fond d\u0027écran</string>
+<string name="npe_stretch">Ajuster la forme</string>
+<string name="npe_stretch_help">Choisir une zone de l\u0027image qui pourra s\u0027ajuster à la forme du widget</string>
+<string name="npe_padding">Marge intérieure</string>
+<string name="npe_padding_help">Choisir l\u0027endroit où placer les boutons du widget. La zone doit être plus grand que l\u0027image sinon le widget sera déformé</string>
+<string name="bid_preview">Aperçu</string>
+<string name="bid_background">Changez l\u0027arrière-plan</string>
+<string name="bid_digit_position">Position des caractères affichés</string>
+<string name="bid_import">Importer l\u0027image de batterie</string>
+<string name="bid_export">Exporter l\u0027image de batterie</string>
+<string name="cg_click_toggle_1">Cliquer sur un interrupteur</string>
+<string name="cg_click_toggle_2">le personnaliser, déplacer ou supprimer</string>
+<string name="cg_click_add_1">Cliquez ici</string>
+<string name="cg_click_add_2">pour ajouter plus d\u0027interrupteurs</string>
+<string name="cg_customize_1">Personnaliser le widget</string>
+<string name="cg_customize_2">en utilisant les différentes options</string>
+<string name="cg_menu">Voir le guide</string>
+<string name="notify_position_title">Position de la notification</string>
+<string name="notify_collapse">Replier automatiquement la barre d\u0027état</string>
+<string name="notify_collapse_summary">Replier barre d\u0027état à chaque notification de Toggle</string>
+<string name="notify_show_on_lock">Montrer sur l\u0027écran de verrouillage</string>
+<string name="notify_show_on_lock_summary">lorsque le verrouillage et les notifications sont activés</string>
+<string name="notify_row_2">Seconde ligne de notification</string>
+<string name="notify_customize_2">Personnaliser la seconde ligne</string>
+<string name="notify_other_settings">Autres paramètres</string>
+<string name="notify_icon">Icône</string>
+<string name="notify_icon_sec_date">Date du jour</string>
+<string name="notify_icon_sec_battery">Batterie</string>
+<string name="notify_icon_loading">Génération des notifications d\u0027icônes</string>
+<string name="wp_last_edited">Dernière modification</string>
+<string name="wp_share">Partager</string>
+<string name="wp_backup">Créer une sauvegarde</string>
+<string name="wp_restore">Restaurer une sauvegarde</string>
+<string name="wp_delete">Supprimer le Widget</string>
+<string name="wp_delete_msg">Effacer un widget va effacer \u003Cb\u003Edéfinitivement\u003C/b\u003E tous les réglages qui lui sont associés.\u003Cbr/\u003E\u003Cbr/\u003EN\u0027employer que pour effacer des widgets vides ou fantômes.\u003Cbr/\u003E</string>
+<string name="wp_add_help">Pour ajouter un widget, ouvrir le tiroir des applications, et chercher "Power Toggles" dans l\u0027onglet Widgets. Appuyer longuement sur son image et le glisser sur l\u0027écran d\u0027accueil.</string>
+<string name="tm_title">Thèmes</string>
+<string name="tm_local">Mes thèmes</string>
+<string name="tm_remote">Thèmes proposés par d\u0027autres</string>
+<string name="tm_system">Thèmes systèmes</string>
+<string name="fp_hint">Nom du fichier</string>
+<string name="fp_sdcard">carteSD</string>
+<string name="fp_overwrite">Remplacer?</string>
+<string name="fp_invalid">Nom de fichier invalide</string>
+<string name="ts_title">Paramètres de Toggle</string>
+<string name="ts_exit_on_lock">Quitter lors du verrouillage de l\u0027écran</string>
+<string name="ts_us_as_shortcut">Utiliser en tant que raccourci</string>
+<string name="ts_time_intervals">Délais d\u0027attente</string>
+<string name="ts_mute_slider">Couper le son de l\u0027échantillon joué</string>
+<string name="ts_slider_controls">Contrôles visibles</string>
+<string name="ts_volume_modes">Modes activés</string>
+<string name="ts_allow_zero_bright">Autoriser la luminosité à zéro</string>
+<string name="ts_show_quick_buttons">Montrer les bascules rapides</string>
+<string name="ts_instant_bright_toggle">Toggle instantané (beta)</string>
+<string name="ts_hide_notify">Cacher les notifications</string>
+<string name="ts_media_player">Lecteur multimédia</string>
+<string name="ts_not_all_sync">Ignorer les fournisseurs désactivés</string>
+<string name="ts_msg_min_two_levels">Il faut au moins 2 niveaux pour basculer</string>
+<string name="ts_levels">Niveaux</string>
+<string name="ts_bright_summary">Sélectionner le niveau de luminosité</string>
+<string name="ts_battery_custom_colors">Utiliser des couleurs de batteries personalisées</string>
+<string name="ts_battery_low">Batterie faible</string>
+<string name="ts_battery_moderate">Batterie modérément chargée</string>
+<string name="ts_battery_high">Batterie chargée</string>
+<string name="ts_screen_lock_fix">Régler l\u0027écran sur on</string>
+<string name="ts_font_delta">Degré de changement de la police</string>
+<string name="ts_show_ssid">Montrer le SSID</string>
+<string name="ts_tap_speed">Rapidité du toucher</string>
+<string name="ts_msec">Millisecondes</string>
+<string name="ts_show_prompt">Afficher une boite de dialogue</string>
+<string name="as_general">Paramètres généraux</string>
+<string name="as_haptic">Rétroaction tactile ("haptique")</string>
+<string name="as_optimize">Optimisation des performances</string>
+<string name="as_battery_service">Service batterie</string>
+<string name="as_poll_interval">Intervalle d\u0027échantillonnage</string>
+<string name="as_double_tap">Double clic</string>
+<string name="ps_prem_label">Utiliser les plugins Power Toggle</string>
+<string name="ps_prem_desc">Contrôle des plugins Power Toggle en les basculant (marche/arrêt)</string>
+<string name="ps_tasker_disabled">Tasker est désactivé</string>
+<string name="ps_tasker_no_access">Accès à Tasker désactivé</string>
+<string name="ps_set_state">Régler l\u0027état à</string>
+<string name="ps_refresh">Mettre à jour l\u0027affichage de Power Toggles</string>
+<string name="ps_toggle_to_update">Basculer pour mettre à jour</string>
+<string name="ps_current_toggle">Tâche en cours (auto)</string>
+<string name="ps_tasker_pick_title">Choisir une tâche</string>
+<string name="ps_set_count">Régler le nombre (optionnel)</string>
+<string name="bt_restart">Redémarrer</string>
+<string name="bt_poweroff">Éteindre</string>
+<string name="bt_recovery">Mode de récupération</string>
+<string name="bt_bootloader">Chargeur de démarrage</string>
+<string name="bt_restart_summary">Votre téléphone va redémarrer.</string>
+<string name="bt_restart_working">Redémarrage du téléphone</string>
+<string name="bt_poweroff_summary">Votre téléphone va s\u0027éteindre.</string>
+<string name="bt_poweroff_working">Extinction du téléphone</string>
+<string name="bt_error_title">Échec</string>
+<string name="bt_error_summary">La commande a échouée. Cela peut être soit parce que votre appareil n\u0027est pas rooté, ou soit parce que vous n\u0027avez pas accordé l\u0027accès source à l\u0027application.</string>
+<string name="bt_menu_title">Options d\u0027arrêt</string>
+<string name="rt_title">Orientation de l\u0027écran verrouillé</string>
+<string name="rt_auto">Rotation automatique de l\u0027écran</string>
+<string name="rt_land">Paysage %s</string>
+<string name="rt_default">(par défaut)</string>
+<string name="rt_forced">(forcé)</string>
+<string name="sip_all">Utiliser SIP pour tous les appels</string>
+<string name="sip_some">N\u0027utiliser SIP que pour appeler les num. SIP</string>
+<string name="sip_ask">Demander si utilisation SIP à chaque appel</string>
+<string name="sl_color">Couleur de l\u0027écran</string>
+<string name="sl_no_camera">Caméra non supportée</string>
+<string name="sl_no_torch">Flash non supporté</string>
+<string name="sl_camera_error">Impossible d\u0027utiliser l\u0027appareil photo</string>
+<string name="no_lock_action">Verrouillage écran désactivé</string>
+<string name="click_to_reenable">Cliquer pour réactiver</string>
+<string name="flash_active">Lampe flash allumée</string>
+<string name="wake_lock_active">Verrouillage à la réactivation</string>
+<string name="click_to_deactive">Cliquer pour désactiver</string>
+<string name="rotation_locked">Rotation d\u0027écran verrouillée</string>
+<string name="click_to_unlock">Cliquer pour désactiver</string>
+<string name="immersive_active">Activation du mode immersif</string>
+<string name="lbl_unknown_allcap">INCONNU</string>
+<string name="lbl_homescreen">Écran d\u0027accueil</string>
+<string name="lbl_folders">Dossiers</string>
+<string name="lbl_settings">Réglages</string>
+<string name="lbl_stats">Statistiques et Informations</string>
+<string name="lbl_review">Avis</string>
+<string name="folder_name">Dossier sans nom</string>
+<string name="folder_new">Nouveau</string>
+<string name="folder_existing">Existant</string>
+<string name="folder_title">basculer dossier</string>
+<string name="folder_delete_prompt">Supprimer %d dossier(s)?</string>
+<string name="folder_restore_msg">%d dossier(s) restaurés</string>
+<string name="folder_restore_error">Erreur lors de la restauration des dossiers</string>
+<string name="folder_help_2">Pour créer un dossier, ouvrir le tiroir des applications, localiser Toggle Folder dans l\u0027onglet "Widgets" et effectuer un appui long sur son icône pour le glisser sur l\u0027écran de démarrage.</string>
+<string-array name="tracker_names">
+  <item>Hotspot (Wifi)</item>
+  <item>GPRS (Données mobiles)</item>
+  <item>Synchronisation des données</item>
+  <item>Wifi</item>
+  <item>Lampe</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Luminosité</item>
+  <item>Mode Avion</item>
+  <item>Rotation d\u0027écran automatique</item>
+  <item>Volume Toggle</item>
+  <item>bascule (Toggle) réseau de données</item>
+  <item>USB Tether</item>
+  <item>L\u0027écran reste toujours allumé</item>
+  <item>WiMax (4G)</item>
+  <item>Information batterie</item>
+  <item>Expiration de l\u0027écran</item>
+  <item>Luminosité automatique</item>
+  <item>Musique: Play/Pause</item>
+  <item>Piste suivante</item>
+  <item>Piste précédente</item>
+  <item>Volume de la musique</item>
+  <item>Découverte Bluetooth</item>
+  <item>Curseur de luminosité</item>
+  <item>NFC</item>
+  <item>Verrouillage de l\u0027écran</item>
+  <item>Bluetooth Tether</item>
+  <item>Curseur de volume</item>
+  <item>Synchroniser maintenant</item>
+  <item>Éteindre</item>
+  <item>Redémarrer</item>
+  <item>Luminosité de l\u0027écran</item>
+  <item>Notification de widget</item>
+  <item>Paramètres du Widget</item>
+  <item>Seconde ligne de notification</item>
+  <item>Menu d\u0027arrêt</item>
+  <item>Agrandir la police système</item>
+  <item>Diminuer la police système</item>
+  <item>Orientation de l\u0027écran verrouillé</item>
+  <item>adb sans fil</item>
+  <item>Faire clignoter la LED</item>
+  <item>Recevoir les appels SIP (internet)</item>
+  <item>Appel internet (SIP)</item>
+  <item>Raccourci écran accueil</item>
+  <item>Applications récentes</item>
+  <item>Pas de verrouillage écran</item>
+  <item>Optimisation du Wifi</item>
+  <item>Mode immersif</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Données mobiles</item>
+  <item>Réseau</item>
+  <item>Multimédia</item>
+  <item>Affichage</item>
+  <item>Matériel</item>
+  <item>Commandes des applications</item>
+  <item>Root</item>
+  <item>Autres</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Hotspot (Wifi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Lecture/Pause</item>
+  <item>Suivant</item>
+  <item>Précédent</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Verrouiller</item>
+  <item></item>
+  <item>Volume</item>
+  <item>Synchroniser maintenant</item>
+  <item>Éteindre</item>
+  <item>Redémarrer</item>
+  <item>Eclairage de l\u0027écran</item>
+  <item></item>
+  <item>Réglages</item>
+  <item></item>
+  <item>Éteindre</item>
+  <item>A</item>
+  <item>A</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Accueil</item>
+  <item>Applications récentes</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>off</item>
+  <item>occupé</item>
+  <item>on</item>
+  <item>faible</item>
+  <item>auto</item>
+  <item>moyen</item>
+  <item>fort</item>
+  <item>portrait</item>
+  <item>paysage</item>
+  <item>auto</item>
+  <item>silencieux</item>
+  <item>vibration</item>
+  <item>sonner</item>
+  <item>sonnerie-vibreur</item>
+  <item>demande</item>
+  <item>auto</item>
+  <item>tout</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>gris Kitkat</item>
+  <item>Holo bleu</item>
+  <item>Transparent</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>Ripple</item>
+  <item>gris Kitkat</item>
+  <item>Holo bleu</item>
+  <item>Transparent</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Importation de bande d\u0027image</item>
+  <item>Erreur d\u0027importation de l\u0027image</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Exportation de bande d\u0027image</item>
+  <item>Image sauvegardée dans %s</item>
+  <item>Echec lors de l\u0027enregistrement des icônes</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Importation de l\u0027image de la batterie</item>
+  <item>Erreur d\u0027importation de l\u0027image</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Exportation de l\u0027image de la batterie</item>
+  <item>Image sauvegardée dans %s</item>
+  <item>Echec lors de l\u0027enregistrement de l\u0027image batterie</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>Au premier plan \u0026 avec icône</item>
+  <item>Pas au premier plan mais icône visible</item>
+  <item>Pas au premier plan \u0026 sans icône</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>Par défaut</item>
+  <item>Transparent</item>
+  <item>Type de données réseau</item>
+  <item>Version d\u0027Android</item>
+  <item>Batterie 1</item>
+  <item>Batterie 2</item>
+  <item>Batterie 3</item>
+  <item>Batterie bleu 1</item>
+  <item>Batterie bleu 2</item>
+  <item>Date 1</item>
+  <item>Date 2</item>
+  <item>Date 3</item>
+  <item>Date Bleu 1</item>
+  <item>Date Bleu 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Volume de la sonnerie</item>
+  <item>Volume de la musique</item>
+  <item>Volume de l\u0027alarme</item>
+  <item>Volume de la notification</item>
+  <item>Volume d\u0027appel entrant</item>
+  <item>Volume du système</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Silencieux</item>
+  <item>Vibrer</item>
+  <item>Sonner</item>
+  <item>Sonner \u0026 Vibrer</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS \u0026 réseau</item>
+  <item>GPS</item>
+  <item>Réseau</item>
+  <item>Off</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>Pas de service de polling (écoute)</item>
+  <item>1 minute</item>
+  <item>2 minutes</item>
+  <item>3 minutes</item>
+  <item>5 minutes</item>
+  <item>10 minutes</item>
+  <item>30 minutes</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Nouvel état (auto)</item>
+  <item>On</item>
+  <item>Off</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Icône unique</item>
+  <item>Multi-icônes</item>
+  <item>Compteur</item>
+</string-array>
+</resources>

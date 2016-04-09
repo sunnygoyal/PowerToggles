@@ -1,0 +1,453 @@
+<resources>
+<string name="act_done">完成.</string>
+<string name="act_yes">是</string>
+<string name="act_add">增加</string>
+<string name="act_no">否</string>
+<string name="act_cancel">取消</string>
+<string name="act_remove">移除</string>
+<string name="act_rename">重新命名</string>
+<string name="act_ok">確定</string>
+<string name="lbl_color">顏色</string>
+<string name="lbl_brightness">亮度</string>
+<string name="lbl_size">尺寸</string>
+<string name="lbl_default">預設值</string>
+<string name="lbl_image">圖像</string>
+<string name="lbl_customize">編輯</string>
+<string name="msg_unknown_error">出現預期外的錯誤</string>
+<string name="err_no_activity">找不到應用程式</string>
+<string name="err_security">權限不足</string>
+<string name="msg_account_synced">所有帳號已同步</string>
+<string name="msg_e_account_synced">啟用的帳號均已同步</string>
+<string name="admin_explain">第一次執行時允許小工具取得管理權限以啟用螢幕鎖定</string>
+<string name="admin_label">Power Toggles 螢幕鎖定</string>
+<string name="admin_desc">勾選以 啟用螢幕鎖定按鈕</string>
+<string name="stat_help">說明</string>
+<string name="stat_help_desc">搜尋常見問題</string>
+<string name="stat_battery">電量查詢</string>
+<string name="stat_admin">裝置管理員</string>
+<string name="stat_admin_msg_on">關閉並移除應用程式</string>
+<string name="stat_admin_msg_off">用來提供螢幕鎖定開關的功能</string>
+<string name="stat_trackers_summary">您刪除小工具之後，某些開關可能仍儲存在快取中，重設快取可以移除這些開關並重設任何沒反應的開關。</string>
+<string name="stat_trackers_action">重設快取</string>
+<string name="stat_root">Root 存取權限</string>
+<string name="stat_u_never">從不</string>
+<string name="stat_u_now">剛才</string>
+<string name="stat_u_mins">%d 分鐘前</string>
+<string name="stat_u_hours">%d 小時前</string>
+<string name="stat_u_days">%d 天前</string>
+<string name="stat_info">資訊</string>
+<string name="stat_active_toggle">啟用的開關</string>
+<string name="stat_active_toggle_none">停用的開關</string>
+<string name="stat_active_toggle_n">%d 個啟用的開關</string>
+<string name="stat_last_used">最後使用：%s</string>
+<string name="wc_add_toggle">增加開關</string>
+<string name="wc_add_toggle_max_err">您最多只能在這個小工具裡有 8 個項目。</string>
+<string name="wc_change_icon">更改圖示</string>
+<string name="wc_button_colors">按鈕顏色</string>
+<string name="wc_colors_default">預設顏色</string>
+<string name="wc_colors_working">忙碌/未知時的顏色</string>
+<string name="wc_colors_active">啟用的顏色</string>
+<string name="wc_style">風格</string>
+<string name="wc_full_height">最大高度</string>
+<string name="wc_huge_icons">大圖示</string>
+<string name="wc_style_indicator">指示橫條</string>
+<string name="wc_ind_same_color">使用和按鈕一樣的顏色</string>
+<string name="wc_style_labels">標籤</string>
+<string name="wc_label_color">標籤顏色</string>
+<string name="wc_back">背景</string>
+<string name="wc_adjust_position">調整位置</string>
+<string name="wc_transparency">透明度</string>
+<string name="wc_tint">顏色</string>
+<string name="wc_dividers">分隔線</string>
+<string name="wc_hidden">隱藏</string>
+<string name="wc_click_feed">點擊回饋</string>
+<string name="wc_round_corners">圓形邊角</string>
+<string name="wc_ex_theme">匯出主題</string>
+<string name="wc_ex_theme_failed">匯出主題失敗</string>
+<string name="wc_ex_theme_success">主題已匯出</string>
+<string name="wc_ex_theme_image">這個主題必須要有一張背景圖片</string>
+<string name="cb_hex_hint">16進位色碼</string>
+<string name="cb_argb">ARGB：</string>
+<string name="cb_set_color">設定顏色</string>
+<string name="tp_loading">正在載入清單</string>
+<string name="tp_toggles">開關</string>
+<string name="tp_apps">應用程式</string>
+<string name="tp_apps_short">應用程式</string>
+<string name="tp_custom">自訂</string>
+<string name="tp_plugin">外掛程式</string>
+<string name="tp_tasker">Tasker 開關</string>
+<string name="tp_shrts">捷徑</string>
+<string name="tp_search_hint">搜尋開關</string>
+<string name="tp_tasker_disabled_title">外部存取已禁止</string>
+<string name="tp_tasker_disabled">您必須在 Tasker 偏好設定中啟用外部存取才能增加 Tasker 開關</string>
+<string name="tp_tasker_empty">找不到任務</string>
+<string name="ip_title">選取圖示</string>
+<string name="ip_app_icons">應用程式圖示</string>
+<string name="ip_counter">計數器圖示</string>
+<string name="ip_image_pick">選取圖像</string>
+<string name="ip_image_crop">選取圖像並剪裁</string>
+<string name="ip_icon_pack">圖示包</string>
+<string name="ip_loading_img">載入圖像</string>
+<string name="ip_loading_img_failed">無法載入圖像</string>
+<string name="ite_info">圖示列表</string>
+<string name="ite_custom">自訂</string>
+<string name="ite_import">匯入圖像列</string>
+<string name="ite_export">匯出圖像列</string>
+<string name="npe_title">背景位置</string>
+<string name="npe_stretch">延展</string>
+<string name="npe_stretch_help">選擇要延展以符合小工具解析度的圖片區域</string>
+<string name="npe_padding">邊界</string>
+<string name="npe_padding_help">選擇小工具按鈕要擺放的位置。確認該區域比延展區來得大，不然小工具可能會不甚美觀。</string>
+<string name="bid_preview">預覽</string>
+<string name="bid_background">更改背景</string>
+<string name="bid_digit_position">數字顯示的位置</string>
+<string name="bid_import">匯入電池圖示</string>
+<string name="bid_export">匯出電池圖示</string>
+<string name="cg_click_toggle_1">按一下任一個開關</string>
+<string name="cg_click_toggle_2">變更、移動或移除它</string>
+<string name="cg_click_add_1">按一下此處</string>
+<string name="cg_click_add_2">用來增加更多開關</string>
+<string name="cg_customize_1">編輯小工具</string>
+<string name="cg_customize_2">使用各種佈景主題選項</string>
+<string name="cg_menu">顯示導覽</string>
+<string name="notify_position">位置</string>
+<string name="notify_position_title">通知列位置</string>
+<string name="notify_collapse">自動收合狀態列</string>
+<string name="notify_collapse_summary">當按下任一個小工具的開關時，收合狀態列</string>
+<string name="notify_show_on_lock">在鎖定螢幕上顯示</string>
+<string name="notify_row_2">第二通知列</string>
+<string name="notify_customize_2">編輯第二列</string>
+<string name="notify_other_settings">其他設定</string>
+<string name="notify_icon">圖示</string>
+<string name="notify_icon_sec_date">今天的日期2015/5/20</string>
+<string name="notify_icon_sec_battery">電池</string>
+<string name="notify_icon_loading">產生通知欄圖示</string>
+<string name="wp_last_edited">最後編輯</string>
+<string name="wp_share">分享</string>
+<string name="wp_backup">建立備份</string>
+<string name="wp_restore">復原備份</string>
+<string name="wp_delete">刪除小工具</string>
+<string name="wp_delete_msg">刪除一個小工具將\u003Cb\u003E永遠\u003C/b\u003E刪除所有和它相關的設定值。\u003Cbr/\u003E\u003Cbr/\u003E請只有在刪除無效的小工具時使用這個功能。\u003Cbr/\u003E</string>
+<string name="wp_add_help">若想增加小工具，開啟應用程式列表並在小工具頁面中找到 Power Toggles 小工具。長按小工具的預覽圖示並拖曳到桌面。</string>
+<string name="tm_title">主題</string>
+<string name="tm_local">我的主題</string>
+<string name="tm_remote">其他人的主題</string>
+<string name="tm_system">系統主題</string>
+<string name="fp_hint">檔案名稱</string>
+<string name="fp_sdcard">SD卡</string>
+<string name="fp_overwrite">要覆寫嗎？</string>
+<string name="fp_invalid">無效的檔案名稱</string>
+<string name="ts_title">開關設定</string>
+<string name="ts_exit_on_lock">螢幕鎖定後退出</string>
+<string name="ts_us_as_shortcut">當成捷徑使用</string>
+<string name="ts_time_intervals">閒置間隔</string>
+<string name="ts_mute_slider">Sample playback 設為靜音</string>
+<string name="ts_slider_controls">視覺化控制</string>
+<string name="ts_volume_modes">啟用的模式</string>
+<string name="ts_allow_zero_bright">允許亮度為零</string>
+<string name="ts_show_quick_buttons">顯示快速按鈕</string>
+<string name="ts_instant_bright_toggle">即時切換開關 (測試版)</string>
+<string name="ts_hide_notify">隱藏通知列</string>
+<string name="ts_soft_boot">軟開機</string>
+<string name="ts_media_player">多媒體播放器</string>
+<string name="ts_not_all_sync">忽略停用的提供者</string>
+<string name="ts_msg_min_two_levels">您需要至少二個層級才能啟用開關</string>
+<string name="ts_levels">層級</string>
+<string name="ts_auto">自動</string>
+<string name="ts_bright_summary">調整亮度</string>
+<string name="ts_battery_custom_colors">使用自訂的電池顏色</string>
+<string name="ts_battery_low">低電量</string>
+<string name="ts_battery_moderate">中電量</string>
+<string name="ts_battery_high">高電量</string>
+<string name="ts_screen_lock_fix">螢幕恆亮</string>
+<string name="ts_font_delta">字體改變程度</string>
+<string name="ts_show_ssid">顯示 SSID</string>
+<string name="ts_tap_speed">點擊速度</string>
+<string name="ts_msec">毫秒</string>
+<string name="ts_show_prompt">顯示提示</string>
+<string name="ts_gps_sources">資源</string>
+<string name="as_general">一般設定</string>
+<string name="as_haptic">震動回饋</string>
+<string name="as_optimize">效能最佳化</string>
+<string name="as_battery_service">電池服務</string>
+<string name="as_motorola_hack">破解 Motorola 1%</string>
+<string name="as_poll_interval">查詢間隔</string>
+<string name="as_double_tap">雙擊觸控</string>
+<string name="ps_prem_label">使用 Power Toggles 外掛程式</string>
+<string name="ps_prem_desc">使用開關啟用或停用 Power Toggles 外掛程式</string>
+<string name="ps_tasker_disabled">Tasker 已停用</string>
+<string name="ps_tasker_no_access">Tasker 存取權限已停用</string>
+<string name="ps_set_state">設定狀態為</string>
+<string name="ps_refresh">更新 PowerToggles</string>
+<string name="ps_toggle_to_update">更新開關</string>
+<string name="ps_current_toggle">目前的任務 (自動)</string>
+<string name="ps_tasker_pick_title">選擇任務</string>
+<string name="ps_tasker_type">類型</string>
+<string name="ps_set_count">設定計數 (非必要)</string>
+<string name="bt_restart">重新啟動</string>
+<string name="bt_poweroff">關機</string>
+<string name="bt_recovery">復原模式</string>
+<string name="bt_restart_summary">您的手機即將重新啟動。</string>
+<string name="bt_restart_working">正在重新啟動</string>
+<string name="bt_poweroff_summary">您的手機即將關機。</string>
+<string name="bt_poweroff_working">正在關機</string>
+<string name="bt_error_title">失敗</string>
+<string name="bt_error_summary">指令執行失敗。這可能是因為您的裝置還沒有 root 或是您尚未允許本應用程式取得 root 存取權限。</string>
+<string name="bt_menu_title">關機選項</string>
+<string name="rt_title">鎖定螢幕方向</string>
+<string name="rt_auto">自動旋轉螢幕</string>
+<string name="rt_land">橫放螢幕 %s</string>
+<string name="rt_port">直立螢幕 %s</string>
+<string name="rt_default">(裝置預設值)</string>
+<string name="rt_forced">(強制使用)</string>
+<string name="sip_all">所有電話都使用 SIP</string>
+<string name="sip_some">只有在播打 SIP 號碼時使用 SIP</string>
+<string name="sip_ask">播打每一通電話都詢問是否使用 SIP</string>
+<string name="sl_color">螢幕顏色</string>
+<string name="sl_no_camera">找不到相機</string>
+<string name="sl_no_torch">不支援閃光燈</string>
+<string name="sl_camera_error">無法使用相機</string>
+<string name="no_lock_action">停用螢幕鎖定</string>
+<string name="click_to_reenable">按一下以再啟用</string>
+<string name="flash_active">閃光燈開啟</string>
+<string name="wake_lock_active">恆亮鎖定啟用</string>
+<string name="click_to_deactive">按一下停用</string>
+<string name="rotation_locked">螢幕旋轉鎖定</string>
+<string name="click_to_unlock">按一下解鎖</string>
+<string name="immersive_active">啟用全螢幕模式</string>
+<string name="lbl_unknown_allcap">未知的</string>
+<string name="lbl_widgets">小工具</string>
+<string name="lbl_homescreen">桌面</string>
+<string name="lbl_notification">通知列</string>
+<string name="lbl_folders">資料夾</string>
+<string name="lbl_options">選項</string>
+<string name="lbl_settings">設定</string>
+<string name="lbl_stats">統計及資訊</string>
+<string name="lbl_review">使用者回饋</string>
+<string name="folder_name">未命名的資料夾</string>
+<string name="folder_new">新增</string>
+<string name="folder_existing">已存在</string>
+<string name="folder_title">開關資料夾</string>
+<string name="folder_delete_prompt">刪除 %d 個資料夾？</string>
+<string name="folder_restore_msg">%d 個資料夾已復原</string>
+<string name="folder_restore_error">復原資料夾出現錯誤</string>
+<string name="folder_help_2">若想建立一個資料夾，開啟應用程式列表並在小工具頁面找到「開關資料夾」。長按圖示並拖曳到桌面。</string>
+<string-array name="tracker_names">
+  <item>熱點 (Wifi)</item>
+  <item>GPRS (行動數據)</item>
+  <item>數據同步</item>
+  <item>Wifi</item>
+  <item>閃光燈</item>
+  <item>GPS</item>
+  <item>藍牙</item>
+  <item>亮度</item>
+  <item>飛航模式</item>
+  <item>螢幕自動旋轉</item>
+  <item>音量開關</item>
+  <item>數據網路開關</item>
+  <item>USB 網路共用</item>
+  <item>螢幕恆亮 (WakeLock)</item>
+  <item>WiMax (4G)</item>
+  <item>電池資訊</item>
+  <item>螢幕閒置時限</item>
+  <item>自動調整亮度</item>
+  <item>播放/暫停音樂</item>
+  <item>下一首</item>
+  <item>上一首</item>
+  <item>音樂音量</item>
+  <item>尋找藍牙裝置</item>
+  <item>亮度調整鈕</item>
+  <item>NFC</item>
+  <item>螢幕鎖定</item>
+  <item>藍牙網路共用</item>
+  <item>音量調整鈕</item>
+  <item>立即同步</item>
+  <item>關機</item>
+  <item>重新啟動</item>
+  <item>螢幕背光</item>
+  <item>通知欄小工具</item>
+  <item>小工具設定</item>
+  <item>第二通知列</item>
+  <item>關機選單</item>
+  <item>放大系統字體</item>
+  <item>縮小系統字體</item>
+  <item>鎖定螢幕方向</item>
+  <item>無線 ADB</item>
+  <item>閃爍燈光通知</item>
+  <item>接聽網路電話 (SIP)</item>
+  <item>網路電話 (SIP)</item>
+  <item>桌面捷徑</item>
+  <item>最近使用的應用程式</item>
+  <item>不鎖定螢幕</item>
+  <item>Wifi 最佳化</item>
+  <item>全螢幕模式</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>行動數據</item>
+  <item>網路</item>
+  <item>多媒體</item>
+  <item>顯示</item>
+  <item>硬體</item>
+  <item>應用程式指令</item>
+  <item>Root</item>
+  <item>其他</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>熱點 (Wifi)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>播放/暫停</item>
+  <item>下一個</item>
+  <item>上一個</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>鎖定</item>
+  <item></item>
+  <item>音量</item>
+  <item>立即同步</item>
+  <item>關機</item>
+  <item>重新啟動</item>
+  <item>螢幕背光</item>
+  <item></item>
+  <item>設定</item>
+  <item></item>
+  <item>關機</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>首頁</item>
+  <item>最近使用的應用程式</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>關閉</item>
+  <item>忙碌</item>
+  <item>開啟</item>
+  <item>低</item>
+  <item>自動</item>
+  <item>中</item>
+  <item>高</item>
+  <item>直立</item>
+  <item>橫向</item>
+  <item>自動</item>
+  <item>靜音</item>
+  <item>震動</item>
+  <item>鈴響</item>
+  <item>鈴響-震動</item>
+  <item>詢問</item>
+  <item>自動</item>
+  <item>全部</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>Kitkat 灰</item>
+  <item>光暈藍</item>
+  <item>透明</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>a</item>
+  <item>Kitkat 灰</item>
+  <item>光暈藍</item>
+  <item>透明</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>匯入圖像列</item>
+  <item>匯入圖像出現錯誤</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>匯出圖像列</item>
+  <item>圖像儲存在 %s</item>
+  <item>儲存圖像列失敗</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>匯入電池圖像</item>
+  <item>匯入圖像出現錯誤</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>匯出電池圖像</item>
+  <item>圖像儲存在 %s</item>
+  <item>儲存電池圖像失敗</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>固定在最上方並顯示圖示</item>
+  <item>不固定但顯示圖示</item>
+  <item>不固定且無圖示</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>預設值</item>
+  <item>透明</item>
+  <item>數據網路類型</item>
+  <item>Android 版本</item>
+  <item>電池 1</item>
+  <item>電池 2</item>
+  <item>電池 3</item>
+  <item>電池-藍色 1</item>
+  <item>電池-藍色 2</item>
+  <item>日期 1</item>
+  <item>日期 2</item>
+  <item>日期 3</item>
+  <item>日期-藍色 1</item>
+  <item>日期-藍色 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>鈴聲音量</item>
+  <item>音樂音量</item>
+  <item>鬧鐘音量</item>
+  <item>通知音量</item>
+  <item>通話音量</item>
+  <item>系統音量</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>靜音</item>
+  <item>震動</item>
+  <item>鈴響</item>
+  <item>鈴響並震動</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS \u0026 網路</item>
+  <item>GPS</item>
+  <item>網路</item>
+  <item>關閉</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>停止查詢 (服務)</item>
+  <item>1分鐘</item>
+  <item>2分鐘</item>
+  <item>3分鐘</item>
+  <item>5分鐘</item>
+  <item>10分鐘</item>
+  <item>30分鐘</item>
+</string-array>
+<string-array name="ps_states">
+  <item>新狀態 (自動)</item>
+  <item>開啟</item>
+  <item>關閉</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>單一圖示</item>
+  <item>複合圖示</item>
+  <item>計數器</item>
+</string-array>
+</resources>

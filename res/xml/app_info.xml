@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="TestString" >
+
+    <PreferenceScreen
+        android:key="pref_help"
+        android:summary="@string/stat_help_desc"
+        android:title="@string/stat_help" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://powertoggles.com/help/" >
+            <extra
+                android:name="android.support.customtabs.extra.SESSION"
+                android:value="" />
+            <extra
+                android:name="android.support.customtabs.extra.TOOLBAR_COLOR"
+                android:value="#ff212121" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:fragment="com.painless.pc.nav.TCacheFrag"
+        android:key="active_toggles"
+        android:title="@string/stat_active_toggle" />
+
+    <PreferenceCategory
+        android:key="pref_info"
+        android:title="@string/stat_info" >
+        <SwitchPreference
+            android:order="1"
+            android:persistent="false"
+            android:title="@string/stat_battery" />
+
+        <CheckBoxPreference
+            android:order="2"
+            android:persistent="false"
+            android:title="@string/stat_root" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,455 @@
+<resources>
+<string name="act_done">完d2成8
+ 西藏</string>
+<string name="act_yes">是</string>
+<string name="act_add">增加</string>
+<string name="act_no">否</string>
+<string name="act_cancel">取消</string>
+<string name="act_delete">删除</string>
+<string name="act_remove">移除</string>
+<string name="act_rename">重命名</string>
+<string name="act_ok">确定</string>
+<string name="lbl_color">颜色</string>
+<string name="lbl_brightness">亮度</string>
+<string name="lbl_size">大小</string>
+<string name="lbl_default">默认</string>
+<string name="lbl_image">图像</string>
+<string name="lbl_customize">自定义</string>
+<string name="msg_unknown_error">发生了一些意外的错误</string>
+<string name="err_no_activity">เ</string>
+<string name="err_security">权限被拒绝</string>
+<string name="msg_account_synced">所有账号已同步</string>
+<string name="msg_e_account_synced">启用的账户均已同步</string>
+<string name="admin_explain">在首次运行时，允许小部件获取管理员权限以启用锁定屏幕按钮.
+kimhanlau7510@gmail.com</string>
+<string name="admin_label">Power Toggles 屏幕锁定</string>
+<string name="admin_desc">用于锁定屏幕按钮</string>
+<string name="stat_help">帮助</string>
+<string name="stat_help_desc">搜索并查阅常见问题</string>
+<string name="stat_battery">电量检查</string>
+<string name="stat_admin">设备管理器</string>
+<string name="stat_admin_msg_on">关闭以卸载应用</string>
+<string name="stat_admin_msg_off">用于锁定屏幕按钮</string>
+<string name="stat_trackers_summary">按钮可能在被删除后仍保持缓存一段时间。重置缓存以移除无效按钮并重置卡死的按钮。</string>
+<string name="stat_trackers_action">重置缓存</string>
+<string name="stat_root">Root权限</string>
+<string name="stat_u_never">从不</string>
+<string name="stat_u_now">刚才</string>
+<string name="stat_u_mins">%d 分钟前</string>
+<string name="stat_u_hours">%d 小时前</string>
+<string name="stat_u_days">%d 天前</string>
+<string name="stat_info">信息</string>
+<string name="stat_active_toggle">活动的按钮</string>
+<string name="stat_active_toggle_none">没有活动的按钮</string>
+<string name="stat_active_toggle_n">%d个活动的按钮</string>
+<string name="stat_last_used">最后使用：%s</string>
+<string name="wc_add_toggle">添加按钮</string>
+<string name="wc_add_toggle_max_err">您最多只能添加8个小部件。</string>
+<string name="wc_change_icon">更改图标</string>
+<string name="wc_button_colors">按钮颜色</string>
+<string name="wc_colors_default">默认颜色</string>
+<string name="wc_colors_working">忙碌/未知时的颜色</string>
+<string name="wc_colors_active">激活时的颜色</string>
+<string name="wc_style">风格</string>
+<string name="wc_full_height">完全高度</string>
+<string name="wc_huge_icons">大图标</string>
+<string name="wc_style_indicator">指示符</string>
+<string name="wc_ind_same_color">使用按钮颜色</string>
+<string name="wc_style_labels">标签</string>
+<string name="wc_label_color">标签颜色</string>
+<string name="wc_back">背景</string>
+<string name="wc_adjust_position">调整位置</string>
+<string name="wc_transparency">透明度</string>
+<string name="wc_tint">色彩</string>
+<string name="wc_dividers">分频器</string>
+<string name="wc_hidden">隐藏</string>
+<string name="wc_click_feed">触摸反馈</string>
+<string name="wc_round_corners">圆角</string>
+<string name="wc_ex_theme">导出主题</string>
+<string name="wc_ex_theme_failed">导出主题失败</string>
+<string name="wc_ex_theme_success">主题已导出</string>
+<string name="wc_ex_theme_image">主题必须有一个背景图像</string>
+<string name="cb_hex_hint">十六进制颜色</string>
+<string name="cb_argb">ARGB：</string>
+<string name="cb_set_color">设置颜色</string>
+<string name="tp_loading">正在加载列表</string>
+<string name="tp_toggles">按钮</string>
+<string name="tp_apps">应用程序</string>
+<string name="tp_apps_short">应用</string>
+<string name="tp_custom">自定义</string>
+<string name="tp_plugin">插件</string>
+<string name="tp_tasker">Tasker按钮</string>
+<string name="tp_shrts">快捷方式</string>
+<string name="tp_search_hint">搜索按钮</string>
+<string name="tp_tasker_disabled_title">已禁用外部访问</string>
+<string name="tp_tasker_disabled">在添加Tasker按钮前，您需要先在Tasker首选项中启用外部访问</string>
+<string name="tp_tasker_empty">未找到任务</string>
+<string name="ip_title">选择图标</string>
+<string name="ip_app_icons">应用图标</string>
+<string name="ip_counter">计数器图标</string>
+<string name="ip_image_pick">选择图像</string>
+<string name="ip_image_crop">选择图像并裁剪</string>
+<string name="ip_icon_pack">图标包</string>
+<string name="ip_loading_img">正在加载图像</string>
+<string name="ip_loading_img_failed">无法加载图像</string>
+<string name="ite_info">图标图</string>
+<string name="ite_custom">自定义</string>
+<string name="ite_import">导入图像流</string>
+<string name="ite_export">导出图像流</string>
+<string name="npe_title">背景位置</string>
+<string name="npe_stretch">伸展</string>
+<string name="npe_stretch_help">选择的图像的面积应该伸展本身，以适应小窗口尺寸</string>
+<string name="npe_padding">填充</string>
+<string name="npe_padding_help">选择在那里的小部件的按钮应该去。请确保该区域大于拉伸区域，否则小部件可能会不好看.</string>
+<string name="bid_preview">预览</string>
+<string name="bid_background">更改背景</string>
+<string name="bid_digit_position">数字显示位置</string>
+<string name="bid_import">导入电池图标</string>
+<string name="bid_export">导出电池图标</string>
+<string name="cg_click_toggle_1">点击一个按钮</string>
+<string name="cg_click_toggle_2">以配置，移动或移除</string>
+<string name="cg_click_add_1">点击此处</string>
+<string name="cg_click_add_2">以添加更多按钮</string>
+<string name="cg_customize_1">定制小部件</string>
+<string name="cg_customize_2">正使用不同的主题化选项</string>
+<string name="cg_menu">显示指南</string>
+<string name="notify_position">位置</string>
+<string name="notify_position_title">通知栏位置</string>
+<string name="notify_collapse">自动折叠通知栏</string>
+<string name="notify_collapse_summary">当按下任何一个Power Toggles通知栏按钮后自动折叠通知栏</string>
+<string name="notify_row_2">通知栏第二排</string>
+<string name="notify_customize_2">自定义第二排</string>
+<string name="notify_other_settings">其他设置</string>
+<string name="notify_icon">图标</string>
+<string name="notify_icon_sec_date">今天的日期</string>
+<string name="notify_icon_sec_battery">电池</string>
+<string name="notify_icon_loading">生成通知栏图标</string>
+<string name="wp_last_edited">最后编辑</string>
+<string name="wp_share">分享</string>
+<string name="wp_backup">创建备份</string>
+<string name="wp_restore">恢复备份</string>
+<string name="wp_delete">删除小部件</string>
+<string name="wp_delete_msg">删除一个小部件将会\u003Cb\u003E永久性\u003C/b\u003E删除有关设置。\u003Cbr/\u003E\u003Cbr/\u003E请仅用其删除无用的小部件。\u003Cbr/\u003E</string>
+<string name="wp_add_help">要添加一个小部件，请打开应用程序列表，选择窗口小部件选项卡，找到Power Toggles 小部件。长按小部件进行预览，并将其拖动以添加到主屏幕。</string>
+<string name="tm_title">主题</string>
+<string name="tm_local">我的主题</string>
+<string name="tm_remote">其他人的主题</string>
+<string name="tm_system">系统主题</string>
+<string name="fp_hint">文件名</string>
+<string name="fp_overwrite">是否覆盖？</string>
+<string name="fp_invalid">文件名无效</string>
+<string name="ts_title">按钮设置</string>
+<string name="ts_exit_on_lock">屏幕锁定后退出</string>
+<string name="ts_us_as_shortcut">作为快捷方式使用</string>
+<string name="ts_time_intervals">超时时间间隔</string>
+<string name="ts_mute_slider">回放静音</string>
+<string name="ts_slider_controls">视觉控制</string>
+<string name="ts_volume_modes">启用的模式</string>
+<string name="ts_allow_zero_bright">允许亮度为零</string>
+<string name="ts_show_quick_buttons">显示快速按钮</string>
+<string name="ts_instant_bright_toggle">即时切换按钮（测试版）</string>
+<string name="ts_hide_notify">隐藏通知</string>
+<string name="ts_soft_boot">软启动</string>
+<string name="ts_media_player">媒体播放器</string>
+<string name="ts_not_all_sync">忽略已禁用的提供者</string>
+<string name="ts_msg_min_two_levels">您需要至少2个级别的按钮</string>
+<string name="ts_levels">级别</string>
+<string name="ts_auto">自动</string>
+<string name="ts_bright_summary">选择亮度级别</string>
+<string name="ts_battery_custom_colors">使用自定义电池颜色</string>
+<string name="ts_battery_low">低电量</string>
+<string name="ts_battery_moderate">中等电量</string>
+<string name="ts_battery_high">高电量</string>
+<string name="ts_screen_lock_fix">固定屏幕唤醒</string>
+<string name="ts_font_delta">字体改变量</string>
+<string name="ts_show_ssid">显示SSID</string>
+<string name="ts_tap_speed">触摸速度</string>
+<string name="ts_msec">毫秒</string>
+<string name="ts_show_prompt">显示提示</string>
+<string name="ts_gps_sources">来源</string>
+<string name="as_general">常规设置</string>
+<string name="as_haptic">触觉反馈</string>
+<string name="as_optimize">性能优化</string>
+<string name="as_battery_service">电池服务</string>
+<string name="as_motorola_hack">破解摩托罗拉1%</string>
+<string name="as_poll_interval">查询间隔</string>
+<string name="as_double_tap">触摸2次</string>
+<string name="ps_prem_label">使用Power Toggles插件</string>
+<string name="ps_prem_desc">可通过滑动控制Power Toggles插件</string>
+<string name="ps_tasker_disabled">已禁用Tasker</string>
+<string name="ps_tasker_no_access">已禁用Tasker访问</string>
+<string name="ps_set_state">设置新的条件</string>
+<string name="ps_refresh">刷新按钮</string>
+<string name="ps_toggle_to_update">更新按钮</string>
+<string name="ps_current_toggle">现在的任务（自动）</string>
+<string name="ps_tasker_pick_title">选择任务</string>
+<string name="ps_tasker_type">类型</string>
+<string name="ps_set_count">设定计数（可选）</string>
+<string name="bt_restart">重新启动</string>
+<string name="bt_poweroff">关机</string>
+<string name="bt_recovery">恢复模式</string>
+<string name="bt_bootloader">引导程序</string>
+<string name="bt_restart_summary">您的手机将会重新启动。</string>
+<string name="bt_restart_working">正在重新启动手机</string>
+<string name="bt_poweroff_summary">您的手机将会关机。</string>
+<string name="bt_poweroff_working">正在关机</string>
+<string name="bt_error_title">失败</string>
+<string name="bt_error_summary">命令失败。这可以是因为你的设备没有扎根，或你没有授予root访问权限的应用程序。</string>
+<string name="bt_menu_title">关机选项</string>
+<string name="rt_title">锁定屏幕方向</string>
+<string name="rt_auto">自动旋转屏幕</string>
+<string name="rt_land">景观%s</string>
+<string name="rt_port">肖像%s</string>
+<string name="rt_default">（设备默认）</string>
+<string name="rt_forced">（强制）</string>
+<string name="sip_all">所有呼叫均使用SIP</string>
+<string name="sip_some">仅对SIP号码进行SIP呼叫</string>
+<string name="sip_ask">每一次呼叫均询问是否使用SIP</string>
+<string name="sl_color">屏幕颜色</string>
+<string name="sl_no_camera">摄像头未找到</string>
+<string name="sl_no_torch">不支持手电筒</string>
+<string name="sl_camera_error">无法使用摄像头</string>
+<string name="no_lock_action">锁屏已禁用</string>
+<string name="click_to_reenable">点击以重新启用</string>
+<string name="flash_active">闪光灯已激活</string>
+<string name="wake_lock_active">锁定唤醒已激活</string>
+<string name="click_to_deactive">点击以取消激活</string>
+<string name="rotation_locked">屏幕旋转已锁定</string>
+<string name="click_to_unlock">点击以解锁</string>
+<string name="immersive_active">身临其境的模式激活</string>
+<string name="lbl_unknown_allcap">未知</string>
+<string name="lbl_widgets">窗口小部件</string>
+<string name="lbl_homescreen">主屏幕</string>
+<string name="lbl_notification">通知</string>
+<string name="lbl_folders">文件夹</string>
+<string name="lbl_options">选项</string>
+<string name="lbl_settings">设置</string>
+<string name="lbl_stats">统计及信息</string>
+<string name="lbl_review">给应用评价</string>
+<string name="folder_name">未命名文件夹</string>
+<string name="folder_new">新建</string>
+<string name="folder_existing">存在</string>
+<string name="folder_title">按钮文件夹</string>
+<string name="folder_delete_prompt">确定要删除%d个文件夹？</string>
+<string name="folder_restore_msg">%d个文件夹已恢复</string>
+<string name="folder_restore_error">恢复文件夹时出错</string>
+<string name="folder_help_2">要创建一个文件夹，打开应用程序抽屉，并在窗口小部件选项卡中找到“按钮文件夹”。长按图标，将其拖动到主屏幕。</string>
+<string-array name="tracker_names">
+  <item>热点 (无线上网)</item>
+  <item>GPRS (移动数据)</item>
+  <item>数据同步</item>
+  <item>无线上网</item>
+  <item>闪光灯</item>
+  <item>GPS</item>
+  <item>蓝牙</item>
+  <item>亮度</item>
+  <item>飞行模式</item>
+  <item>屏幕自动旋转</item>
+  <item>音量按钮</item>
+  <item>数据网络按钮</item>
+  <item>USB Tether</item>
+  <item>总是点亮屏幕（锁定唤醒）</item>
+  <item>WiMax (4G)</item>
+  <item>电池信息</item>
+  <item>屏幕超时</item>
+  <item>自动亮度</item>
+  <item>播放/暂停音乐</item>
+  <item>下一曲</item>
+  <item>上一曲</item>
+  <item>媒体音量</item>
+  <item>蓝牙侦测</item>
+  <item>亮度滑块</item>
+  <item>NFC</item>
+  <item>锁定屏幕</item>
+  <item>Bluetooth Tether</item>
+  <item>音量滑块</item>
+  <item>立即同步</item>
+  <item>关机</item>
+  <item>重新启动</item>
+  <item>屏幕灯光</item>
+  <item>通知栏部件</item>
+  <item>小部件设置</item>
+  <item>通知栏第二排</item>
+  <item>关机菜单</item>
+  <item>放大系统字体</item>
+  <item>缩小系统字体</item>
+  <item>锁定屏幕方向</item>
+  <item>无线ADB</item>
+  <item>LED通知灯光</item>
+  <item>接收互联网呼叫（SIP）</item>
+  <item>互联网呼叫（SIP）</item>
+  <item>主屏幕快捷方式</item>
+  <item>最近的应用</item>
+  <item>没有屏幕锁定</item>
+  <item>Wifi优化</item>
+  <item>身临其境的模式</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>移动数据</item>
+  <item>网络</item>
+  <item>多媒体</item>
+  <item>显示</item>
+  <item>硬件</item>
+  <item>应用程序操作</item>
+  <item>扎根</item>
+  <item>其他</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>热点 (无线上网)</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>播放/暂停</item>
+  <item>下一个</item>
+  <item>上一个</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>锁定</item>
+  <item></item>
+  <item>音量</item>
+  <item>立即同步</item>
+  <item>关机</item>
+  <item>重新启动</item>
+  <item>屏幕灯光</item>
+  <item></item>
+  <item>设置</item>
+  <item></item>
+  <item>关机</item>
+  <item>A ⬆</item>
+  <item>A</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>主屏幕</item>
+  <item>最近的应用</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>关</item>
+  <item>忙碌</item>
+  <item>开</item>
+  <item>低</item>
+  <item>自动</item>
+  <item>中</item>
+  <item>高</item>
+  <item>竖屏</item>
+  <item>竖屏</item>
+  <item>自动</item>
+  <item>静音</item>
+  <item>震动</item>
+  <item>铃声</item>
+  <item>铃声及震动</item>
+  <item>询问</item>
+  <item>自动</item>
+  <item>所有</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>Kitkat灰</item>
+  <item>Holo蓝</item>
+  <item>透明</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>波纹</item>
+  <item>Kitkat灰</item>
+  <item>Holo蓝</item>
+  <item>透明</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>正在导入图像流</item>
+  <item>导入图片错误</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>正在导出图像流</item>
+  <item>图像已保存 %s</item>
+  <item>无法保存图像流</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>正在导入电池图像</item>
+  <item>导入图片错误</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>正在导出电池图像</item>
+  <item>图像已保存 %s</item>
+  <item>无法保持电池图像</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>固定在最上 \u0026 当前图标</item>
+  <item>不固定且无图标</item>
+  <item>不固定 \u0026 无图标</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>默认</item>
+  <item>透明</item>
+  <item>数据网络类型</item>
+  <item>Android版本</item>
+  <item>电量标志 1</item>
+  <item>电量标志 2</item>
+  <item>电量标志 3</item>
+  <item>电量标志-蓝色 1</item>
+  <item>电量标志-蓝色 2</item>
+  <item>日期标志 1</item>
+  <item>日期标志 2</item>
+  <item>日期标志 3</item>
+  <item>日期标志-蓝色 1</item>
+  <item>日期标志-蓝色 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>铃声音量</item>
+  <item>媒体音量</item>
+  <item>闹钟音量</item>
+  <item>通知音量</item>
+  <item>通话音量</item>
+  <item>系统音量</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>静音</item>
+  <item>震动</item>
+  <item>铃声</item>
+  <item>响铃 \u0026 震动</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS和放大器;网络</item>
+  <item>GPS</item>
+  <item>网络</item>
+  <item>关</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>没有轮询（服务）</item>
+  <item>1分钟</item>
+  <item>2分钟</item>
+  <item>3分钟</item>
+  <item>5分钟</item>
+  <item>10分钟</item>
+  <item>30分钟</item>
+</string-array>
+<string-array name="ps_states">
+  <item>新条件（自动）</item>
+  <item>开</item>
+  <item>关</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>单图标</item>
+  <item>多图标</item>
+  <item>计数器</item>
+</string-array>
+</resources>

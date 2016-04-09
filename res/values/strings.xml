@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="act_done">Done</string>
+    <string name="act_yes">Yes</string>
+    <string name="act_add">Add</string>
+    <string name="act_no">No</string>
+    <string name="act_cancel">Cancel</string>
+    <string name="act_delete">Delete</string>
+    <string name="act_remove">Remove</string>
+    <string name="act_rename">Rename</string>
+    <string name="act_ok">OK</string>
+    <string name="lbl_color">Color</string>
+    <string name="lbl_brightness">Brightness</string>
+    <string name="lbl_size">Size</string>
+    <string name="lbl_default">Default</string>
+    <string name="lbl_image">Image</string>
+    <string name="lbl_customize">Customize</string>
+    <string name="msg_unknown_error">Some unexpected error occurred</string>
+
+    <string-array name="tracker_names">
+        <item>Hotspot (Wifi)</item>
+        <item>GPRS (Mobile Data)</item>
+        <item>Data Sync</item>
+        <item>Wifi</item>
+        <item>Flash Light</item>
+        <item>GPS</item>
+        <item>Bluetooth</item>
+        <item>Brightness</item>
+        <item>Airplane Mode</item>
+        <item>Screen Auto Rotate</item>
+        <item>Volume Toggle</item>
+        <item>Data Network Toggle</item>
+        <item>USB Tether</item>
+        <item>Screen Always On (WakeLock)</item>
+        <item>WiMax (4G)</item>
+        <item>Battery Info</item>
+        <item>Screen Timeout</item>
+        <item>Auto Brightness</item>
+        <item>Play/Pause Music</item>
+        <item>Next Track</item>
+        <item>Previous Track</item>
+        <item>Music volume</item>
+        <item>Bluetooth Discovery</item>
+        <item>Brightness Slider</item>
+        <item>NFC</item>
+        <item>Screen Lock</item>
+        <item>Bluetooth Tether</item>
+        <item>Volume Slider</item>
+        <item>Sync Now</item>
+        <item>Shutdown</item>
+        <item>Restart</item>
+        <item>Screen Light</item>
+        <item>Notification Widget</item>
+        <item>Widget Settings</item>
+        <item>Second Notification Row</item>
+        <item>Shutdown Menu</item>
+        <item>Increase System Font</item>
+        <item>Decrease System Font</item>
+        <item>Rotation Lock</item>
+        <item>adbWireless</item>
+        <item>Pulse notification light</item>
+        <item>Receive internet calls (SIP)</item>
+        <item>Internet calling (SIP)</item>
+        <item>Home Shortcut</item>
+        <item>Recent Apps</item>
+        <item>No Lock Screen</item>
+        <item>Wifi Optimize</item>
+        <item>Immersive mode</item>
+    </string-array>
+    <string-array name="tracker_category">
+        <item>Mobile Data</item>
+        <item>Network</item>
+        <item>Multimedia</item>
+        <item>Display</item>
+        <item>Hardware</item>
+        <item>App Commands</item>
+        <item>Root</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="tracker_names_short">
+        <item>Hotspot (Wifi)</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Play/Pause</item>
+        <item>Next</item>
+        <item>Previous</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Lock</item>
+        <item></item>
+        <item>Volume</item>
+        <item>Sync Now</item>
+        <item>Shutdown</item>
+        <item>Restart</item>
+        <item>ScreenLight</item>
+        <item></item>
+        <item>Settings</item>
+        <item></item>
+        <item>Shutdown</item>
+        <item>A &#11014;</item>
+        <item>A &#11015;</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Home</item>
+        <item>Recent Apps</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="tracker_states">
+        <item>off</item>
+        <item>busy</item>
+        <item>on</item>
+        <item>low</item>
+        <item>auto</item>
+        <item>mid</item>
+        <item>high</item>
+        <item>portrait</item>
+        <item>landscape</item>
+        <item>auto</item>
+        <item>mute</item>
+        <item>vib</item>
+        <item>ring</item>
+        <item>ring-vib</item>
+        <item>ask</item>
+        <item>auto</item>
+        <item>all</item>
+    </string-array>
+
+    <string name="err_no_activity">Application not found</string>
+    <string name="err_security">Permission Denied</string>
+    <string name="msg_account_synced">All accounts synced</string>
+    <string name="msg_e_account_synced">Enabled accounts synced</string>
+
+    <!-- Device Admin -->
+    <string name="admin_explain">Allow the widget with admin permissions to enable screen lock at first run.</string>
+    <string name="admin_label">Power Toggles Screen Lock</string>
+    <string name="admin_desc">Required for lock screen button</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Stats and info
+    ********************************************************************************
+    -->
+    <string name="stat_help">Help</string>
+    <string name="stat_help_desc">Search through frequently asked questions</string>
+    <string name="stat_battery">Battery Polling</string>
+    <string name="stat_admin">Device Admin</string>
+    <string name="stat_admin_msg_on">Turn off to uninstall the app</string>
+    <string name="stat_admin_msg_off">Required for Screen Lock toggle</string>
+    <string name="stat_trackers_summary">Toggles may remain cached for some time after you delete the widget. Reset cache to remove such toggles and reset any stuck toggle.</string>
+    <string name="stat_trackers_action">Reset Cache</string>
+    <string name="stat_root">Root Access</string>
+    <string name="stat_u_never">Never</string>
+    <string name="stat_u_now">Just now</string>
+    <string name="stat_u_mins">%d mins ago</string>
+    <string name="stat_u_hours">%d hours ago</string>
+    <string name="stat_u_days">%d days ago</string>
+    <string name="stat_info">Info</string>
+    <string name="stat_active_toggle">Active toggles</string>
+    <string name="stat_active_toggle_none">No active toggles</string>
+    <string name="stat_active_toggle_n">%d active toggles</string>
+    <string name="stat_last_used">Last used: %s</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Widget Config activity
+    ********************************************************************************
+    -->
+    <string name="wc_add_toggle">Add Toggle</string>
+    <string name="wc_add_toggle_max_err">You can only add a maximum of 8 items to the widget.</string>
+    <string name="wc_change_icon">Change Icon</string>
+    <string name="wc_button_colors">Button Colors</string>
+    <string name="wc_colors_default">Default color</string>
+    <string name="wc_colors_working">Busy/unknown color</string>
+    <string name="wc_colors_active">Active color</string>
+    <string name="wc_style">Style</string>
+    <string name="wc_full_height">Full height</string>
+    <string name="wc_huge_icons">Huge icons</string>
+    <string name="wc_style_indicator">Indicator</string>
+    <string name="wc_ind_same_color">Use same as button colors</string>
+    <string name="wc_style_labels">Labels</string>
+    <string name="wc_label_color">Label color</string>
+    <string name="wc_back">Background</string>
+    <string name="wc_adjust_position">Adjust position</string>
+    <string name="wc_transparency">Transparency</string>
+    <string name="wc_tint">Tint</string>
+    <string name="wc_dividers">Dividers</string>
+    <string name="wc_hidden">Hidden</string>
+    <string name="wc_click_feed">Click Feedback</string>
+
+    <string-array name="wc_click_colors">
+        <item>Kitkat gray</item>
+        <item>Holo blue</item>
+        <item>Transparent</item>
+    </string-array>
+    <string-array name="wc_click_colors_l">
+        <item>Ripple</item>
+        <item>Kitkat gray</item>
+        <item>Holo blue</item>
+        <item>Transparent</item>
+    </string-array>
+
+    <string name="wc_round_corners">Rounded corners</string>
+
+    <string-array name="wc_import_msg">
+        <item>Restoring\u2026</item>
+        <item>Restore failed</item>
+    </string-array>
+    <string-array name="wc_export_msg">
+        <item>Creating backup\u2026</item>
+        <item>Backup saved in %s</item>
+        <item>Failed to create backup</item>
+    </string-array>
+
+    <string name="wc_ex_theme">Export theme</string>
+    <string name="wc_ex_theme_failed">Theme export failed</string>
+    <string name="wc_ex_theme_success">Theme exported</string>
+    <string name="wc_ex_theme_image">Theme must have an image background</string>
+
+    <!-- ****************** COLOR BUTTON **************** -->
+    <string name="cb_alpha">Alpha</string>
+    <string name="cb_hex_hint">Hex Code</string>
+    <string name="cb_argb">ARGB:</string>
+    <string name="cb_set_color">Set Color</string>
+
+    <!-- ****************** TOGGLE PICKER **************** -->
+    <string name="tp_loading">Loading List</string>
+    <string name="tp_toggles">Toggles</string>
+    <string name="tp_apps">Applications</string>
+    <string name="tp_apps_short">Apps</string>
+    <string name="tp_custom">Custom</string>
+    <string name="tp_plugin">Plugins</string>
+    <string name="tp_tasker">Tasker toggle</string>
+    <string name="tp_shrts">Shortcuts</string>
+    <string name="tp_search_hint">Search toggles</string>
+    <string name="tp_tasker_disabled_title">External access disabled</string>
+    <string name="tp_tasker_disabled">You need to enable external access in Tasker preferences before you can add tasker toggles</string>
+    <string name="tp_tasker_empty">No task found</string>
+
+    <!-- ****************** ICON PICKER **************** -->
+    <string name="ip_title">Pick Icon</string>
+    <string name="ip_theme_icons">Theme icons</string>
+    <string name="ip_app_icons">Application icons</string>
+    <string name="ip_counter">Counter icon</string>
+    <string name="ip_image_pick">Pick image</string>
+    <string name="ip_image_crop">Pick image and crop</string>
+    <string name="ip_icon_pack">Icon Packs</string>
+    <string name="ip_loading_img">Loading image</string>
+    <string name="ip_loading_img_failed">Unable to load image</string>
+
+    <!-- ****************** ICON THEME EDITOR **************** -->
+    <string name="ite_info">Icon Map</string>
+    <string name="ite_custom">Custom</string>
+    <string name="ite_import">Import Image strip</string>
+
+    <string-array name="ite_import_msg">
+        <item>Importing Image strip</item>
+        <item>Error importing image</item>
+    </string-array>
+
+    <string name="ite_export">Export Image strip</string>
+
+    <string-array name="ite_export_msg">
+        <item>Exporting Icon Strip</item>
+        <item>Image saved in %s</item>
+        <item>Failed to save icon strip</item>
+    </string-array>
+
+    <!-- ****************** NINE_PATCH EDITOR **************** -->
+    <string name="npe_title">Background position</string>
+    <string name="npe_stretch">Stretch</string>
+    <string name="npe_stretch_help">Select the area of the image that should stretch itself to fit the widget dimension</string>
+    <string name="npe_padding">Padding</string>
+    <string name="npe_padding_help">Select the are where the buttons of the widget should go. Make sure that this area is bigger than the stretch area otherwise the widget might not look good.</string>
+
+    <!-- ****************** BATTERY ICON DESIGNER **************** -->
+    <string name="bid_preview">Preview</string>
+    <string name="bid_background">Change background</string>
+    <string name="bid_digit_position">Digit display position</string>
+    <string name="bid_import">Import Battery image</string>
+
+    <string-array name="bid_import_msg">
+        <item>Importing Battery image</item>
+        <item>Error importing image</item>
+    </string-array>
+
+    <string name="bid_export">Export Battery image</string>
+
+    <string-array name="bid_export_msg">
+        <item>Exporting Battery image</item>
+        <item>Image saved in %s</item>
+        <item>Failed to save battery image</item>
+    </string-array>
+
+    <!--
+    ********************************************************************************
+    ******************** Guide Strings
+    ********************************************************************************
+    -->
+    <string name="cg_click_toggle_1">Click a toggle</string>
+    <string name="cg_click_toggle_2">to customize, move or remove it</string>
+    <string name="cg_click_add_1">Click here</string>
+    <string name="cg_click_add_2">to add more toggles</string>
+    <string name="cg_customize_1">Customize the widget</string>
+    <string name="cg_customize_2">using various theming options</string>
+    <string name="cg_menu">Show guide</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Quick settings tile
+    ********************************************************************************
+    -->
+    <string name="qs_title">Quick settings</string>
+    <string name="qs_manual_title">Add tile in settings</string>
+    <string name="qs_manual_1">Go to System UI Tuner \u003E Quick Settings</string>
+    <string name="qs_manual_2">Click Add tile \u0026 select Broadcast Tile</string>
+    <string name="qs_manual_3">Give it a simple name, without any spaces</string>
+    <string name="qs_manual_4">Optionally rearrange the tiles by long-press and drag</string>
+    <string name="qs_manual_5">Come back here once you are done</string>
+    <string name="qs_button_tuner">System UI Tuner</string>
+    <string name="qs_pick_tile">Pick a tile</string>
+    <string name="qs_cfg_click">Click action</string>
+    <string name="qs_cfg_long_click">Long click target</string>
+    <string name="qs_cfg_custom_label">Custom label</string>
+    <string name="qs_cfg_icons">Icons</string>
+    <string name="qs_empty_help_1">No Quick settings tile</string>
+    <string name="qs_empty_help_2">To add a tile, click \u0027Add\u0027 in the action bar \u0026 follow the steps</string>
+    <string name="qs_delete">Delete Tile</string>
+    <string name="qs_delete_msg">Deleting a tile will permanently delete the configurations associated with the tile</string>
+    <string name="qs_activate_tuner">Enable System UI Tuner</string>
+    <string name="qs_activate_help_1">Pull down notification bar \u0026 open quick settings</string>
+    <string name="qs_activate_help_2">Press \u0026 hold settings icon until it spins</string>
+    <string name="qs_activate_help_3">Release the icon \u0026 open this app again</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Notification Settings
+    ********************************************************************************
+    -->
+    <string name="notify_position">Position</string>
+
+    <string-array name="notify_positions">
+        <item>Pinned on top \u0026 icon present</item>
+        <item>Not pinned but icon present</item>
+        <item>Not pinned \u0026 no icon</item>
+    </string-array>
+
+    <string name="notify_position_title">Notification Position</string>
+    <string name="notify_collapse">AutoCollapse StatusBar</string>
+    <string name="notify_collapse_summary">Collapse status bar with every notification widget toggle</string>
+    <string name="notify_show_on_lock">Show on lockscreen</string>
+    <string name="notify_show_on_lock_summary">when secure lock \u0026 notifications are enabled</string>
+    <string name="notify_row_2">Second Notification Row</string>
+    <string name="notify_customize_2">Customize 2nd row</string>
+    <string name="notify_other_settings">Other settings</string>
+    <string name="notify_icon">Icon</string>
+
+    <string-array name="notify_icon_values">
+        <item>Default</item>
+        <item>Transparent</item>
+        <item>Data network type</item>
+        <item>Android Version</item>
+        <item>Battery 1</item>
+        <item>Battery 2</item>
+        <item>Battery 3</item>
+        <item>Battery Blue 1</item>
+        <item>Battery Blue 2</item>
+        <item>Date 1</item>
+        <item>Date 2</item>
+        <item>Date 3</item>
+        <item>Date Blue 1</item>
+        <item>Date Blue 2</item>
+    </string-array>
+
+    <string name="notify_icon_sec_date">Today\u0027s Date</string>
+    <string name="notify_icon_sec_battery">Battery</string>
+    <string name="notify_icon_loading">Generating Notification icons</string>
+    <!--
+    ********************************************************************************
+    ******************** Widget Picker
+    ********************************************************************************
+    -->
+    <string name="wp_last_edited">Last edited</string>
+    <string name="wp_share">Share</string>
+    <string name="wp_backup">Create Backup</string>
+    <string name="wp_restore">Restore Backup</string>
+    <string name="wp_delete">Delete Widget</string>
+    <string name="wp_delete_msg">Deleting a widget will \u003Cb\u003Epermanently\u003C/b\u003E delete all settings associated with the widget.\u003Cbr/\u003E\u003Cbr/\u003EUse it to delete ghost widgets only.\u003Cbr/\u003E</string>
+    <string name="wp_no_widget">No Homescreen widget</string>
+    <string name="wp_add_help">To add a widget, open the app drawer, and locate the Power Toggles widget in the Widgets tab. Long press the widget preview and drag it to the home screen.</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Theme picker
+    ********************************************************************************
+    -->
+    <string name="tm_title">Themes</string>
+    <string name="tm_local">My themes</string>
+    <string name="tm_remote">Someone else\u0027s themes</string>
+    <string name="tm_system">System themes</string>
+
+    <!--
+    ********************************************************************************
+    ******************** File Picker
+    ********************************************************************************
+    -->
+    <string name="fp_hint">File name</string>
+    <string name="fp_sdcard">sdcard</string>
+    <string name="fp_overwrite">Overwrite?</string>
+    <string name="fp_invalid">Invalid file name</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Toggle Settings
+    ********************************************************************************
+    -->
+    <string name="ts_title">Toggle settings</string>
+    <string name="ts_exit_on_lock">Exit on screen lock</string>
+    <string name="ts_us_as_shortcut">Use as shortcut</string>
+    <string name="ts_time_intervals">Timeout intervals</string>
+    <string name="ts_mute_slider">Mute sample playback</string>
+    <string name="ts_slider_controls">Visible controls</string>
+    <string name="ts_volume_modes">Enabled modes</string>
+    <string name="ts_allow_zero_bright">Allow zero brightness</string>
+    <string name="ts_show_quick_buttons">Show quick buttons</string>
+    <string name="ts_instant_bright_toggle">Instant toggle (beta)</string>
+    <string name="ts_hide_notify">Hide notification</string>
+    <string name="ts_soft_boot">Soft boot</string>
+    <string name="ts_media_player">Media player</string>
+    <string name="ts_not_all_sync">Ignore disabled providers</string>
+    <string name="ts_msg_min_two_levels">You need at least 2 levels to toggle</string>
+    <string name="ts_levels">Levels</string>
+    <string name="ts_auto">Auto</string>
+    <string name="ts_bright_summary">Select the brightness level</string>
+    <string name="ts_battery_custom_colors">Use custom battery colors</string>
+    <string name="ts_battery_low">Low battery</string>
+    <string name="ts_battery_moderate">Moderate battery</string>
+    <string name="ts_battery_high">High battery</string>
+    <string name="ts_screen_lock_fix">Fix screen turning on</string>
+    <string name="ts_font_delta">Font change amount</string>
+    <string name="ts_show_ssid">Show SSID</string>
+    <string name="ts_tap_speed">Tap speed</string>
+    <string name="ts_msec">Milliseconds</string>
+    <string name="ts_show_prompt">Show prompt</string>
+
+    <string-array name="ts_vslider_modes">
+        <item>Ring volume</item>
+        <item>Music volume</item>
+        <item>Alarm volume</item>
+        <item>Notification volume</item>
+        <item>Incall volume</item>
+        <item>System volume</item>
+    </string-array>
+    <string-array name="ts_volume_modes">
+        <item>Mute</item>
+        <item>Vibrate</item>
+        <item>Ring</item>
+        <item>Ring \u0026 Vibrate</item>
+    </string-array>
+
+    <!-- GPS -->
+    <string name="ts_gps_sources">Sources</string>
+
+    <string-array name="ts_gps_source_op">
+        <item>GPS \u0026 network</item>
+        <item>GPS</item>
+        <item>Network</item>
+        <item>Off</item>
+    </string-array>
+
+    <!--
+    ********************************************************************************
+    ******************** App Settings
+    ********************************************************************************
+    -->
+    <string name="as_general">General settings</string>
+    <string name="as_haptic">Haptic feedback</string>
+    <string name="as_optimize">Performance optimization</string>
+    <string name="as_battery_service">Battery service</string>
+    <string name="as_motorola_hack">Motorola 1% hack</string>
+    <string name="as_poll_interval">Poll interval</string>
+
+    <string-array name="as_battery_poll_entries">
+        <item>No polling (service)</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <string name="as_double_tap">Double tap</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Plugins related string
+    ********************************************************************************
+    -->
+    <string name="ps_prem_label">Use Power Toggles plugins</string>
+    <string name="ps_prem_desc">Can control Power Toggles plugins by switching them on or off</string>
+    <string name="ps_tasker_disabled">Tasker disabled</string>
+    <string name="ps_tasker_no_access">Tasker access disabled</string>
+    <string name="ps_set_state">Set state to</string>
+    <string name="ps_refresh">Refresh PowerToggles</string>
+
+    <string-array name="ps_states">
+        <item>New state (auto)</item>
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+    <string name="ps_toggle_to_update">Toggle to update</string>
+    <string name="ps_current_toggle">Current task (auto)</string>
+    <string name="ps_tasker_pick_title">Pick task</string>
+    <string name="ps_tasker_type">Type</string>
+
+    <string-array name="ps_tasker_types">
+        <item>Single icon</item>
+        <item>Multi-icon</item>
+        <item>Counter</item>
+    </string-array>
+
+    <string name="ps_set_count">Set count (Optional)</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Toggle Strings
+    ********************************************************************************
+    -->
+    <!-- Boot messages -->
+    <string name="bt_restart">Restart</string>
+    <string name="bt_poweroff">Power off</string>
+    <string name="bt_recovery">Recovery Mode</string>
+    <string name="bt_bootloader">Bootloader</string>
+    <string name="bt_restart_summary">Your phone will restart.</string>
+    <string name="bt_restart_working">Restarting phone</string>
+    <string name="bt_poweroff_summary">Your phone will shutdown.</string>
+    <string name="bt_poweroff_working">Turning phone off</string>
+    <string name="bt_error_title">Failed</string>
+    <string name="bt_error_summary">The command failed. This can be either because your device is not rooted or you did not grant the root access to the app.</string>
+    <string name="bt_menu_title">Shutdown Options</string>
+
+    <!-- Screen rotation messages -->
+    <string name="rt_title">Rotation Lock</string>
+    <string name="rt_auto">Auto Rotate screen</string>
+    <string name="rt_land">Landscape %s</string>
+    <string name="rt_port">Portrait %s</string>
+    <string name="rt_default">(device-default)</string>
+    <string name="rt_forced">(forced)</string>
+
+    <!-- SIP setting messages -->
+    <string name="sip_all">Using SIP for all calls</string>
+    <string name="sip_some">Using SIP only for calling SIP numbers</string>
+    <string name="sip_ask">Asking for each call whether to use SIP</string>
+
+    <!-- Screen Light -->
+    <string name="sl_color">Screen Color</string>
+    <string name="sl_no_camera">Camera not found</string>
+    <string name="sl_no_torch">Torch not supported</string>
+    <string name="sl_camera_error">Unable to use Camera</string>
+
+    <!-- No Lock -->
+    <string name="no_lock_action">Lock Screen disabled</string>
+    <string name="click_to_reenable">Click to re-enable</string>
+
+    <!-- Service messages -->
+    <string name="flash_active">Flash light active</string>
+    <string name="wake_lock_active">Wake lock active</string>
+    <string name="click_to_deactive">Click to deactivate</string>
+    <string name="rotation_locked">Screen rotation locked</string>
+    <string name="click_to_unlock">Click to unlock</string>
+    <string name="immersive_active">Immersive mode active</string>
+    <string name="lbl_unknown_allcap">UNKNOWN</string>
+
+    <!--
+  ********************************************************************************
+  ******************** Home navigation
+  ********************************************************************************
+    -->
+    <string name="lbl_widgets">Widgets</string>
+    <string name="lbl_homescreen">Homescreen</string>
+    <string name="lbl_notification">Notification</string>
+    <string name="lbl_folders">Folders</string>
+    <string name="lbl_options">Options</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_stats">Stats and Info</string>
+    <string name="lbl_review">Market review</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Folders related strings
+    ********************************************************************************
+    -->
+    <string name="folder_name">Unnamed Folder</string>
+    <string name="folder_new">New</string>
+    <string name="folder_existing">Existing</string>
+    <string name="folder_title">Toggle folder</string>
+    <string name="folder_delete_prompt">Delete %d folder(s)?</string>
+    <string name="folder_restore_msg">%d folder(s) restored</string>
+    <string name="folder_restore_error">Error restoring folders</string>
+    <string name="folder_help_1">No toggle folder</string>
+    <string name="folder_help_2">To create a folder, open the app drawer, and locate Toggle Folder in the Widgets tab. Long press the icon and drag it to the home screen.</string>
+
+    <!--
+    ********************************************************************************
+    ******************** Permission prompt
+    ********************************************************************************
+    -->
+    <string name="pp_pref">Don\u0027t prompt missing permissions</string>
+    <string name="pp_title">System permission required</string>
+    <string name="pp_description">The operation requires permission to modify system properties. Allow this permission from settings.</string>
+    <string name="pp_ignore">Not now</string>
+
+</resources>

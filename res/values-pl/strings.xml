@@ -1,0 +1,456 @@
+<resources>
+<string name="act_done">Gotowe</string>
+<string name="act_yes">Tak</string>
+<string name="act_add">Dodaj</string>
+<string name="act_no">Nie</string>
+<string name="act_cancel">Anuluj</string>
+<string name="act_delete">Usuń</string>
+<string name="act_remove">Usuń</string>
+<string name="act_rename">Zmień nazwę</string>
+<string name="lbl_color">Kolor</string>
+<string name="lbl_brightness">Jasność</string>
+<string name="lbl_size">Rozmiar</string>
+<string name="lbl_default">Domyślny</string>
+<string name="lbl_image">Obrazek</string>
+<string name="lbl_customize">Dostosuj</string>
+<string name="msg_unknown_error">Wystąpił nieoczekiwany błąd</string>
+<string name="err_no_activity">Nie znaleziono aplikacji</string>
+<string name="err_security">Odmowa dostępu</string>
+<string name="msg_account_synced">Wszystkie konta zsynchronizowane</string>
+<string name="msg_e_account_synced">Włączone konta zsynchnronizowane</string>
+<string name="admin_explain">Przyznaj widżetowi pozwolenie na włączenie blokady ekranu przy pierwszym uruchomieniu.</string>
+<string name="admin_label">Przycisk zasilania i blokady</string>
+<string name="admin_desc">Wymagane do użycia na ekranie blokady</string>
+<string name="stat_help">Pomoc</string>
+<string name="stat_help_desc">Najczęściej zadawane pytania</string>
+<string name="stat_battery">Sprawdzanie poziomu baterii</string>
+<string name="stat_admin">Administrator urządzenia</string>
+<string name="stat_admin_msg_on">Wyłącz, aby odinstalować aplikację</string>
+<string name="stat_admin_msg_off">Wymagane dla przełącznika "Zablokuj ekran"</string>
+<string name="stat_trackers_summary">Przełączniki mogą pozostać w pamięci cache nawet po usunięciu widżetu. Wyczyść pamięć cache aby je usunąć i zresetować niedziałające przełączniki.</string>
+<string name="stat_trackers_action">Wyczyść cache</string>
+<string name="stat_root">Uprawnienia root</string>
+<string name="stat_u_never">Nigdy</string>
+<string name="stat_u_now">Tylko teraz</string>
+<string name="stat_u_mins">%d minut temu</string>
+<string name="stat_u_hours">%d godzin temu</string>
+<string name="stat_u_days">%d dni temu</string>
+<string name="stat_info">Informacje</string>
+<string name="stat_active_toggle">Aktywne przełączniki</string>
+<string name="stat_active_toggle_none">Brak aktywnych przełączników</string>
+<string name="stat_active_toggle_n">Aktywne przełączniki: %d</string>
+<string name="stat_last_used">Ostatnio użyte: %s</string>
+<string name="wc_add_toggle">Dodaj przełącznik</string>
+<string name="wc_add_toggle_max_err">Możesz dodać maksymalnie 8 przełączników.</string>
+<string name="wc_change_icon">Zmień ikonę</string>
+<string name="wc_button_colors">Kolor przycisków</string>
+<string name="wc_colors_default">Domyślny kolor</string>
+<string name="wc_colors_working">Zajęty/nieznany kolor</string>
+<string name="wc_colors_active">Wyłączony</string>
+<string name="wc_style">Styl</string>
+<string name="wc_full_height">Pełna wysokość</string>
+<string name="wc_huge_icons">Duże ikony</string>
+<string name="wc_style_indicator">Wskaźnik statusu</string>
+<string name="wc_ind_same_color">Użyj koloru przycisków</string>
+<string name="wc_style_labels">Opisy</string>
+<string name="wc_label_color">Kolor opisu</string>
+<string name="wc_back">Tło</string>
+<string name="wc_adjust_position">Regulacja położenia</string>
+<string name="wc_transparency">Przezroczystość</string>
+<string name="wc_tint">Odcień</string>
+<string name="wc_dividers">Separatory</string>
+<string name="wc_hidden">Ukryte</string>
+<string name="wc_click_feed">Styl kliknięć</string>
+<string name="wc_round_corners">Zaokrąglone rogi</string>
+<string name="wc_ex_theme">Zapisz temat</string>
+<string name="wc_ex_theme_failed">Zapisywanie tematu nie powiodło się</string>
+<string name="wc_ex_theme_success">Temat zapisany</string>
+<string name="wc_ex_theme_image">Temat musi mieć tło</string>
+<string name="cb_alpha">Przezroczystość</string>
+<string name="cb_hex_hint">Kod koloru</string>
+<string name="cb_set_color">Wybierz kolor</string>
+<string name="tp_loading">Wczytywanie listy</string>
+<string name="tp_toggles">Przełączniki</string>
+<string name="tp_apps">Aplikacje</string>
+<string name="tp_apps_short">Aplikacje</string>
+<string name="tp_custom">Niestandardowy</string>
+<string name="tp_plugin">Wtyczki</string>
+<string name="tp_tasker">Przełącznik Taskera</string>
+<string name="tp_shrts">Skróty</string>
+<string name="tp_search_hint">Szukaj przełączników</string>
+<string name="tp_tasker_disabled_title">Zewnętrzny dostęp wyłączony</string>
+<string name="tp_tasker_disabled">Musisz włączyć zewnętrzny dostęp w ustawieniach Taskera, zanim będziesz mógł dodawać przełączniki</string>
+<string name="tp_tasker_empty">Nie znaleziono zadań</string>
+<string name="ip_title">Wybierz ikonę</string>
+<string name="ip_app_icons">Ikony aplikacji</string>
+<string name="ip_counter">Ikonka licznika</string>
+<string name="ip_image_pick">Wybierz obraz</string>
+<string name="ip_image_crop">Wybierz i przytnij obraz</string>
+<string name="ip_icon_pack">Paczka ikon</string>
+<string name="ip_loading_img">Wczytywanie obrazu</string>
+<string name="ip_loading_img_failed">Nie można wczytać obrazu</string>
+<string name="ite_info">Ikony</string>
+<string name="ite_custom">Niestandardowy</string>
+<string name="ite_import">Importuj pasek obrazków</string>
+<string name="ite_export">Eksportuj pasek obrazków</string>
+<string name="npe_title">Pozycja tła</string>
+<string name="npe_stretch">rozciągnij</string>
+<string name="npe_stretch_help">Zaznacz na obrazie obszar, który ma się dopasować do widżetu</string>
+<string name="npe_padding">Margines</string>
+<string name="npe_padding_help">Wybierz gdzie powinny znaleźć się przyciski widgetu. Upewnij się, że obszar rozciagany nie wychodzi poza dostępny obszar, w przeciwnym razie widget nie będzie wyglądał dobrze.</string>
+<string name="bid_preview">Podgląd</string>
+<string name="bid_background">Zmień tło</string>
+<string name="bid_digit_position">Pozycja cyfr</string>
+<string name="bid_import">Importuj obraz baterii</string>
+<string name="bid_export">Eksportuj obraz baterii</string>
+<string name="cg_click_toggle_1">Naciśnij przełącznik</string>
+<string name="cg_click_toggle_2">aby skonfigurować, przenieść lub usunąć</string>
+<string name="cg_click_add_1">Dotknij tutaj</string>
+<string name="cg_click_add_2">by dodać więcej przełączników</string>
+<string name="cg_customize_1">Dostosuj widżet</string>
+<string name="cg_customize_2">używając różnych opcji zmiany wyglądu</string>
+<string name="cg_menu">Pokazuj wskazówki</string>
+<string name="notify_position">Pozycja</string>
+<string name="notify_position_title">Pozycja na pasku powiadomień</string>
+<string name="notify_collapse">Automatyczne zamykanie paska statusu</string>
+<string name="notify_collapse_summary">Zamykaj obszar powiadomień po kliknięciu przełącznika</string>
+<string name="notify_show_on_lock">Pokaż na ekranie blokady</string>
+<string name="notify_show_on_lock_summary">Gdy secure lock jest \u0026amp: powiadomienia są włączone.</string>
+<string name="notify_row_2">Drugi rząd ikon w obszarze powiadomień</string>
+<string name="notify_customize_2">Dostosuj drugi rząd</string>
+<string name="notify_other_settings">Pozostałe ustawienia</string>
+<string name="notify_icon">Ikona</string>
+<string name="notify_icon_sec_date">Dzisiejsza data</string>
+<string name="notify_icon_sec_battery">Poziom baterii</string>
+<string name="notify_icon_loading">Trwa generowanie ikon paska powiadomień</string>
+<string name="wp_last_edited">Edytowano:</string>
+<string name="wp_share">Udostępnij</string>
+<string name="wp_backup">Utwórz kopię zapasową ustawień</string>
+<string name="wp_restore">Przywróć kopię zapasową ustawień</string>
+<string name="wp_delete">Usuń widżet</string>
+<string name="wp_delete_msg">Usunięcie widżetu \u003Cb\u003Ecałkowicie\u003C/b\u003E usunie  ustawienia związane z tym widżetem.\u003Cbr/\u003E\u003Cbr/\u003E Korzystaj z tej opcji wyłącznie dla niedziałających widżetów.\u003Cbr/\u003E</string>
+<string name="wp_add_help">Aby dodać widżet, otwórz menu aplikacji i zlokalizuj widżet Power Toggles w zakładce z widżetami. Następnie przytrzymaj go i przeciągnij na ekran główny.</string>
+<string name="tm_title">Motywy</string>
+<string name="tm_local">Moje motywy</string>
+<string name="tm_remote">Przykładowe motywy</string>
+<string name="tm_system">Wbudowane motywy</string>
+<string name="fp_hint">Nazwa pliku</string>
+<string name="fp_sdcard">Karta SD</string>
+<string name="fp_overwrite">Nadpisać?</string>
+<string name="fp_invalid">Nieprawidłowa nazwa pliku</string>
+<string name="ts_title">Ustawienia przełączników</string>
+<string name="ts_exit_on_lock">Wyłącz po zablokowaniu ekranu</string>
+<string name="ts_us_as_shortcut">Użyj jako skrótu</string>
+<string name="ts_time_intervals">Interwały wygaszania ekranu</string>
+<string name="ts_mute_slider">Wycisz dźwięki głośności</string>
+<string name="ts_slider_controls">Widoczne kontrolki</string>
+<string name="ts_volume_modes">Wybierz tryby</string>
+<string name="ts_allow_zero_bright">Zezwól na zerową jasność</string>
+<string name="ts_show_quick_buttons">Pokaż przyciski szybkiego dostępu</string>
+<string name="ts_instant_bright_toggle">Szybka zmiana jasności</string>
+<string name="ts_hide_notify">Ukryj powiadomienie</string>
+<string name="ts_soft_boot">Miękki reset</string>
+<string name="ts_media_player">Odtwarzacz muzyki</string>
+<string name="ts_not_all_sync">Ignoruj wyłączone konta</string>
+<string name="ts_msg_min_two_levels">Potrzebujesz przynajmniej dwóch stanów do przełączania</string>
+<string name="ts_levels">Poziomy</string>
+<string name="ts_bright_summary">Wybierz poziom jasności</string>
+<string name="ts_battery_custom_colors">Użyj własnych kolorów baterii</string>
+<string name="ts_battery_low">Niski poziom baterii</string>
+<string name="ts_battery_moderate">Średni poziom baterii</string>
+<string name="ts_battery_high">Wysoki poziom baterii</string>
+<string name="ts_screen_lock_fix">Napraw uruchamianie ekranu</string>
+<string name="ts_font_delta">Stopień zmiany rozmiaru czcionki</string>
+<string name="ts_show_ssid">Pokaż SSID</string>
+<string name="ts_tap_speed">Szybkość dotknięcia</string>
+<string name="ts_msec">Milisekunda</string>
+<string name="ts_show_prompt">Pokaż okno wyboru opcji</string>
+<string name="ts_gps_sources">Źródła lokalizacji</string>
+<string name="as_general">Ustawienia ogólne</string>
+<string name="as_haptic">Wibracja przy dotknięciu</string>
+<string name="as_optimize">Optymalizacja wydajności</string>
+<string name="as_battery_service">Bateria</string>
+<string name="as_motorola_hack">1% Hack dla urządzeń Motoroli</string>
+<string name="as_poll_interval">Interwał sprawdzania stanu baterii</string>
+<string name="as_double_tap">Podwójne dotknięcie</string>
+<string name="ps_prem_label">Używaj wtyczek do 
+Power Toggles</string>
+<string name="ps_prem_desc">Umożliwia wyłączenie lub włączenie wtyczek do Power Toggles</string>
+<string name="ps_tasker_disabled">Tasker wyłączony</string>
+<string name="ps_tasker_no_access">Dostęp do taskera wyłączony</string>
+<string name="ps_set_state">Ustaw stan na</string>
+<string name="ps_refresh">Odśwież Power Toggles</string>
+<string name="ps_toggle_to_update">Przełącz, aby zaktualizować</string>
+<string name="ps_current_toggle">Aktualne zadanie (auto)</string>
+<string name="ps_tasker_pick_title">Wybierz zadanie</string>
+<string name="ps_tasker_type">Typ</string>
+<string name="ps_set_count">Ustaw licznik (opcjonalnie)</string>
+<string name="bt_restart">Uruchom ponownie</string>
+<string name="bt_poweroff">Wyłącz telefon</string>
+<string name="bt_recovery">Tryb Recovery</string>
+<string name="bt_restart_summary">Telefon zostanie zrestartowany.</string>
+<string name="bt_restart_working">Restartowanie...</string>
+<string name="bt_poweroff_summary">Telefon zostanie wyłączony.</string>
+<string name="bt_poweroff_working">Wyłączanie...</string>
+<string name="bt_error_title">Błąd</string>
+<string name="bt_error_summary">Niepowodzenie operacji. Twoje urządzenie nie zostało zrootowane lub odmówiono przydzielenia praw roota.</string>
+<string name="bt_menu_title">Opcje wyłączania</string>
+<string name="rt_title">Blokada obrotu ekranu</string>
+<string name="rt_auto">Auto obrót ekranu</string>
+<string name="rt_land">Tryb poziomy %s</string>
+<string name="rt_port">Tryb pionowy %s</string>
+<string name="rt_default">(systemowy)</string>
+<string name="rt_forced">(wymuszony)</string>
+<string name="sip_all">Używaj SIP dla wszystkich połączeń</string>
+<string name="sip_some">Używaj SIP tylko dla połączeń z numerami SIP</string>
+<string name="sip_ask">Pytaj za każdym razem, czy użyć SIP</string>
+<string name="sl_color">Kolor ekranu</string>
+<string name="sl_no_camera">Nie znaleziono aparatu lub nie jest on wspierany przez Power Toggles.</string>
+<string name="sl_no_torch">Latarka niedostępna</string>
+<string name="sl_camera_error">Nie można użyć aparatu</string>
+<string name="no_lock_action">Ekran blokady wyłączony</string>
+<string name="click_to_reenable">Dotknij, aby włączyć</string>
+<string name="flash_active">Latarka włączona</string>
+<string name="wake_lock_active">Ekran zawsze włączony</string>
+<string name="click_to_deactive">Dotknij, aby wyłączyć</string>
+<string name="rotation_locked">Obrót ekranu zablokowany</string>
+<string name="click_to_unlock">Dotknij, aby odblokować</string>
+<string name="immersive_active">Tryb fullscreen aktywny</string>
+<string name="lbl_unknown_allcap">Nieznany</string>
+<string name="lbl_widgets">Widżety</string>
+<string name="lbl_homescreen">Ekran główny</string>
+<string name="lbl_notification">Pasek powiadomień</string>
+<string name="lbl_folders">Foldery</string>
+<string name="lbl_options">Opcje</string>
+<string name="lbl_settings">Ustawienia</string>
+<string name="lbl_stats">Statystyki i informacje</string>
+<string name="lbl_review">Oceny w sklepie Play</string>
+<string name="folder_name">Folder bez nazwy</string>
+<string name="folder_new">Nowy</string>
+<string name="folder_existing">Istniejące</string>
+<string name="folder_title">Folder Power Toggles</string>
+<string name="folder_delete_prompt">Na pewno chcesz usunąć %d folder(y)?</string>
+<string name="folder_restore_msg">%d folder(ów) przywrócono</string>
+<string name="folder_restore_error">Błąd podczas przywracania folderów</string>
+<string name="folder_help_2">Aby utworzyć folder, otwórz menu aplikacji i zlokalizuj folder Power Toggles w zakładce z widżetami. Następnie przytrzymaj go i przeciągnij na ekran główny.</string>
+<string name="pp_title">Wymagana zgoda systemu</string>
+<string name="pp_ignore">Nie teraz</string>
+<string-array name="tracker_names">
+  <item>Hotspot</item>
+  <item>Dane komórkowe (Internet)</item>
+  <item>Synchronizacja</item>
+  <item>WiFi</item>
+  <item>Latarka</item>
+  <item>GPS</item>
+  <item>Bluetooth</item>
+  <item>Jasność</item>
+  <item>Tryb samolotowy</item>
+  <item>Auto obracanie obrazu</item>
+  <item>Głośność</item>
+  <item>Zmiana trybu sieci</item>
+  <item>Tethering</item>
+  <item>Ekran zawsze włączony</item>
+  <item>LTE (4G)</item>
+  <item>Stan baterii</item>
+  <item>Wygaś ekran po:</item>
+  <item>Automatyczny poziom jasności</item>
+  <item>Odtwórz/pauza</item>
+  <item>Następny utwór</item>
+  <item>Poprzedni utwór</item>
+  <item>Głośność mediów</item>
+  <item>Widoczność telefonu (Bluetooth)</item>
+  <item>Poziom jasności</item>
+  <item>NFC</item>
+  <item>Zablokuj ekran</item>
+  <item>Tethering przez Bluetooth</item>
+  <item>Poziom głośności</item>
+  <item>Synchronizuj teraz</item>
+  <item>Wyłącz</item>
+  <item>Uruchom ponownie</item>
+  <item>Ekran jako latarka</item>
+  <item>Widżet w obszarze powiadomień</item>
+  <item>Ustawienia widżetu</item>
+  <item>Drugi rząd ikon w obszarze powiadomień</item>
+  <item>Opcje wyłączania</item>
+  <item>Zwiększ rozmiar czcionki</item>
+  <item>Zmniejsz rozmiar czcionki</item>
+  <item>Blokada obrotu ekranu</item>
+  <item>adb przez WiFi</item>
+  <item>Dioda LED powiadomień</item>
+  <item>Odbieraj rozmowy internetowe (SIP)</item>
+  <item>Rozmowy internetowe (SIP)</item>
+  <item>Skrót do ekranu głównego</item>
+  <item>Ostatnio używane aplikacje</item>
+  <item>Ekran blokady wyłączony</item>
+  <item>Ustawienia WiFi</item>
+  <item>Tryb pełnoekranowy</item>
+</string-array>
+<string-array name="tracker_category">
+  <item>Dane komórkowe</item>
+  <item>Sieci WiFi i komórkowe</item>
+  <item>Multimedia</item>
+  <item>Ekran</item>
+  <item>Sprzęt</item>
+  <item>Polecenia aplikacji</item>
+  <item>Root</item>
+  <item>Inne</item>
+</string-array>
+<string-array name="tracker_names_short">
+  <item>Hotspot</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Odtwarzanie/pauza</item>
+  <item>Następny</item>
+  <item>Poprzedni</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Blokada</item>
+  <item></item>
+  <item>Głośność</item>
+  <item>Synchronizuj teraz</item>
+  <item>Wyłącz</item>
+  <item>Uruchom ponownie</item>
+  <item>Ekran jako latarka</item>
+  <item></item>
+  <item>Ustawienia</item>
+  <item></item>
+  <item>Wyłącz</item>
+  <item>A ⬆</item>
+  <item>A ⬇</item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item></item>
+  <item>Ekran główny</item>
+  <item>Ostatnio używane aplikacje</item>
+  <item></item>
+  <item></item>
+  <item></item>
+</string-array>
+<string-array name="tracker_states">
+  <item>OFF</item>
+  <item>W toku...</item>
+  <item>ON</item>
+  <item>niski</item>
+  <item>auto</item>
+  <item>średni</item>
+  <item>wysoki</item>
+  <item>Pionowo</item>
+  <item>Poziomo</item>
+  <item>auto</item>
+  <item>Cisza</item>
+  <item>Wibracja</item>
+  <item>Dźwięk</item>
+  <item>Dźwięk i wibracja</item>
+  <item>pytaj</item>
+  <item>auto</item>
+  <item>wszystko</item>
+</string-array>
+<string-array name="wc_click_colors">
+  <item>KitKat (szary)</item>
+  <item>Holo (niebieski)</item>
+  <item>Przezroczysty</item>
+</string-array>
+<string-array name="wc_click_colors_l">
+  <item>powtorz</item>
+  <item>KitKat (szary)</item>
+  <item>Holo (niebieski)</item>
+  <item>Przezroczysty</item>
+</string-array>
+<string-array name="ite_import_msg">
+  <item>Importowanie paska obrazu</item>
+  <item>Błąd importowania obrazu</item>
+</string-array>
+<string-array name="ite_export_msg">
+  <item>Eksportowanie paska obrazków</item>
+  <item>Obraz zapisany w %s</item>
+  <item>Nie udało się zapisać paska obrazków</item>
+</string-array>
+<string-array name="bid_import_msg">
+  <item>Importowanie ikony baterii</item>
+  <item>Błąd importowania obrazu</item>
+</string-array>
+<string-array name="bid_export_msg">
+  <item>Eksportowanie ikony baterii</item>
+  <item>Obraz zapisany w %s</item>
+  <item>Nie udało się zapisać ikony baterii</item>
+</string-array>
+<string-array name="notify_positions">
+  <item>Przypięty, ikona widoczna</item>
+  <item>Nieprzypięty, ikona widoczna</item>
+  <item>Nieprzypięty, ikona niewidocza</item>
+</string-array>
+<string-array name="notify_icon_values">
+  <item>Domyślny</item>
+  <item>Przezroczysty</item>
+  <item>Typ sieci (GSM/WCDMA/LTE)</item>
+  <item>Ikona Androida</item>
+  <item>Bateria 1</item>
+  <item>Bateria 2</item>
+  <item>Bateria 3</item>
+  <item>Bateria (niebieska) 1</item>
+  <item>Bateria (niebieska) 2</item>
+  <item>Data 1</item>
+  <item>Data 2</item>
+  <item>Data 3</item>
+  <item>Data (niebieska) 1</item>
+  <item>Data (niebieska) 2</item>
+</string-array>
+<string-array name="ts_vslider_modes">
+  <item>Głośność dzwonka</item>
+  <item>Głośność mediów</item>
+  <item>Głośność budzika</item>
+  <item>Głośność powiadomień</item>
+  <item>Głośność rozmowy przychodzącej</item>
+  <item>Głośność systemu</item>
+</string-array>
+<string-array name="ts_volume_modes">
+  <item>Wycisz</item>
+  <item>Wibracja</item>
+  <item>Dzwonek</item>
+  <item>Dzwonek i wibracja</item>
+</string-array>
+<string-array name="ts_gps_source_op">
+  <item>GPS oraz sieci WiFi i komórkowe</item>
+  <item>GPS</item>
+  <item>Sieci WiFi i komórkowe</item>
+  <item>OFF</item>
+</string-array>
+<string-array name="as_battery_poll_entries">
+  <item>Brak</item>
+  <item>1 minuta</item>
+  <item>2 minuty</item>
+  <item>3 minuty</item>
+  <item>5 minut</item>
+  <item>10 minut</item>
+  <item>30 minut</item>
+</string-array>
+<string-array name="ps_states">
+  <item>Nowy stan (auto)</item>
+  <item>ON</item>
+  <item>OFF</item>
+</string-array>
+<string-array name="ps_tasker_types">
+  <item>Pojedyncza ikona</item>
+  <item>Multi-ikona</item>
+  <item>Licznik</item>
+</string-array>
+</resources>
