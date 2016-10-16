@@ -13,8 +13,8 @@
 <string name="lbl_image">Imagen</string>
 <string name="lbl_customize">Personalizar</string>
 <string name="msg_unknown_error">Ha ocurrido un error inesperado</string>
-<string name="err_no_activity">Suplicación encontrada</string>
-<string name="err_security">Permiso aceptado</string>
+<string name="err_no_activity">Aplicación no encontrada</string>
+<string name="err_security">Acceso denegado</string>
 <string name="msg_account_synced">Todas las cuentas han sido sincronizadas</string>
 <string name="msg_e_account_synced">Sincronización activada</string>
 <string name="admin_explain">Dejar al widget con permisos de administrador para activar el salva pantallas al iniciar por primera vez.</string>
@@ -22,13 +22,13 @@
 <string name="admin_desc">Requerido para el botón de bloqueo de pantalla</string>
 <string name="stat_help">Ayuda</string>
 <string name="stat_help_desc">Buscar entre las preguntas más frecuentes</string>
-<string name="stat_battery">Muestreo de Batería</string>
+<string name="stat_battery">Muestreo de batería</string>
 <string name="stat_admin">Administrador de dispositivos</string>
 <string name="stat_admin_msg_on">Desactivar para desinstalar la aplicación</string>
 <string name="stat_admin_msg_off">Necesario para el interruptor de bloqueo de pantalla</string>
 <string name="stat_trackers_summary">Los interruptores pueden permanecer en memoria durante un tiempo después de eliminar el widget. Libera la cache para borrarlos y así restablecer cualquier interruptor bloqueado.</string>
-<string name="stat_trackers_action">Reiniciar Cache</string>
-<string name="stat_root">Acceso como Root (Administrador)</string>
+<string name="stat_trackers_action">Reiniciar cache</string>
+<string name="stat_root">Acceso como root (administrador)</string>
 <string name="stat_u_never">Nunca</string>
 <string name="stat_u_now">Ahora</string>
 <string name="stat_u_mins">hace %d minutos</string>
@@ -80,7 +80,7 @@
 <string name="tp_tasker_disabled_title">Acceso externo deshabilitado</string>
 <string name="tp_tasker_disabled">Necesita activar el acceso externo en los ajustes de Tasker antes de poder añadir sus interruptores</string>
 <string name="tp_tasker_empty">No se han encontrado tareas</string>
-<string name="ip_title">Elegir Icono</string>
+<string name="ip_title">Elegir icono</string>
 <string name="ip_app_icons">Iconos de aplicación</string>
 <string name="ip_counter">Contador icono</string>
 <string name="ip_image_pick">Elegir imagen</string>
@@ -114,7 +114,7 @@
 <string name="notify_collapse">Encoger automáticamente la barra de estado</string>
 <string name="notify_collapse_summary">Cerrar la barra de estado después de pulsar sobre un interuptor</string>
 <string name="notify_show_on_lock">Mostrar sobre pantalla bloqueada</string>
-<string name="notify_show_on_lock_summary">Con el bloqueo de seguridad \u0026 amp; las notificaciones están habilitadas</string>
+<string name="notify_show_on_lock_summary">cuando el bloqueo de seguridad y las notificaciones están habilitadas</string>
 <string name="notify_row_2">Segunda barra de notifiación</string>
 <string name="notify_customize_2">Personalizar 2ª fila</string>
 <string name="notify_other_settings">Otros ajustes</string>
@@ -177,7 +177,7 @@
 <string name="ps_tasker_disabled">Tasker desactivado</string>
 <string name="ps_tasker_no_access">Acceso a Tasker desactivado</string>
 <string name="ps_set_state">Seleccionar estado</string>
-<string name="ps_refresh">Actualizar PowerToggles</string>
+<string name="ps_refresh">Actualizar Power Toggles</string>
 <string name="ps_toggle_to_update">Interruptor para actualizar</string>
 <string name="ps_current_toggle">Tarea actual (auto)</string>
 <string name="ps_tasker_pick_title">Elegir tareas</string>
@@ -200,7 +200,7 @@
 <string name="rt_default">(dispositivo por defecto)</string>
 <string name="rt_forced">(forzado)</string>
 <string name="sip_all">Usar SIP para todas las llamadas</string>
-<string name="sip_some">Usar SIP sólo para las llamadas de números SIP</string>
+<string name="sip_some">Usar SIP sólo para las llamadas a números SIP</string>
 <string name="sip_ask">Preguntar si usar SIP en cada llamada</string>
 <string name="sl_color">Color de la pantalla</string>
 <string name="sl_no_camera">Cámara no encontrada</string>
@@ -236,10 +236,10 @@
 <string name="pp_description">Si</string>
 <string name="pp_ignore">Si</string>
 <string-array name="tracker_names">
-  <item>Hotspot (WiFi)</item>
+  <item>Hotspot (wifi)</item>
   <item>Datos móviles</item>
   <item>Sincronizar datos</item>
-  <item>WiFi</item>
+  <item>Wifi</item>
   <item>Flash (Linterna)</item>
   <item>GPS</item>
   <item>Bluetooth</item>
@@ -254,7 +254,7 @@
   <item>Estado de la batería</item>
   <item>Tiempo de espera de la pantalla</item>
   <item>Brillo automático</item>
-  <item>Reproducir/Pausar música</item>
+  <item>Reproducir/pausar música</item>
   <item>Pista siguiente</item>
   <item>Pista anterior</item>
   <item>Volumen multimedia</item>
@@ -282,11 +282,11 @@
   <item>Acceso directo a pantalla de inicio</item>
   <item>Aplicaciones recientes</item>
   <item>Deshabilitar bloqueo de pantalla</item>
-  <item>Optimización de Wifi</item>
+  <item>Optimización de wifi</item>
   <item>Modo pantalla completa</item>
 </string-array>
 <string-array name="tracker_names_short">
-  <item>Hotspot (WiFi)</item>
+  <item>Hotspot (wifi)</item>
   <item></item>
   <item></item>
   <item></item>
@@ -349,7 +349,7 @@
   <item>silencio</item>
   <item>vibrar</item>
   <item>sonar</item>
-  <item>Sonar y vibrar</item>
+  <item>sonar y vibrar</item>
   <item>preguntar</item>
   <item>auto</item>
   <item>todo</item>
@@ -360,7 +360,7 @@
   <item>Transparente</item>
 </string-array>
 <string-array name="wc_click_colors_l">
-  <item>Rizo-murmullo</item>
+  <item>Onda</item>
   <item>Gris (Kitkat)</item>
   <item>Azul (Jelly Bean)</item>
   <item>Transparente</item>
@@ -384,9 +384,9 @@
   <item>Fallo al guardar imagen de la batería</item>
 </string-array>
 <string-array name="notify_positions">
-  <item>Fijar arriba \u0026 icono presente</item>
+  <item>Fijo arriba y con icono</item>
   <item>En orden de llegada y con icono</item>
-  <item>Sin fijar \u0026 sin icono</item>
+  <item>Sin fijar y sin icono</item>
 </string-array>
 <string-array name="notify_icon_values">
   <item>Por defecto</item>
@@ -408,7 +408,7 @@
   <item>Volumen de llamada</item>
   <item>Volumen multimedia</item>
   <item>Volumen de la alarma</item>
-  <item>Notificación volumen</item>
+  <item>Volumen de notificación</item>
   <item>Volumen del auricular</item>
   <item>Volumen del sistema</item>
 </string-array>
